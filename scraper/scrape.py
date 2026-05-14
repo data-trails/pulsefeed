@@ -107,9 +107,20 @@ KEYWORDS = {
     "public hearing", "zoning", "variance", "site plan", "special use",
 }
 
+SIX_MONTHS_SECONDS = 60 * 60 * 24 * 183
+
+
 def is_relevant(title: str, summary: str) -> bool:
     combined = (title + " " + summary).lower()
     return any(kw in combined for kw in KEYWORDS)
+
+
+def is_within_window(dt: datetime | None) -> bool:
+    """Keep items posted within the last 6 months (covers recent minutes + upcoming agendas)."""
+    if dt is None:
+        return True  # no date — include and let the user decide
+    cutoff = datetime.now(timezone.utc).timestamp() - SIX_MONTHS_SECONDS
+    return dt.timestamp() >= cutoff
 
 # ---------------------------------------------------------------------------
 # Helpers
@@ -160,6 +171,9 @@ def scrape_rss(source: dict) -> list[dict]:
             published_tuple = entry.get("published_parsed") or entry.get("updated_parsed")
             dt = datetime(*published_tuple[:6], tzinfo=timezone.utc) if published_tuple else None
 
+            if not is_within_window(dt):
+                continue
+
             link = entry.get("link", source["url"])
 
             items.append({
@@ -209,6 +223,11 @@ def main():
         print(f"    {len(new_items)} new item(s)")
         all_new.extend(new_items)
         time.sleep(0.5)
+
+    # Prune items that have aged out of the 6-month window
+    existing = [i for i in existing if is_within_window(
+        datetime.fromisoformat(i["date"]).replace(tzinfo=timezone.utc) if i.get("date") else None
+    )]
 
     combined = all_new + existing
     combined.sort(key=lambda x: x.get("date", ""), reverse=True)
