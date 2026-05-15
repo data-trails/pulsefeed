@@ -400,7 +400,7 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
 
         date_str = date_near_link(a)
         dt = parse_flexible_date(date_str) if date_str else None
-        if dt and not is_within_window(dt):
+        if not dt or not is_within_window(dt):
             continue
 
         link_text = clean(a.get_text(" ", strip=True))
