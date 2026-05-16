@@ -116,7 +116,51 @@ KEYWORDS = {
 
 PDF_KEYWORDS = {"agenda", "minutes", "planning", "zoning", "variance"}
 
-SIX_MONTHS_SECONDS = 60 * 60 * 24 * 183
+THREE_MONTHS_SECONDS = 60 * 60 * 24 * 91
+
+# ---------------------------------------------------------------------------
+# Topic classification — zoning, housing, industrial
+# ---------------------------------------------------------------------------
+
+ZONING_KEYWORDS = {
+    "zoning", "rezoning", "rezone", "variance", "ordinance", "conditional use",
+    "special use", "site plan", "overlay", "setback", "land use", "master plan",
+    "special land use", "text amendment", "zba", "zoning board", "zoning map",
+    "zoning ordinance", "zoning amendment",
+}
+HOUSING_KEYWORDS = {
+    "housing", "residential", "apartment", "dwelling", "affordable", "subdivision",
+    "plat", "condominium", "condo", "single family", "multifamily", "multi-family",
+    "duplex", "accessory dwelling", "adu", "short-term rental", "str", "townhouse",
+    "senior housing", "mixed use",
+}
+INDUSTRIAL_KEYWORDS = {
+    "industrial", "warehouse", "manufacturing", "logistics", "commercial",
+    "business park", "distribution", "storage", "factory", "data center",
+    "solar", "wind", "energy", "utility", "mining", "extraction", "gravel",
+    "aggregate", "renewable",
+}
+
+
+def classify_topics(text: str) -> list[str]:
+    t = text.lower()
+    topics = []
+    if any(kw in t for kw in ZONING_KEYWORDS):
+        topics.append("Zoning")
+    if any(kw in t for kw in HOUSING_KEYWORDS):
+        topics.append("Housing")
+    if any(kw in t for kw in INDUSTRIAL_KEYWORDS):
+        topics.append("Industrial")
+    return topics
+
+
+def filter_pdf_by_topic(items_text: str) -> str:
+    """Keep only agenda lines related to zoning, housing, or industrial topics."""
+    if not items_text:
+        return ""
+    lines = items_text.splitlines()
+    relevant = [l for l in lines if classify_topics(l)]
+    return "\n".join(relevant) if relevant else ""
 
 # ---------------------------------------------------------------------------
 # HTTP config
@@ -155,7 +199,7 @@ def is_relevant(title: str, summary: str) -> bool:
 def is_within_window(dt: datetime | None) -> bool:
     if dt is None:
         return True
-    cutoff = datetime.now(timezone.utc).timestamp() - SIX_MONTHS_SECONDS
+    cutoff = datetime.now(timezone.utc).timestamp() - THREE_MONTHS_SECONDS
     return dt.timestamp() >= cutoff
 
 
@@ -337,6 +381,8 @@ def scrape_rss(source: dict) -> list[dict]:
                 "details": "",
                 "link": link,
                 "tag": classify_tag(dt),
+                "topics": classify_topics(f"{title} {summary}"),
+                "pdfItems": "",
                 "scrapedAt": datetime.now(timezone.utc).isoformat(),
             })
 
@@ -353,9 +399,10 @@ def enrich_with_pdf(item: dict) -> dict:
         return item
 
     if urlparse(link).path.lower().endswith(".pdf"):
-        pdf_items = parse_pdf_agenda_items(link)
+        pdf_items = filter_pdf_by_topic(parse_pdf_agenda_items(link))
         if pdf_items:
             item["pdfItems"] = pdf_items
+            item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
         return item
 
     # Visit the linked HTML page and find attached PDFs
@@ -364,12 +411,12 @@ def enrich_with_pdf(item: dict) -> dict:
         return item
 
     pdf_links = extract_pdf_links(soup, link)
-    # Prefer PDFs with relevant filenames; fall back to any PDF
     ordered = sorted(pdf_links, key=lambda u: (0 if is_pdf_relevant(u) else 1))
     for pdf_url in ordered[:3]:
-        pdf_items = parse_pdf_agenda_items(pdf_url)
+        pdf_items = filter_pdf_by_topic(parse_pdf_agenda_items(pdf_url))
         if pdf_items:
             item["pdfItems"] = pdf_items
+            item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
             break
 
     return item
@@ -414,7 +461,10 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
             continue
 
         print(f"    Parsing PDF: {pdf_url}")
-        pdf_items = parse_pdf_agenda_items(pdf_url)
+        raw_pdf_items = parse_pdf_agenda_items(pdf_url)
+        pdf_items = filter_pdf_by_topic(raw_pdf_items)
+        all_text = f"{title} {pdf_items}"
+        topics = classify_topics(all_text)
         time.sleep(0.5)
 
         existing_ids.add(item_id)
@@ -430,6 +480,7 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
             "details": "",
             "link": pdf_url,
             "tag": classify_tag(dt),
+            "topics": topics,
             "pdfItems": pdf_items,
             "scrapedAt": datetime.now(timezone.utc).isoformat(),
         })
