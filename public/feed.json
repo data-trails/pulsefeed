@@ -16,6 +16,42 @@
     "scrapedAt": "2026-05-16T00:28:24.544079+00:00"
   },
   {
+    "id": "a1029d66a466a8d6",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "May 20, 2026 Planning Commission Agenda",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "1. Public Hearing for Ordinance 194 Rezoning Request\n1. Special Land Use and Site Plan for Heron Energy Storage LLC\n2. Data Center Ordinance\n3. In-Law Suite, Accessory Dwelling Units Ordinance\n4. Ordinance 191 Shooting Range\n10. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/May-20-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Public Hearing for Ordinance 194 Rezoning Request\n1. Special Land Use and Site Plan for Heron Energy Storage LLC\n2. Data Center Ordinance\n3. In-Law Suite, Accessory Dwelling Units Ordinance\n4. Ordinance 191 Shooting Range\n10. Zoning Administrator Comments",
+    "scrapedAt": "2026-05-19T13:57:08.372042+00:00"
+  },
+  {
+    "id": "17c28378a30feeb2",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/05/052026ParksAgenda.pdf",
+    "tag": "Upcoming",
+    "topics": [],
+    "pdfItems": "",
+    "scrapedAt": "2026-05-19T13:57:58.107459+00:00"
+  },
+  {
     "id": "07288c1a5d279799",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -32,6 +68,24 @@
     ],
     "pdfItems": "\u2022 Text Amendment Draft\n\u2022 Special Use Request",
     "scrapedAt": "2026-05-16T00:29:28.679120+00:00"
+  },
+  {
+    "id": "e49cd317439d95d9",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Public hearing set to discuss bad odor",
+    "date": "2026-05-18",
+    "dateDisplay": "Mon, May 18",
+    "time": "",
+    "summary": "State has cited composting operation for \u201cstrong foul odors\u201d at Republic Services location.",
+    "details": "",
+    "link": "https://laketowntwp.org/public-hearing-set-to-discuss-bad-odor/",
+    "tag": "Recent",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "",
+    "scrapedAt": "2026-05-19T13:57:54.838638+00:00"
   },
   {
     "id": "99bcc55947e00f16",
@@ -358,6 +412,22 @@
     "scrapedAt": "2026-05-16T00:29:40.783848+00:00"
   },
   {
+    "id": "86f0f0e3ca17860a",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "April 16, 2026 Township Board Minutes",
+    "date": "2026-04-16",
+    "dateDisplay": "Thu, Apr 16",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/April-16-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "topics": [],
+    "pdfItems": "",
+    "scrapedAt": "2026-05-19T13:57:06.474203+00:00"
+  },
+  {
     "id": "3a4f3d07b8ab206f",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -561,6 +631,22 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-18T14:36:43.957015+00:00"
+  },
+  {
+    "id": "19a2e11b01372867",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "April 2, 2026 Township Board Minutes",
+    "date": "2026-04-02",
+    "dateDisplay": "Thu, Apr 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/April-2-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "topics": [],
+    "pdfItems": "",
+    "scrapedAt": "2026-05-19T13:57:07.364214+00:00"
   },
   {
     "id": "f49416ab32d5c8c9",
@@ -1272,43 +1358,5 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:23.513403+00:00"
-  },
-  {
-    "id": "231f8112b62d2f59",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Minutes 2026-02-17",
-    "date": "2026-02-17",
-    "dateDisplay": "Tue, Feb 17",
-    "time": "",
-    "summary": "\u2022 RWE Solar, Incorporated proposed application to the MPSC pursuant to Act 233 and February\n\u2022 Scheduling of Public Hearing on Proposed Ordinance to Place a Temporary Moratorium on",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/02/Planning-Commission-Minutes-2026-02-17.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "\u2022 RWE Solar, Incorporated proposed application to the MPSC pursuant to Act 233 and February\n\u2022 Scheduling of Public Hearing on Proposed Ordinance to Place a Temporary Moratorium on",
-    "scrapedAt": "2026-05-16T00:29:32.901002+00:00"
-  },
-  {
-    "id": "0644e5f7a8cb8467",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Agenda 2026-02-17",
-    "date": "2026-02-17",
-    "dateDisplay": "Tue, Feb 17",
-    "time": "",
-    "summary": "\u2022 RWE Solar, Incorporated proposed application to the MPSC pursuant to Act 233 and February 26, 2026,\n\u2022 Scheduling of Public Hearing on Proposed Ordinance to Place a Temporary Moratorium on Applications for",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/02/Planning-Commission-Agenda-2026-02-17.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "\u2022 RWE Solar, Incorporated proposed application to the MPSC pursuant to Act 233 and February 26, 2026,\n\u2022 Scheduling of Public Hearing on Proposed Ordinance to Place a Temporary Moratorium on Applications for",
-    "scrapedAt": "2026-05-16T00:29:34.149127+00:00"
   }
 ]
