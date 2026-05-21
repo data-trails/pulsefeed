@@ -1,5 +1,84 @@
 [
   {
+    "id": "8ecf40a20b49d95f",
+    "county": "Allegan",
+    "source": "City of Allegan Planning Commission",
+    "title": "here",
+    "date": "2028-12-31",
+    "dateDisplay": "Sun, Dec 31",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.cityofallegan.org/government/Draft Zoning Ordinance for 4_21_2025 [Reformatted].pdf?t=202504041430470",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:16.531307+00:00"
+  },
+  {
+    "id": "5a23f5648b58f3b5",
+    "county": "Allegan",
+    "source": "City of Allegan Planning Commission",
+    "title": "Zoning Change Application",
+    "date": "2028-12-31",
+    "dateDisplay": "Sun, Dec 31",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.cityofallegan.org/government/City of Allegan Zoning Change Application.pdf?t=202412180913570",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:17.504225+00:00"
+  },
+  {
+    "id": "469ab41669a8abaf",
+    "county": "Allegan",
+    "source": "City of Allegan Planning Commission",
+    "title": "Zoning Variance Application",
+    "date": "2028-12-31",
+    "dateDisplay": "Sun, Dec 31",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.cityofallegan.org/government/City of Allegan Zoning Variance Application.pdf?t=202412180915370",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:18.463222+00:00"
+  },
+  {
+    "id": "17061162cf172da5",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-06-02",
+    "dateDisplay": "Tue, Jun 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1407-agenda-june-2-2026/file",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-21-200-080",
+      "70-16-23-100-098"
+    ],
+    "scrapedAt": "2026-05-21T17:22:25.116551+00:00"
+  },
+  {
     "id": "8b5f3dba5e89e096",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -32,6 +111,24 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-21T14:17:31.596399+00:00"
+  },
+  {
+    "id": "24eed673fc33406b",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_05202026-1681",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:38.691752+00:00"
   },
   {
     "id": "a1029d66a466a8d6",
@@ -68,6 +165,45 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-19T13:57:58.107459+00:00"
+  },
+  {
+    "id": "ec669b3cc19a9cb1",
+    "county": "Allegan",
+    "source": "Cheshire Township Planning Commission",
+    "title": "AGENDA",
+    "date": "2026-05-19",
+    "dateDisplay": "Tue, May 19",
+    "time": "",
+    "summary": "8. Zoning Administrator\u2019s Report",
+    "details": "",
+    "link": "https://cheshiretownshipmi.gov/minutes/agendas/May 19 2026.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "8. Zoning Administrator\u2019s Report",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:04.073860+00:00"
+  },
+  {
+    "id": "fcc124d5f6b98f05",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "May 19,2026 (Synopsis Minutes)",
+    "date": "2026-05-19",
+    "dateDisplay": "Tue, May 19",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/05/May-19-2026-Synopsis-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:23.296546+00:00"
   },
   {
     "id": "07288c1a5d279799",
@@ -175,6 +311,52 @@
     "scrapedAt": "2026-05-16T00:27:44.223883+00:00"
   },
   {
+    "id": "3634bb0b08053b23",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-05-12",
+    "dateDisplay": "Tue, May 12",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1403-agenda-may-12-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-09-100-012",
+      "70-16-22-271-011",
+      "70-16-21-100-046",
+      "70-16-21-100-045"
+    ],
+    "scrapedAt": "2026-05-21T17:22:26.103452+00:00"
+  },
+  {
+    "id": "3d1d0008c04e4163",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-05-12",
+    "dateDisplay": "Tue, May 12",
+    "time": "",
+    "summary": "4. Mixed use development projects and/or mixed use buildings;\n7. Minimal adverse traffic impacts and accommodate safe and efficient pedestrian",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1409-draft-minutes-may-12-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "4. Mixed use development projects and/or mixed use buildings;\n7. Minimal adverse traffic impacts and accommodate safe and efficient pedestrian",
+    "parcels": [
+      "70-16-09-100-012",
+      "70-16-22-271-011"
+    ],
+    "scrapedAt": "2026-05-21T17:22:31.318541+00:00"
+  },
+  {
     "id": "b5b375c33999956c",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -207,6 +389,24 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.345156+00:00"
+  },
+  {
+    "id": "00582a19240ca083",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - May 2026",
+    "date": "2026-05-11",
+    "dateDisplay": "Mon, May 11",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/May 11 2026 Regular Meeting Minutes- UNOFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:12.946102+00:00"
   },
   {
     "id": "fc9a23be2771cb5b",
@@ -259,6 +459,42 @@
     ],
     "pdfItems": "3. Data Center",
     "scrapedAt": "2026-05-16T00:27:16.742072+00:00"
+  },
+  {
+    "id": "4bc975d9d2f2f672",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "May 6, 2026 \u2014\u2009Posted Apr 30, 2026 4:55 PM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet",
+    "date": "2026-05-06",
+    "dateDisplay": "Wed, May 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_05062026-1675",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:40.368725+00:00"
+  },
+  {
+    "id": "8020d193a82e37d5",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
+    "date": "2026-05-06",
+    "dateDisplay": "Wed, May 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_05062026-1675",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:41.304256+00:00"
   },
   {
     "id": "5a068fed5c4afe35",
@@ -430,6 +666,27 @@
     "scrapedAt": "2026-05-16T00:29:40.783848+00:00"
   },
   {
+    "id": "686718059d4b6a87",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "April 21,2026",
+    "date": "2026-04-21",
+    "dateDisplay": "Tue, Apr 21",
+    "time": "",
+    "summary": "B. GRM District Ordinance Text Amendment - Public Hearing\nC. Master Plan Map (Added Discussion, by Planner Bigelow)\nA. Sign Ordinance Review",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/05/APPROVED-April-21-2026-PC-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "B. GRM District Ordinance Text Amendment - Public Hearing\nC. Master Plan Map (Added Discussion, by Planner Bigelow)\nA. Sign Ordinance Review",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:22.404497+00:00"
+  },
+  {
     "id": "86f0f0e3ca17860a",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -444,6 +701,52 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-19T13:57:06.474203+00:00"
+  },
+  {
+    "id": "4179f5241f54e31e",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Apr 15, 2026 \u2014\u2009Posted Apr 9, 2026 12:18 PM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previou",
+    "date": "2026-04-15",
+    "dateDisplay": "Wed, Apr 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_04152026-1669",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-14-04-200-027",
+      "70-14-04-200-013",
+      "70-14-03-100-014",
+      "70-14-04-200-007"
+    ],
+    "scrapedAt": "2026-05-21T17:22:42.963457+00:00"
+  },
+  {
+    "id": "ffccea865ef04de1",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet Previous Versions",
+    "date": "2026-04-15",
+    "dateDisplay": "Wed, Apr 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_04152026-1669",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-14-04-200-027",
+      "70-14-04-200-013",
+      "70-14-03-100-014",
+      "70-14-04-200-007"
+    ],
+    "scrapedAt": "2026-05-21T17:22:43.981984+00:00"
   },
   {
     "id": "3a4f3d07b8ab206f",
@@ -514,6 +817,69 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.345330+00:00"
+  },
+  {
+    "id": "ef28246398d2a47a",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-04-14",
+    "dateDisplay": "Tue, Apr 14",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1395-agenda-april-14-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-20-200-016",
+      "70-16-09-200-037",
+      "70-16-22-271-011",
+      "70-16-09-300-086",
+      "70-16-21-100-046"
+    ],
+    "scrapedAt": "2026-05-21T17:22:27.085514+00:00"
+  },
+  {
+    "id": "454309f44ae8ebfa",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-04-14",
+    "dateDisplay": "Tue, Apr 14",
+    "time": "",
+    "summary": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n1. The proposed text amendment would clarify the intent of the ordinance.",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1402-draft-minutes-april-14-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n1. The proposed text amendment would clarify the intent of the ordinance.\n2. The proposed text amendment would correct an error or oversight in the ordinance.\n3. The proposed text amendment would address changes to the State legislation,\n4. The proposed text amendment would promote compliance with changes in other\n5. In the event the amendment will add a use to a district, that use shall be fully\n6. The amendment will not create incompatible land uses within a zoning district, or\n7. The proposed text amendment is supported by the findings of reports, studies, or",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:33.192213+00:00"
+  },
+  {
+    "id": "acdcb062f90aae74",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - April 2026",
+    "date": "2026-04-13",
+    "dateDisplay": "Mon, Apr 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/April 13 2026 Regular Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:11.683037+00:00"
   },
   {
     "id": "a3e12d87b4217b43",
@@ -702,6 +1068,42 @@
     "scrapedAt": "2026-05-16T00:28:25.610540+00:00"
   },
   {
+    "id": "abae11b6a8d23352",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Planning Commission Regular Meeting Cancelled",
+    "date": "2026-04-01",
+    "dateDisplay": "Wed, Apr 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_04012026-1663",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:44.986056+00:00"
+  },
+  {
+    "id": "a3248a6d0e9602e4",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Apr 1, 2026 \u2014\u2009Posted Mar 27, 2026 9:55 AM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "date": "2026-04-01",
+    "dateDisplay": "Wed, Apr 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_04012026-1663",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:45.811581+00:00"
+  },
+  {
     "id": "0f340a7a9432d735",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -840,6 +1242,24 @@
     "scrapedAt": "2026-05-16T00:27:54.625228+00:00"
   },
   {
+    "id": "0805c473d6f099d4",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Special Meeting - March 28 2026",
+    "date": "2026-03-28",
+    "dateDisplay": "Sat, Mar 28",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/March 28 2026 Special Budget Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:10.410627+00:00"
+  },
+  {
     "id": "0d6db21fcf4da854",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -872,6 +1292,47 @@
     ],
     "pdfItems": "\u2022 Text Amendment Discussion",
     "scrapedAt": "2026-05-16T00:29:31.250300+00:00"
+  },
+  {
+    "id": "f31ba4fa5a26a72a",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-03-18",
+    "dateDisplay": "Wed, Mar 18",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1382-agenda-march-18-2026-special-meeting/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-21-200-083"
+    ],
+    "scrapedAt": "2026-05-21T17:22:27.902173+00:00"
+  },
+  {
+    "id": "adfb8e892d43dabe",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-03-18",
+    "dateDisplay": "Wed, Mar 18",
+    "time": "",
+    "summary": "083. The property is zoned C-2 Community Commercial.\n4. The use will be consistent with the intent and purposes of this ordinance and the\n3. The owner shall secure a nonuse variance from the Zoning Board of Appeals for the",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1392-minutes-march-18-2026-special-meeting/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "083. The property is zoned C-2 Community Commercial.\n4. The use will be consistent with the intent and purposes of this ordinance and the\n3. The owner shall secure a nonuse variance from the Zoning Board of Appeals for the",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:34.644207+00:00"
   },
   {
     "id": "47e4185bc025e164",
@@ -1012,6 +1473,26 @@
     "scrapedAt": "2026-05-16T00:29:47.441541+00:00"
   },
   {
+    "id": "29d48c5add1af8e2",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "March 17,2026",
+    "date": "2026-03-17",
+    "dateDisplay": "Tue, Mar 17",
+    "time": "",
+    "summary": "A. R&A Investments Site Plan Review - Final Review\nB. Master Plan Review",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/04/March-17-2026-PC-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. R&A Investments Site Plan Review - Final Review\nB. Master Plan Review",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:21.227381+00:00"
+  },
+  {
     "id": "d9146b51b239f55a",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -1127,6 +1608,44 @@
     "scrapedAt": "2026-05-16T00:28:33.446729+00:00"
   },
   {
+    "id": "729321f371db4435",
+    "county": "Allegan",
+    "source": "Fillmore Township Planning Commission",
+    "title": "March 10",
+    "date": "2026-03-10",
+    "dateDisplay": "Tue, Mar 10",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/03/March-10-2026-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:20:36.918413+00:00"
+  },
+  {
+    "id": "575bfc70c0c0e866",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - March 2026",
+    "date": "2026-03-09",
+    "dateDisplay": "Mon, Mar 9",
+    "time": "",
+    "summary": "- Trustee Lewis read correspondence regarding Cheshire fire district. Chief Zack provided",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/March 9 2026 Regular Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "- Trustee Lewis read correspondence regarding Cheshire fire district. Chief Zack provided",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:08.894111+00:00"
+  },
+  {
     "id": "b6fa20abf7c8366c",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -1160,6 +1679,45 @@
     ],
     "pdfItems": "1. Second Read for Ordinance #191 Shooting Range\n3. Data Center",
     "scrapedAt": "2026-05-16T00:27:18.560434+00:00"
+  },
+  {
+    "id": "9457a4feb2944a49",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Mar 4, 2026 \u2014\u2009Posted Feb 27, 2026 5:20 PM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previous",
+    "date": "2026-03-04",
+    "dateDisplay": "Wed, Mar 4",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_03042026-1654",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-14-04-200-023",
+      "70-14-09-200-023"
+    ],
+    "scrapedAt": "2026-05-21T17:22:47.462371+00:00"
+  },
+  {
+    "id": "b77fc11a2566f5cc",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet Previous Versions",
+    "date": "2026-03-04",
+    "dateDisplay": "Wed, Mar 4",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_03042026-1654",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:48.537666+00:00"
   },
   {
     "id": "9f361f9e2e20291d",
@@ -1230,6 +1788,56 @@
     "scrapedAt": "2026-05-16T00:28:14.892883+00:00"
   },
   {
+    "id": "1242602365445ba6",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-03-03",
+    "dateDisplay": "Tue, Mar 3",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1376-agenda-march-3-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-09-100-012",
+      "70-16-09-200-044",
+      "70-16-07-200-068",
+      "70-16-21-100-046"
+    ],
+    "scrapedAt": "2026-05-21T17:22:28.899977+00:00"
+  },
+  {
+    "id": "16546d76585d549e",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-03-03",
+    "dateDisplay": "Tue, Mar 3",
+    "time": "",
+    "summary": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n4. The use will be consistent with the intent and purposes of this ordina",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1387-minutes-march-3-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "parcels": [
+      "70-16-09-100-012",
+      "70-16-09-200-044",
+      "70-16-07-200-068",
+      "70-16-07-200-022",
+      "70-16-21-100-046"
+    ],
+    "scrapedAt": "2026-05-21T17:22:36.507234+00:00"
+  },
+  {
     "id": "bb358e33f09b6023",
     "county": "Allegan",
     "source": "Heath Township Planning Commission",
@@ -1260,6 +1868,66 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:45.636878+00:00"
+  },
+  {
+    "id": "7ae2317553955e69",
+    "county": "Allegan",
+    "source": "Fillmore Township Planning Commission",
+    "title": "February 26 Special Meeting",
+    "date": "2026-02-26",
+    "dateDisplay": "Thu, Feb 26",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/03/February-26-2026-Special-Board-Meeting-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:20:37.902757+00:00"
+  },
+  {
+    "id": "8eafa3866020bb07",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "Download",
+    "date": "2026-02-25",
+    "dateDisplay": "Wed, Feb 25",
+    "time": "",
+    "summary": "3. Motion to recommend approval of the rezoning of the property from commercial to R1\n2. Moore - question for the petitioner what is different from setf-storage which atready\n3. Capson stated that we do not have an application, nor the fee structure estabtished too",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/wp-content/uploads/2026/03/Signed-Planning-Commission-Meeting-Minutes-for-February-25-2026.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "3. Motion to recommend approval of the rezoning of the property from commercial to R1\n2. Moore - question for the petitioner what is different from setf-storage which atready\n3. Capson stated that we do not have an application, nor the fee structure estabtished too",
+    "parcels": [
+      "70-11-12-200-057"
+    ],
+    "scrapedAt": "2026-05-21T17:21:51.831296+00:00"
+  },
+  {
+    "id": "d67601c9471d2083",
+    "county": "Allegan",
+    "source": "Ganges Township Planning Commission",
+    "title": "Planning Commission - February 24, 2026.pdf",
+    "date": "2026-02-24",
+    "dateDisplay": "Tue, Feb 24",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gangestownship.org/public-documents/2_24_26 PC Reg Meeting Minutes APPROVED.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-21T17:22:06.564791+00:00"
   },
   {
     "id": "c98c861dcc8edd96",
