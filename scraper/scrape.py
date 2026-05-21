@@ -103,6 +103,29 @@ RSS_SOURCES = [
     {"county": "Ottawa", "name": "Wright Township Planning Commission",
      "rss": "http://wrighttownshipottawami.gov/feed",
      "url": "http://wrighttownshipottawami.gov/"},
+
+    # HTML-only sources (no RSS feed — scrape_html_source handles PDF discovery)
+    {"county": "Allegan", "name": "Cheshire Township Planning Commission",
+     "rss": "",
+     "url": "https://cheshiretownshipmi.gov/minutes.html"},
+    {"county": "Allegan", "name": "Ganges Township Planning Commission",
+     "rss": "",
+     "url": "https://www.gangestownship.org/Planning-Commission-Meetings-Archive.html"},
+    {"county": "Allegan", "name": "Lee Township Planning Commission",
+     "rss": "",
+     "url": "http://www.leetwp.org/meetingminutes.htm"},
+    {"county": "Allegan", "name": "Monterey Township Planning Commission",
+     "rss": "",
+     "url": "https://www.montereytownship.org/"},
+    {"county": "Allegan", "name": "Valley Township Planning Commission",
+     "rss": "",
+     "url": "https://valleytwp.org/minutes.htm"},
+    {"county": "Allegan", "name": "City of Allegan Planning Commission",
+     "rss": "",
+     "url": "https://www.cityofallegan.org/government/planning_commission.php"},
+    {"county": "Ottawa", "name": "Crockery Township Planning Commission",
+     "rss": "",
+     "url": "https://crockerytownship.gov/planning-commission/"},
 ]
 
 # ---------------------------------------------------------------------------
@@ -306,7 +329,7 @@ def extract_pdf_links(soup: BeautifulSoup, base_url: str) -> list[str]:
 
 
 def date_near_link(a_tag) -> str:
-    """Search the link text and nearby DOM siblings/parent for a date string."""
+    """Search the link text, nearby DOM siblings/parent, and href for a date string."""
     parts = [a_tag.get_text(" ", strip=True)]
     if a_tag.parent:
         parts.append(a_tag.parent.get_text(" ", strip=True))
@@ -316,6 +339,10 @@ def date_near_link(a_tag) -> str:
     for sib in list(a_tag.next_siblings)[:3]:
         if hasattr(sib, "get_text"):
             parts.append(sib.get_text(" ", strip=True))
+    # Also scan the href with hyphens/underscores replaced (e.g. "January-20-2026")
+    href = a_tag.get("href", "")
+    if href:
+        parts.append(href.replace("-", " ").replace("_", " "))
     m = DATE_RE.search(" ".join(parts))
     return m.group(0) if m else ""
 
@@ -406,6 +433,8 @@ def is_pdf_relevant(pdf_url: str) -> bool:
 # ---------------------------------------------------------------------------
 
 def scrape_rss(source: dict) -> list[dict]:
+    if not source.get("rss"):
+        return []
     items = []
     try:
         feed = feedparser.parse(source["rss"])
@@ -558,6 +587,19 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
     return items
 
 # ---------------------------------------------------------------------------
+# CivicPlus AgendaCenter sources (no .pdf extension — /AgendaCenter/ViewFile/)
+# ---------------------------------------------------------------------------
+
+CIVICPLUS_SOURCES = [
+    {
+        "county": "Ottawa",
+        "name": "Georgetown Charter Township Planning Commission",
+        "agenda_center_url": "https://www.gtwp.com/AgendaCenter/Planning-Commission-5",
+        "base_url": "https://www.gtwp.com",
+    },
+]
+
+# ---------------------------------------------------------------------------
 # Joomla/K2 document page scraper (Holland Charter Township and similar)
 # ---------------------------------------------------------------------------
 
@@ -636,6 +678,99 @@ def scrape_joomla_docs(source: dict, existing_ids: set[str]) -> list[dict]:
     return items
 
 # ---------------------------------------------------------------------------
+# CivicPlus AgendaCenter scraper (Georgetown Charter Township and similar)
+# ---------------------------------------------------------------------------
+
+CIVICPLUS_DATE_RE = re.compile(r'/_(\d{2})(\d{2})(\d{4})-')
+
+
+def date_from_civicplus_link(href: str) -> datetime | None:
+    """Extract date from CivicPlus link like /AgendaCenter/ViewFile/Agenda/_05202026-1681."""
+    m = CIVICPLUS_DATE_RE.search(href)
+    if not m:
+        return None
+    month, day, year = m.groups()
+    try:
+        return datetime(int(year), int(month), int(day), tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
+def scrape_civicplus(source: dict, existing_ids: set[str]) -> list[dict]:
+    """Scrape CivicPlus AgendaCenter pages for agenda and minutes PDFs."""
+    soup = fetch_html(source["agenda_center_url"])
+    if not soup:
+        return []
+
+    items: list[dict] = []
+    seen_urls: set[str] = set()
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"]
+        if "/AgendaCenter/ViewFile/" not in href:
+            continue
+        # Skip HTML-view and packet variants — the bare URL is the PDF
+        if "html=true" in href or "packet=true" in href:
+            continue
+        if not is_pdf_relevant(href):
+            continue
+
+        full_url = urljoin(source["base_url"], href)
+        if full_url in seen_urls:
+            continue
+        seen_urls.add(full_url)
+
+        item_id = make_id(source, full_url)
+        if item_id in existing_ids:
+            continue
+
+        dt = date_from_civicplus_link(href)
+        if not dt or not is_within_window(dt):
+            continue
+
+        # Build title from surrounding row text
+        parent = a.parent
+        row_text = ""
+        for _ in range(4):
+            if parent is None:
+                break
+            row_text = parent.get_text(" ", strip=True)
+            if len(row_text) > 15:
+                break
+            parent = parent.parent
+        title = row_text[:120] if row_text else a.get_text(strip=True) or "Planning Commission Document"
+
+        doc_type = "Minutes" if "/ViewFile/Minutes/" in href else "Agenda"
+
+        print(f"    Parsing CivicPlus PDF: {full_url}")
+        result = parse_pdf_full(full_url)
+        pdf_items = filter_pdf_by_topic(result["items"])
+        topics = classify_topics(f"{title} {pdf_items}")
+        time.sleep(0.5)
+
+        existing_ids.add(item_id)
+        items.append({
+            "id": item_id,
+            "county": source["county"],
+            "source": source["name"],
+            "title": title,
+            "date": dt.strftime("%Y-%m-%d"),
+            "dateDisplay": format_display_date(dt),
+            "time": "",
+            "summary": pdf_items[:400] if pdf_items else "",
+            "details": "",
+            "link": full_url,
+            "tag": classify_tag(dt),
+            "docType": doc_type,
+            "topics": topics,
+            "pdfItems": pdf_items,
+            "parcels": result["parcels"],
+            "scrapedAt": datetime.now(timezone.utc).isoformat(),
+        })
+
+    return items
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -682,6 +817,14 @@ def main():
         joomla_items = scrape_joomla_docs(source, existing_ids)
         print(f"    {len(joomla_items)} item(s)")
         all_new.extend(joomla_items)
+        time.sleep(0.5)
+
+    # CivicPlus AgendaCenter pages
+    for source in CIVICPLUS_SOURCES:
+        print(f"  {source['name']} (CivicPlus)")
+        cp_items = scrape_civicplus(source, existing_ids)
+        print(f"    {len(cp_items)} item(s)")
+        all_new.extend(cp_items)
         time.sleep(0.5)
 
     # Prune items that have aged out of the 6-month window
