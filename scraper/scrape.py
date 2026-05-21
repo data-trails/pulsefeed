@@ -106,6 +106,21 @@ RSS_SOURCES = [
 ]
 
 # ---------------------------------------------------------------------------
+# Sources without RSS — Joomla/K2 document pages (data-* attribute links)
+# ---------------------------------------------------------------------------
+
+JOOMLA_SOURCES = [
+    {
+        "county": "Ottawa",
+        "name": "Holland Charter Township Planning Commission",
+        "pages": [
+            "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas",
+            "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes",
+        ],
+    },
+]
+
+# ---------------------------------------------------------------------------
 # Keyword filter
 # ---------------------------------------------------------------------------
 
@@ -383,8 +398,8 @@ def parse_pdf_full(pdf_url: str) -> dict:
 
 
 def is_pdf_relevant(pdf_url: str) -> bool:
-    filename = urlparse(pdf_url).path.lower().split("/")[-1]
-    return any(kw in filename for kw in PDF_KEYWORDS)
+    path = urlparse(pdf_url).path.lower()
+    return any(kw in path for kw in PDF_KEYWORDS)
 
 # ---------------------------------------------------------------------------
 # RSS scraper
@@ -543,6 +558,84 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
     return items
 
 # ---------------------------------------------------------------------------
+# Joomla/K2 document page scraper (Holland Charter Township and similar)
+# ---------------------------------------------------------------------------
+
+def date_from_url_slug(url: str) -> datetime | None:
+    """Extract a date from a Joomla slug like 'agenda-june-2-2026' by replacing
+    hyphens with spaces so DATE_RE can match the month name."""
+    path_text = urlparse(url).path.replace('-', ' ').replace('/', ' ')
+    m = DATE_RE.search(path_text)
+    return parse_flexible_date(m.group(0)) if m else None
+
+
+def scrape_joomla_docs(source: dict, existing_ids: set[str]) -> list[dict]:
+    """Scrape Joomla K2 document pages that store download URLs in data-* attributes."""
+    items: list[dict] = []
+
+    for page_url in source["pages"]:
+        soup = fetch_html(page_url)
+        if not soup:
+            continue
+
+        seen_urls: set[str] = set()
+        for tag in soup.find_all(True):
+            for attr, val in tag.attrs.items():
+                if not attr.startswith("data-"):
+                    continue
+                if not isinstance(val, str):
+                    continue
+                # Joomla /file download links
+                if not (val.startswith("http") and val.rstrip("/").endswith("/file")):
+                    continue
+                if val in seen_urls or not is_pdf_relevant(val):
+                    continue
+                seen_urls.add(val)
+
+                item_id = make_id(source, val)
+                if item_id in existing_ids:
+                    continue
+
+                dt = date_from_url_slug(val)
+                if not dt or not is_within_window(dt):
+                    continue
+
+                # Build title from the slug segment before /file
+                slug = urlparse(val).path.rstrip("/")
+                slug = slug.rsplit("/", 1)[-1]        # last path segment
+                slug = re.sub(r"^\d+-", "", slug)     # strip leading numeric ID
+                title = slug.replace("-", " ").title()
+
+                print(f"    Parsing PDF: {val}")
+                result = parse_pdf_full(val)
+                pdf_items = filter_pdf_by_topic(result["items"])
+                topics = classify_topics(f"{title} {pdf_items}")
+                doc_type = detect_doc_type(val, title, result["items"])
+                time.sleep(0.5)
+
+                existing_ids.add(item_id)
+                items.append({
+                    "id": item_id,
+                    "county": source["county"],
+                    "source": source["name"],
+                    "title": title,
+                    "date": dt.strftime("%Y-%m-%d"),
+                    "dateDisplay": format_display_date(dt),
+                    "time": "",
+                    "summary": pdf_items[:400] if pdf_items else "",
+                    "details": "",
+                    "link": val,
+                    "tag": classify_tag(dt),
+                    "docType": doc_type,
+                    "topics": topics,
+                    "pdfItems": pdf_items,
+                    "parcels": result["parcels"],
+                    "scrapedAt": datetime.now(timezone.utc).isoformat(),
+                })
+
+    return items
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -581,6 +674,14 @@ def main():
         print(f"    {len(rss_items)} RSS + {len(html_items)} HTML item(s)")
         all_new.extend(html_items)
 
+        time.sleep(0.5)
+
+    # Joomla document pages (no RSS — scrape data-* links directly)
+    for source in JOOMLA_SOURCES:
+        print(f"  {source['name']} (Joomla)")
+        joomla_items = scrape_joomla_docs(source, existing_ids)
+        print(f"    {len(joomla_items)} item(s)")
+        all_new.extend(joomla_items)
         time.sleep(0.5)
 
     # Prune items that have aged out of the 6-month window
