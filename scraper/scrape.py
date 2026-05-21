@@ -162,6 +162,29 @@ def filter_pdf_by_topic(items_text: str) -> str:
     relevant = [l for l in lines if classify_topics(l)]
     return "\n".join(relevant) if relevant else ""
 
+
+def extract_parcel_numbers(text: str) -> list[str]:
+    """Extract unique Michigan-format parcel numbers from text."""
+    found = PARCEL_RE.findall(text)
+    seen: set[str] = set()
+    result: list[str] = []
+    for p in found:
+        if p not in seen:
+            seen.add(p)
+            result.append(p)
+    return result
+
+
+def detect_doc_type(url: str, title: str, pdf_text: str = "") -> str:
+    """Return 'Minutes', 'Agenda', or '' based on URL, title, and PDF content."""
+    combined = (url + " " + title).lower()
+    preview = pdf_text[:800].lower()
+    if "minute" in combined or "minute" in preview:
+        return "Minutes"
+    if "agenda" in combined or "agenda" in preview:
+        return "Agenda"
+    return ""
+
 # ---------------------------------------------------------------------------
 # HTTP config
 # ---------------------------------------------------------------------------
@@ -186,6 +209,8 @@ AGENDA_START_RE = re.compile(r'\bAGENDA\b', re.IGNORECASE)
 AGENDA_END_RE = re.compile(r'\b(ADJOURNMENT|EXECUTIVE SESSION)\b', re.IGNORECASE)
 WHITESPACE_RE = re.compile(r'\s+')
 HTML_TAG_RE = re.compile(r'<[^>]+>')
+# Michigan parcel numbers: ##-##-##-###-### (with optional 4th digit group)
+PARCEL_RE = re.compile(r'\b\d{2}[-–]\d{2}[-–]\d{2}[-–]\d{3}[-–]\d{3,4}\b')
 
 # ---------------------------------------------------------------------------
 # Basic helpers
@@ -329,17 +354,32 @@ def extract_agenda_items(text: str) -> str:
     return "\n".join(items[:15])
 
 
-def parse_pdf_agenda_items(pdf_url: str) -> str:
+def _fetch_pdf_text(pdf_url: str) -> str:
     raw = fetch_pdf_bytes(pdf_url)
     if not raw:
         return ""
     try:
         with pdfplumber.open(io.BytesIO(raw)) as pdf:
-            text = "\n".join(page.extract_text() or "" for page in pdf.pages[:6])
+            return "\n".join(page.extract_text() or "" for page in pdf.pages[:6])
     except Exception as exc:
         print(f"    PDF parse error {pdf_url}: {exc}")
         return ""
-    return extract_agenda_items(text)
+
+
+def parse_pdf_agenda_items(pdf_url: str) -> str:
+    return extract_agenda_items(_fetch_pdf_text(pdf_url))
+
+
+def parse_pdf_full(pdf_url: str) -> dict:
+    """Parse a PDF; return agenda items, parcel numbers, and detected doc type."""
+    text = _fetch_pdf_text(pdf_url)
+    if not text:
+        return {"items": "", "parcels": [], "doc_type": ""}
+    return {
+        "items": extract_agenda_items(text),
+        "parcels": extract_parcel_numbers(text),
+        "doc_type": detect_doc_type(pdf_url, "", text),
+    }
 
 
 def is_pdf_relevant(pdf_url: str) -> bool:
@@ -381,8 +421,10 @@ def scrape_rss(source: dict) -> list[dict]:
                 "details": "",
                 "link": link,
                 "tag": classify_tag(dt),
+                "docType": detect_doc_type(link, title),
                 "topics": classify_topics(f"{title} {summary}"),
                 "pdfItems": "",
+                "parcels": [],
                 "scrapedAt": datetime.now(timezone.utc).isoformat(),
             })
 
@@ -393,16 +435,21 @@ def scrape_rss(source: dict) -> list[dict]:
 
 
 def enrich_with_pdf(item: dict) -> dict:
-    """Add pdfItems to an RSS item by following its link to find and parse agenda PDFs."""
+    """Add pdfItems, parcels, and docType to an RSS item by parsing linked PDFs."""
     link = item.get("link", "")
     if not link:
         return item
 
     if urlparse(link).path.lower().endswith(".pdf"):
-        pdf_items = filter_pdf_by_topic(parse_pdf_agenda_items(link))
+        result = parse_pdf_full(link)
+        pdf_items = filter_pdf_by_topic(result["items"])
         if pdf_items:
             item["pdfItems"] = pdf_items
             item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
+        if result["parcels"]:
+            item["parcels"] = result["parcels"]
+        if result["doc_type"] and not item.get("docType"):
+            item["docType"] = result["doc_type"]
         return item
 
     # Visit the linked HTML page and find attached PDFs
@@ -413,10 +460,15 @@ def enrich_with_pdf(item: dict) -> dict:
     pdf_links = extract_pdf_links(soup, link)
     ordered = sorted(pdf_links, key=lambda u: (0 if is_pdf_relevant(u) else 1))
     for pdf_url in ordered[:3]:
-        pdf_items = filter_pdf_by_topic(parse_pdf_agenda_items(pdf_url))
+        result = parse_pdf_full(pdf_url)
+        pdf_items = filter_pdf_by_topic(result["items"])
         if pdf_items:
             item["pdfItems"] = pdf_items
             item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
+            if result["parcels"]:
+                item["parcels"] = result["parcels"]
+            if result["doc_type"] and not item.get("docType"):
+                item["docType"] = result["doc_type"]
             break
 
     return item
@@ -461,10 +513,11 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
             continue
 
         print(f"    Parsing PDF: {pdf_url}")
-        raw_pdf_items = parse_pdf_agenda_items(pdf_url)
-        pdf_items = filter_pdf_by_topic(raw_pdf_items)
+        result = parse_pdf_full(pdf_url)
+        pdf_items = filter_pdf_by_topic(result["items"])
         all_text = f"{title} {pdf_items}"
         topics = classify_topics(all_text)
+        doc_type = detect_doc_type(pdf_url, title, result["items"])
         time.sleep(0.5)
 
         existing_ids.add(item_id)
@@ -480,8 +533,10 @@ def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
             "details": "",
             "link": pdf_url,
             "tag": classify_tag(dt),
+            "docType": doc_type,
             "topics": topics,
             "pdfItems": pdf_items,
+            "parcels": result["parcels"],
             "scrapedAt": datetime.now(timezone.utc).isoformat(),
         })
 

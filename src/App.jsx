@@ -91,6 +91,13 @@ function StatusTag({ label }) {
   return <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${color}`}>{label}</span>;
 }
 
+function DocTypeTag({ label }) {
+  const style = label === 'Minutes'
+    ? 'bg-violet-50 text-violet-700 border border-violet-200'
+    : 'bg-amber-50 text-amber-700 border border-amber-200';
+  return <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${style}`}>{label}</span>;
+}
+
 // ---------------------------------------------------------------------------
 // FeedCard — scrolling card with save/dismiss
 // ---------------------------------------------------------------------------
@@ -115,9 +122,10 @@ function FeedCard({ item, onSave, onDismiss, isSaved }) {
         </div>
 
         {/* Tags */}
-        {(item.tag || topics.length > 0) && (
+        {(item.tag || item.docType || topics.length > 0) && (
           <div className="flex gap-1.5 flex-wrap mb-3">
             {item.tag && <StatusTag label={item.tag} />}
+            {item.docType && <DocTypeTag label={item.docType} />}
             {topics.map(t => <TopicTag key={t} label={t} />)}
           </div>
         )}
@@ -129,6 +137,14 @@ function FeedCard({ item, onSave, onDismiss, isSaved }) {
         {/* Summary */}
         {item.summary && (
           <p className="text-sm text-slate-600 leading-relaxed mb-3">{item.summary}</p>
+        )}
+
+        {/* Parcel numbers */}
+        {item.parcels && item.parcels.length > 0 && (
+          <p className="text-xs text-slate-500 mb-3">
+            <span className="font-semibold text-slate-600">Parcel{item.parcels.length > 1 ? 's' : ''}:</span>{' '}
+            {item.parcels.join(', ')}
+          </p>
         )}
 
         {/* PDF agenda items */}
@@ -232,6 +248,7 @@ function CalendarView({ items }) {
                   </p>
                   <div className="flex gap-1 flex-wrap">
                     {item.tag && <StatusTag label={item.tag} />}
+                    {item.docType && <DocTypeTag label={item.docType} />}
                     {topics.map(t => <TopicTag key={t} label={t} />)}
                   </div>
                 </div>
