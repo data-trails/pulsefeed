@@ -98,6 +98,14 @@ function DocTypeTag({ label }) {
   return <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${style}`}>{label}</span>;
 }
 
+function ManualTag() {
+  return (
+    <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-red-50 text-red-600 border border-red-200">
+      Manual Review Required
+    </span>
+  );
+}
+
 // ---------------------------------------------------------------------------
 // FeedCard — scrolling card with save/dismiss
 // ---------------------------------------------------------------------------
@@ -106,6 +114,49 @@ function FeedCard({ item, onSave, onDismiss, isSaved }) {
   const color = sourceColor(item.source);
   const topics = getTopics(item);
   const pdfLines = filterPdfItems(item.pdfItems).split('\n').filter(Boolean);
+
+  if (item.manual) {
+    return (
+      <div className="bg-white rounded-2xl shadow-sm border-2 border-dashed border-red-100 overflow-hidden">
+        <div className="h-1" style={{ background: color }} />
+        <div className="p-5">
+          <div className="flex justify-between items-start mb-2">
+            <span className="text-[10px] font-black uppercase tracking-widest text-slate-400">
+              {item.county} County
+            </span>
+          </div>
+          <div className="flex gap-1.5 flex-wrap mb-3">
+            <ManualTag />
+          </div>
+          <p className="text-xs text-slate-400 mb-1">{item.source}</p>
+          <p className="text-sm text-slate-500 leading-relaxed mb-4">{item.summary}</p>
+          <a href={item.link} target="_blank" rel="noopener noreferrer"
+             className="w-full py-2.5 rounded-xl border border-red-200 text-red-600 text-sm font-semibold hover:bg-red-50 transition-all flex items-center justify-center gap-1.5 mb-4">
+            <ExternalLink size={14} /> Open Planning Page
+          </a>
+          <div className="flex gap-2 pt-3 border-t border-slate-100">
+            <button
+              onClick={onDismiss}
+              className="flex-1 py-2.5 rounded-xl border border-slate-200 text-slate-400 text-sm font-medium hover:bg-red-50 hover:text-red-500 hover:border-red-200 transition-all flex items-center justify-center gap-1.5"
+            >
+              <X size={14} /> Dismiss
+            </button>
+            <button
+              onClick={onSave}
+              className="flex-1 py-2.5 rounded-xl text-sm font-medium flex items-center justify-center gap-1.5 transition-all"
+              style={isSaved
+                ? { background: '#f0fdfa', color: '#0f766e', border: '1px solid #99f6e4' }
+                : { background: color, color: '#fff' }
+              }
+            >
+              <Heart size={14} fill={isSaved ? 'currentColor' : 'none'} />
+              {isSaved ? 'Saved' : 'Save'}
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden">
@@ -219,6 +270,7 @@ function CalendarView({ items }) {
   const datedItems = items.filter(i => i.date).sort((a, b) => a.date.localeCompare(b.date));
   const upcoming = datedItems.filter(i => i.date >= today);
   const recent = [...datedItems.filter(i => i.date < today)].reverse();
+  const manualItems = items.filter(i => i.manual);
 
   function groupByDate(arr) {
     const map = {};
@@ -290,6 +342,29 @@ function CalendarView({ items }) {
           <p className="font-bold text-slate-600">No dated items found</p>
           <p className="text-sm mt-1">Items with meeting dates will appear here.</p>
         </div>
+      )}
+      {manualItems.length > 0 && (
+        <section className="mt-6">
+          <h2 className="font-bold text-slate-700 mb-3">Manual Review Required</h2>
+          <div className="bg-white rounded-2xl border-2 border-dashed border-red-100 overflow-hidden divide-y divide-red-50">
+            {manualItems.map(item => {
+              const color = sourceColor(item.source);
+              return (
+                <div key={item.id} className="p-3 flex gap-3 items-center">
+                  <div className="w-2.5 h-2.5 rounded-full shrink-0" style={{ background: color }} />
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold text-slate-700 leading-snug">{item.source}</p>
+                    <p className="text-[10px] text-slate-400">{item.county} County</p>
+                  </div>
+                  <a href={item.link} target="_blank" rel="noopener noreferrer"
+                     className="shrink-0 text-xs font-semibold text-red-500 hover:text-red-700 flex items-center gap-1">
+                    Open <ExternalLink size={11} />
+                  </a>
+                </div>
+              );
+            })}
+          </div>
+        </section>
       )}
     </div>
   );

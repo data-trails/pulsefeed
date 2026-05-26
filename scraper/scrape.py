@@ -129,6 +129,23 @@ RSS_SOURCES = [
 ]
 
 # ---------------------------------------------------------------------------
+# Manual sources — JS-rendered or third-party blocked; no automated scraping
+# ---------------------------------------------------------------------------
+
+MANUAL_SOURCES = [
+    {"county": "Allegan", "name": "Casco Township Planning Commission",
+     "url": "https://www.cascotownship.info/meetings---planning-commission.html"},
+    {"county": "Allegan", "name": "Dorr Township Planning Commission",
+     "url": "https://dorrtownshipmi.gov/-Minutes-Agendas/Planning-Commission"},
+    {"county": "Allegan", "name": "Trowbridge Township Planning Commission",
+     "url": "https://trowbridgetownship.org/"},
+    {"county": "Ottawa", "name": "Park Township Planning Commission",
+     "url": "https://webgen1files1.revize.com/parktwpmi/Document_Center/Meeting%20Agenda_Minutes%20%26%20Packets/Planning%20Commission/"},
+    {"county": "Ottawa", "name": "Zeeland Charter Township Planning Commission",
+     "url": "https://zeelandchartertwpmi.documents-on-demand.com/"},
+]
+
+# ---------------------------------------------------------------------------
 # Sources without RSS — Joomla/K2 document pages (data-* attribute links)
 # ---------------------------------------------------------------------------
 
@@ -834,6 +851,32 @@ def main():
     combined = all_new + existing
     combined.sort(key=lambda x: x.get("date", ""), reverse=True)
     combined = combined[:300]
+
+    # Ensure manual-review placeholders are always present (they have no date so
+    # they sort to the end and never age out)
+    combined_ids = {item["id"] for item in combined}
+    for source in MANUAL_SOURCES:
+        item_id = make_id(source, source["url"])
+        if item_id not in combined_ids:
+            combined.append({
+                "id": item_id,
+                "county": source["county"],
+                "source": source["name"],
+                "title": "Manual Review Required",
+                "date": "",
+                "dateDisplay": "",
+                "time": "",
+                "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
+                "details": "",
+                "link": source["url"],
+                "tag": "",
+                "docType": "",
+                "topics": [],
+                "pdfItems": "",
+                "parcels": [],
+                "manual": True,
+                "scrapedAt": datetime.now(timezone.utc).isoformat(),
+            })
 
     with open(FEED_PATH, "w") as f:
         json.dump(combined, f, indent=2)
