@@ -154,7 +154,6 @@ KEYWORDS = {
 
 PDF_KEYWORDS = {"agenda", "minutes", "planning", "zoning", "variance"}
 
-THREE_MONTHS_SECONDS = 60 * 60 * 24 * 91
 
 # ---------------------------------------------------------------------------
 # Topic classification — zoning, housing, industrial
@@ -262,8 +261,8 @@ def is_relevant(title: str, summary: str) -> bool:
 def is_within_window(dt: datetime | None) -> bool:
     if dt is None:
         return True
-    cutoff = datetime.now(timezone.utc).timestamp() - THREE_MONTHS_SECONDS
-    return dt.timestamp() >= cutoff
+    year_start = datetime(datetime.now(timezone.utc).year, 1, 1, tzinfo=timezone.utc)
+    return dt >= year_start
 
 
 def make_id(source: dict, entry_link: str) -> str:
