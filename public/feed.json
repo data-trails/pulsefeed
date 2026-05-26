@@ -58,6 +58,26 @@
     "scrapedAt": "2026-05-21T17:22:18.463222+00:00"
   },
   {
+    "id": "260149f6d6bf84d8",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-06-03",
+    "dateDisplay": "Wed, Jun 3",
+    "time": "",
+    "summary": "3. PUBLIC HEARING - SPECIAL USE DOG KENNEL/PETRO\n2. Ordinance updates \u2013 Planned Unit Development",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/05/060326PCAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "3. PUBLIC HEARING - SPECIAL USE DOG KENNEL/PETRO\n2. Ordinance updates \u2013 Planned Unit Development",
+    "parcels": [],
+    "scrapedAt": "2026-05-26T13:59:24.210661+00:00"
+  },
+  {
     "id": "17061162cf172da5",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -1910,23 +1930,5 @@
       "70-11-12-200-057"
     ],
     "scrapedAt": "2026-05-21T17:21:51.831296+00:00"
-  },
-  {
-    "id": "d67601c9471d2083",
-    "county": "Allegan",
-    "source": "Ganges Township Planning Commission",
-    "title": "Planning Commission - February 24, 2026.pdf",
-    "date": "2026-02-24",
-    "dateDisplay": "Tue, Feb 24",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gangestownship.org/public-documents/2_24_26 PC Reg Meeting Minutes APPROVED.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:06.564791+00:00"
   }
 ]
