@@ -12,7 +12,7 @@ import json
 import os
 import re
 import time
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
 
 import feedparser
@@ -278,8 +278,11 @@ def is_relevant(title: str, summary: str) -> bool:
 def is_within_window(dt: datetime | None) -> bool:
     if dt is None:
         return True
-    year_start = datetime(datetime.now(timezone.utc).year, 1, 1, tzinfo=timezone.utc)
-    return dt >= year_start
+    now = datetime.now(timezone.utc)
+    year_start = datetime(now.year, 1, 1, tzinfo=timezone.utc)
+    three_months_ago = now - timedelta(days=91)
+    cutoff = max(year_start, three_months_ago)
+    return dt >= cutoff
 
 
 def make_id(source: dict, entry_link: str) -> str:
