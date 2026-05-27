@@ -133,6 +133,24 @@
     "scrapedAt": "2026-05-21T14:17:31.596399+00:00"
   },
   {
+    "id": "e2d8fbcf406d947c",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/05/052026ParksMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-27T14:33:06.009823+00:00"
+  },
+  {
     "id": "24eed673fc33406b",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
@@ -1906,30 +1924,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-21T17:20:37.902757+00:00"
-  },
-  {
-    "id": "8eafa3866020bb07",
-    "county": "Ottawa",
-    "source": "Port Sheldon Township Planning Commission",
-    "title": "Download",
-    "date": "2026-02-25",
-    "dateDisplay": "Wed, Feb 25",
-    "time": "",
-    "summary": "3. Motion to recommend approval of the rezoning of the property from commercial to R1\n2. Moore - question for the petitioner what is different from setf-storage which atready\n3. Capson stated that we do not have an application, nor the fee structure estabtished too",
-    "details": "",
-    "link": "https://www.portsheldontwp.org/wp-content/uploads/2026/03/Signed-Planning-Commission-Meeting-Minutes-for-February-25-2026.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "3. Motion to recommend approval of the rezoning of the property from commercial to R1\n2. Moore - question for the petitioner what is different from setf-storage which atready\n3. Capson stated that we do not have an application, nor the fee structure estabtished too",
-    "parcels": [
-      "70-11-12-200-057"
-    ],
-    "scrapedAt": "2026-05-21T17:21:51.831296+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
