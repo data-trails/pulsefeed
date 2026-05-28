@@ -99,6 +99,26 @@
     "scrapedAt": "2026-05-21T17:22:25.116551+00:00"
   },
   {
+    "id": "ec7f931d5f4ed147",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Second Reading \u2013 Proposed Zoning Ordinance Amendment",
+    "date": "2026-05-28",
+    "dateDisplay": "Thu, May 28",
+    "time": "",
+    "summary": "Second Reading Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/second-reading-proposed-zoning-ordinance-amendment/?utm_source=rss&utm_medium=rss&utm_campaign=second-reading-proposed-zoning-ordinance-amendment",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-28T14:42:45.119147+00:00"
+  },
+  {
     "id": "8b5f3dba5e89e096",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -1906,24 +1926,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:45.636878+00:00"
-  },
-  {
-    "id": "7ae2317553955e69",
-    "county": "Allegan",
-    "source": "Fillmore Township Planning Commission",
-    "title": "February 26 Special Meeting",
-    "date": "2026-02-26",
-    "dateDisplay": "Thu, Feb 26",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://fillmoretownship.org/wp-content/uploads/2026/03/February-26-2026-Special-Board-Meeting-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:20:37.902757+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
