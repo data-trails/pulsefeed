@@ -225,6 +225,24 @@
     "scrapedAt": "2026-05-19T13:57:58.107459+00:00"
   },
   {
+    "id": "8a8f07dadf2845d2",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Minutes 2026-05-19",
+    "date": "2026-05-19",
+    "dateDisplay": "Tue, May 19",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/05/Planning-Commission-Minutes-2026-05-19.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-29T14:14:15.906887+00:00"
+  },
+  {
     "id": "ec669b3cc19a9cb1",
     "county": "Allegan",
     "source": "Cheshire Township Planning Commission",
@@ -1316,6 +1334,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-21T17:22:10.410627+00:00"
+  },
+  {
+    "id": "54f453ff38283e14",
+    "county": "Allegan",
+    "source": "Ganges Township Planning Commission",
+    "title": "Planning Commission - March 24, 2026.pdf",
+    "date": "2026-03-24",
+    "dateDisplay": "Tue, Mar 24",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gangestownship.org/public-documents/3_24_26 PC Reg Meeting Minutes APPROVED.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-05-29T14:14:35.886560+00:00"
   },
   {
     "id": "0d6db21fcf4da854",
