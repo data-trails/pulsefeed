@@ -282,7 +282,8 @@ def is_within_window(dt: datetime | None) -> bool:
     year_start = datetime(now.year, 1, 1, tzinfo=timezone.utc)
     three_months_ago = now - timedelta(days=91)
     cutoff = max(year_start, three_months_ago)
-    return dt >= cutoff
+    max_future = now + timedelta(days=365)
+    return cutoff <= dt <= max_future
 
 
 def make_id(source: dict, entry_link: str) -> str:
