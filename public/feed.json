@@ -1,5 +1,45 @@
 [
   {
+    "id": "52251e035d035c65",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Rust Dimensional Variance ZBA Public Hearing",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/rust-dimensional-variance-zba-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=rust-dimensional-variance-zba-public-hearing",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-04T14:12:28.270540+00:00"
+  },
+  {
+    "id": "0ea98f2946a18635",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Marshall Dimensional Variance Township Zoning Board of Appeal Public Hearing",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/marshall-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=marshall-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-04T14:12:28.270591+00:00"
+  },
+  {
     "id": "e05aa0d38aee0ec5",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -1811,41 +1851,6 @@
     "pdfItems": "- Trustee Lewis read correspondence regarding Cheshire fire district. Chief Zack provided",
     "parcels": [],
     "scrapedAt": "2026-05-21T17:22:08.894111+00:00"
-  },
-  {
-    "id": "b6fa20abf7c8366c",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "March 5, 2026 Township Board Minutes",
-    "date": "2026-03-05",
-    "dateDisplay": "Thu, Mar 5",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/March-5-2026-Township-Board-Minutes-1.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:12.578107+00:00"
-  },
-  {
-    "id": "572240aa6bd1f967",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "March 5, 2026 Township Board Agenda",
-    "date": "2026-03-05",
-    "dateDisplay": "Thu, Mar 5",
-    "time": "",
-    "summary": "1. Second Read for Ordinance #191 Shooting Range\n3. Data Center",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/March-5-2026-Township-Board-Agenda.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "1. Second Read for Ordinance #191 Shooting Range\n3. Data Center",
-    "scrapedAt": "2026-05-16T00:27:18.560434+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
