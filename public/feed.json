@@ -117,6 +117,24 @@
     "scrapedAt": "2026-06-01T16:44:35.092270+00:00"
   },
   {
+    "id": "f1945899d10da177",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-06-03",
+    "dateDisplay": "Wed, Jun 3",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/061026Minutes060326.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-09T13:46:48.392856+00:00"
+  },
+  {
     "id": "1855185d84c20d0c",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -674,6 +692,24 @@
     "scrapedAt": "2026-05-16T00:29:12.345156+00:00"
   },
   {
+    "id": "13847cc8fe37a031",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "May 11, 2026 Township Board Minutes",
+    "date": "2026-05-11",
+    "dateDisplay": "Mon, May 11",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/May-11-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-09T13:46:22.396431+00:00"
+  },
+  {
     "id": "00582a19240ca083",
     "county": "Allegan",
     "source": "Lee Township Planning Commission",
@@ -724,6 +760,24 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:40.783667+00:00"
+  },
+  {
+    "id": "c263e14e6abe813e",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "May 7, 2026 Township Board Minutes",
+    "date": "2026-05-07",
+    "dateDisplay": "Thu, May 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/May-7-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-09T13:46:23.386354+00:00"
   },
   {
     "id": "2bb79c3597823d5e",
@@ -1945,24 +1999,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:33.446729+00:00"
-  },
-  {
-    "id": "729321f371db4435",
-    "county": "Allegan",
-    "source": "Fillmore Township Planning Commission",
-    "title": "March 10",
-    "date": "2026-03-10",
-    "dateDisplay": "Tue, Mar 10",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://fillmoretownship.org/wp-content/uploads/2026/03/March-10-2026-Board-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:20:36.918413+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
