@@ -20,6 +20,24 @@
     "scrapedAt": "2026-06-06T12:11:28.280422+00:00"
   },
   {
+    "id": "1f22b22e1a312777",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-06-10",
+    "dateDisplay": "Wed, Jun 10",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/06/PC-Agenda-6-10-26.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-10T14:28:03.684535+00:00"
+  },
+  {
     "id": "a6353fcf6b147ffb",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -207,6 +225,29 @@
     "pdfItems": "3. PUBLIC HEARING - SPECIAL USE DOG KENNEL/PETRO\n2. Ordinance updates \u2013 Planned Unit Development",
     "parcels": [],
     "scrapedAt": "2026-05-26T13:59:24.210661+00:00"
+  },
+  {
+    "id": "137254b0e4224df5",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-06-02",
+    "dateDisplay": "Tue, Jun 2",
+    "time": "",
+    "summary": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1421-draft-minutes-june-2-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "parcels": [
+      "70-16-21-200-080",
+      "70-16-23-100-098"
+    ],
+    "scrapedAt": "2026-06-10T14:29:17.127087+00:00"
   },
   {
     "id": "17061162cf172da5",
@@ -1916,89 +1957,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:27:57.011419+00:00"
-  },
-  {
-    "id": "c8618ade4dd25e7b",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-03-11",
-    "dateDisplay": "Wed, Mar 11",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/03/031126Agenda.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:58.116295+00:00"
-  },
-  {
-    "id": "efa38d197d9a7de9",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-03-11",
-    "dateDisplay": "Wed, Mar 11",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/03/031126Minutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:59.554022+00:00"
-  },
-  {
-    "id": "9327ca27226b86e7",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes Amended",
-    "date": "2026-03-11",
-    "dateDisplay": "Wed, Mar 11",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/03/031126MinutesAmended.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:00.908416+00:00"
-  },
-  {
-    "id": "0a2ab0bae5005f25",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-03-11",
-    "dateDisplay": "Wed, Mar 11",
-    "time": "",
-    "summary": "4. No commercial activity shall be permitted.\n3. The support system shall be constructed in accordance with all applicable building codes\n4. The requirements of the Federal Aviation Administration, Federal Communication\n5. The antenna and other attachments on a WCF shall be designed and constructed to",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/03/PC-Minutes-3-11-26.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "4. No commercial activity shall be permitted.\n3. The support system shall be constructed in accordance with all applicable building codes\n4. The requirements of the Federal Aviation Administration, Federal Communication\n5. The antenna and other attachments on a WCF shall be designed and constructed to",
-    "scrapedAt": "2026-05-16T00:28:32.621178+00:00"
-  },
-  {
-    "id": "9e1e70d14ee3fa48",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-03-11",
-    "dateDisplay": "Wed, Mar 11",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/03/PC-Agenda-3-11-26.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:33.446729+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
