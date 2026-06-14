@@ -20,6 +20,24 @@
     "scrapedAt": "2026-06-06T12:11:28.280422+00:00"
   },
   {
+    "id": "a163994aeba77039",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-06-17",
+    "dateDisplay": "Wed, Jun 17",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/06/061726ParksAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-14T13:01:54.214432+00:00"
+  },
+  {
     "id": "9c1418f7a070fe9a",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -169,6 +187,26 @@
     "pdfItems": "1. First Read of Ordinance 194 Request to Rezone 1183 107th Ave to AG\n3. Resolution 2026-7 To Extend the Moratorium on Ordinance 192 Data\n4. Resolution 2026-8 To Extend the Moratorium on Ordinance 193 Data\n3. Data Center",
     "parcels": [],
     "scrapedAt": "2026-06-01T16:44:35.092270+00:00"
+  },
+  {
+    "id": "22f1111b117dbec3",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-06-03",
+    "dateDisplay": "Wed, Jun 3",
+    "time": "",
+    "summary": "3. PUBLIC HEARING \u2013 SPECIAL USE DOG KENNEL/PETRO",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/060326PCMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "3. PUBLIC HEARING \u2013 SPECIAL USE DOG KENNEL/PETRO",
+    "parcels": [],
+    "scrapedAt": "2026-06-14T13:01:53.299063+00:00"
   },
   {
     "id": "f1945899d10da177",
