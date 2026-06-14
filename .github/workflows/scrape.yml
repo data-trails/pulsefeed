@@ -31,10 +31,29 @@ jobs:
         run: |
           git config user.name  "pulsefeed-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add public/feed.json
+          git add feed.json
           if git diff --cached --quiet; then
             echo "No changes to feed.json"
           else
             git commit -m "chore: update feed.json [$(date -u +%Y-%m-%d)]"
             git push
           fi
+
+      - name: Set up Azure CLI
+        if: ${{ secrets.AZURE_STORAGE_ACCOUNT && secrets.AZURE_STORAGE_KEY && secrets.AZURE_STORAGE_CONTAINER }}
+        uses: azure/setup-azure-cli@v1
+
+      - name: Upload feed.json to Azure Blob Storage
+        if: ${{ secrets.AZURE_STORAGE_ACCOUNT && secrets.AZURE_STORAGE_KEY && secrets.AZURE_STORAGE_CONTAINER }}
+        env:
+          AZURE_STORAGE_ACCOUNT: ${{ secrets.AZURE_STORAGE_ACCOUNT }}
+          AZURE_STORAGE_KEY: ${{ secrets.AZURE_STORAGE_KEY }}
+          AZURE_STORAGE_CONTAINER: ${{ secrets.AZURE_STORAGE_CONTAINER }}
+        run: |
+          az storage blob upload \
+            --account-name "$AZURE_STORAGE_ACCOUNT" \
+            --account-key "$AZURE_STORAGE_KEY" \
+            --container-name "$AZURE_STORAGE_CONTAINER" \
+            --name feed.json \
+            --file feed.json \
+            --overwrite

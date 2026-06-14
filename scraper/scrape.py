@@ -794,7 +794,7 @@ def scrape_civicplus(source: dict, existing_ids: set[str]) -> list[dict]:
 # Main
 # ---------------------------------------------------------------------------
 
-FEED_PATH = os.path.join(os.path.dirname(__file__), "..", "public", "feed.json")
+FEED_PATH = os.path.join(os.path.dirname(__file__), "..", "feed.json")
 
 
 def load_existing() -> list[dict]:

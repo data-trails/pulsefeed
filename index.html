@@ -2,12 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pulsefeed</title>
+    <title>PulseFeed</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <div class="app-shell">
+      <nav class="topbar">
+        <div class="brand">
+          <div class="icon-ring">RSS</div>
+          <div>
+            <h1>PulseFeed</h1>
+            <p>Lakeshore Advantage</p>
+          </div>
+        </div>
+        <div class="tabs">
+          <button class="tab-button active" data-tab="feed">Feed</button>
+          <button class="tab-button" data-tab="calendar">Calendar</button>
+          <button class="tab-button" data-tab="saved">Saved</button>
+          <button class="tab-button" data-tab="sources">Sources</button>
+        </div>
+      </nav>
+
+      <main class="container">
+        <section class="toolbar">
+          <div id="status-text">Loading updates…</div>
+          <button id="refresh-button" class="link-button">Refresh</button>
+        </section>
+        <div id="pane"></div>
+      </main>
+    </div>
+
+    <script src="app.js" defer></script>
   </body>
 </html>
