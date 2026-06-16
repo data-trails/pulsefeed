@@ -20,6 +20,64 @@
     "scrapedAt": "2026-06-06T12:11:28.280422+00:00"
   },
   {
+    "id": "72a5703b0a48e612",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "June 17, 2026 Planning Commission Agenda",
+    "date": "2026-06-17",
+    "dateDisplay": "Wed, Jun 17",
+    "time": "",
+    "summary": "1. Request from the Township Board to make Changes to the Ordinances on\n2. Request from the Township Board on a moratorium on Energy Storage\n1. Data Center Ordinance\n2. In-Law Suite, Accessory Dwelling Units Ordinance\n10. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/June-17-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Request from the Township Board to make Changes to the Ordinances on\n2. Request from the Township Board on a moratorium on Energy Storage\n1. Data Center Ordinance\n2. In-Law Suite, Accessory Dwelling Units Ordinance\n10. Zoning Administrator Comments",
+    "parcels": [],
+    "scrapedAt": "2026-06-16T16:01:17.287418+00:00"
+  },
+  {
+    "id": "d67e72dfcc644f17",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Planning Commission Regular Meeting Cancelled",
+    "date": "2026-06-17",
+    "dateDisplay": "Wed, Jun 17",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_06172026-1687",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-16T16:03:11.565929+00:00"
+  },
+  {
+    "id": "4609a0a5fd5c0f7e",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Jun 17, 2026 \u2014\u2009Posted Jun 15, 2026 1:30 PM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "date": "2026-06-17",
+    "dateDisplay": "Wed, Jun 17",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_06172026-1687",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-16T16:03:12.468331+00:00"
+  },
+  {
     "id": "a163994aeba77039",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -2036,26 +2094,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:47.441541+00:00"
-  },
-  {
-    "id": "29d48c5add1af8e2",
-    "county": "Ottawa",
-    "source": "Crockery Township Planning Commission",
-    "title": "March 17,2026",
-    "date": "2026-03-17",
-    "dateDisplay": "Tue, Mar 17",
-    "time": "",
-    "summary": "A. R&A Investments Site Plan Review - Final Review\nB. Master Plan Review",
-    "details": "",
-    "link": "https://crockerytownship.gov/wp-content/uploads/2026/04/March-17-2026-PC-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "A. R&A Investments Site Plan Review - Final Review\nB. Master Plan Review",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:21.227381+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
