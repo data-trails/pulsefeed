@@ -1,5 +1,27 @@
 [
   {
+    "id": "e1f624a9add3cbec",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-07-07",
+    "dateDisplay": "Tue, Jul 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1423-agenda-july-7-2026/file",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-08-300-026",
+      "70-16-09-200-037",
+      "70-16-21-238-001"
+    ],
+    "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
+  },
+  {
     "id": "d20a8a3a24182a14",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -378,6 +400,29 @@
     "pdfItems": "3. PUBLIC HEARING - SPECIAL USE DOG KENNEL/PETRO\n2. Ordinance updates \u2013 Planned Unit Development",
     "parcels": [],
     "scrapedAt": "2026-05-26T13:59:24.210661+00:00"
+  },
+  {
+    "id": "6c14c634f158d99f",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-06-02",
+    "dateDisplay": "Tue, Jun 2",
+    "time": "",
+    "summary": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1422-draft-minutes-june-2-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "parcels": [
+      "70-16-21-200-080",
+      "70-16-23-100-098"
+    ],
+    "scrapedAt": "2026-06-17T14:30:22.716061+00:00"
   },
   {
     "id": "137254b0e4224df5",
@@ -1915,185 +1960,6 @@
     ],
     "pdfItems": "\u2022 Text Amendment Discussion",
     "scrapedAt": "2026-05-16T00:29:31.250300+00:00"
-  },
-  {
-    "id": "f31ba4fa5a26a72a",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1382-agenda-march-18-2026-special-meeting/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-21-200-083"
-    ],
-    "scrapedAt": "2026-05-21T17:22:27.902173+00:00"
-  },
-  {
-    "id": "adfb8e892d43dabe",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "083. The property is zoned C-2 Community Commercial.\n4. The use will be consistent with the intent and purposes of this ordinance and the\n3. The owner shall secure a nonuse variance from the Zoning Board of Appeals for the",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1392-minutes-march-18-2026-special-meeting/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "083. The property is zoned C-2 Community Commercial.\n4. The use will be consistent with the intent and purposes of this ordinance and the\n3. The owner shall secure a nonuse variance from the Zoning Board of Appeals for the",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:34.644207+00:00"
-  },
-  {
-    "id": "47e4185bc025e164",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Public Hearing Notice for a Special Land Use Permit for a Battery Storage Facility on Parcel 03-08-034-021-50 Known as Riverview Drive, Plainwell",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/public-hearing-notice-for-a-special-land-use-permit-for-a-battery-storage-facility-on-parcel-03-08-034-021-50-known-as-riverview-drive-plainwell/",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:08.716608+00:00"
-  },
-  {
-    "id": "f77106442d690dd2",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Public Hearing Notice for Ordinance #193 Moratorium on Data Centers",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/public-hearing-notice-for-ordinance-193/",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:08.716668+00:00"
-  },
-  {
-    "id": "60f56de346d62c4f",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "March 18, 2026 Planning Commission Minutes",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/March-18-2026-Planning-Commission-Minutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:11.139438+00:00"
-  },
-  {
-    "id": "db205a45e0df62a4",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "March 18, 2026 Planning Commission Agenda",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "1. Data Center Ordinance\n2. In-Law Suite, Accessory Dwelling Units Ordinance\n10. Zoning Administrator Comments",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/March-18-2026-Planning-Commission-Agenda-1.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "1. Data Center Ordinance\n2. In-Law Suite, Accessory Dwelling Units Ordinance\n10. Zoning Administrator Comments",
-    "scrapedAt": "2026-05-16T00:27:14.216576+00:00"
-  },
-  {
-    "id": "ce0ee195c2264365",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://laketowntwp.org/wp-content/uploads/2026/03/031826ParksAgenda.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:18.121202+00:00"
-  },
-  {
-    "id": "f88c574aa236871b",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/03/031826ParksMinutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:19.623638+00:00"
-  },
-  {
-    "id": "faa0a87b2d2f9ca2",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Amended Minutes",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/04/031826ParksMinutesAMEND.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:21.174116+00:00"
-  },
-  {
-    "id": "3087b9e6688b7dd8",
-    "county": "Ottawa",
-    "source": "Spring Lake Township Planning Commission",
-    "title": "Planning Commission Meeting Canceled",
-    "date": "2026-03-18",
-    "dateDisplay": "Wed, Mar 18",
-    "time": "",
-    "summary": "The March 18 Planning Commission meeting is canceled due to a lack of a quorum.",
-    "details": "",
-    "link": "https://springlaketwp.org/planning-commission-meeting-canceled/",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:47.441541+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
