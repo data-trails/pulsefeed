@@ -22,6 +22,27 @@
     "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
   },
   {
+    "id": "c754c8f39fe74949",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates \u2013 Planned Unit Development",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/06/070126PCAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates \u2013 Planned Unit Development",
+    "parcels": [],
+    "scrapedAt": "2026-06-19T14:16:36.748102+00:00"
+  },
+  {
     "id": "d20a8a3a24182a14",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -40,6 +61,24 @@
     "pdfItems": "\u2022 Text Amendment\n\u2022 Text Amendment",
     "parcels": [],
     "scrapedAt": "2026-06-06T12:11:28.280422+00:00"
+  },
+  {
+    "id": "5d0a5939f87f1a51",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-06-17",
+    "dateDisplay": "Wed, Jun 17",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/061726ParksMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-19T14:16:38.080090+00:00"
   },
   {
     "id": "0ed4392af740d845",
