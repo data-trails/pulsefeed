@@ -43,6 +43,48 @@
     "scrapedAt": "2026-06-19T14:16:36.748102+00:00"
   },
   {
+    "id": "cf76d2764d2115cf",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Draft Ordinance #195 to Amend the Gun Plain Charter Township Zoning Ordinane to Permit and Regulate Dwelling Units.",
+    "date": "2026-06-22",
+    "dateDisplay": "Mon, Jun 22",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/draft-ordinance-195-to-amend-the-gun-plain-charter-township-zoning-ordinane-to-permit-and-regulate-dwelling-units/",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-22T15:58:18.669399+00:00"
+  },
+  {
+    "id": "003e9609f2d375f5",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Hearing Notice for Ordinance #195 to Amend the Gun Plain Charter Township Zoning Ordinance to Permit and Regulate Accessory Dwelling Units",
+    "date": "2026-06-22",
+    "dateDisplay": "Mon, Jun 22",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-hearing-notice-for-ordinance-195-to-amend-the-gun-plain-charter-township-zoning-ordinance-to-permit-and-regulate-accessory-dwelling-units/",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-22T15:58:18.669459+00:00"
+  },
+  {
     "id": "d20a8a3a24182a14",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -1985,40 +2027,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-29T14:14:35.886560+00:00"
-  },
-  {
-    "id": "0d6db21fcf4da854",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Minutes 2026-03-23",
-    "date": "2026-03-23",
-    "dateDisplay": "Mon, Mar 23",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/03/Planning-Commission-Minutes-2026-03-23.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:29.983457+00:00"
-  },
-  {
-    "id": "01766a75a021a4bc",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Agenda 2026-03-23",
-    "date": "2026-03-23",
-    "dateDisplay": "Mon, Mar 23",
-    "time": "",
-    "summary": "\u2022 Text Amendment Discussion",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/03/Planning-Commission-Agenda-2026-03-23.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Text Amendment Discussion",
-    "scrapedAt": "2026-05-16T00:29:31.250300+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
