@@ -219,6 +219,28 @@
     "scrapedAt": "2026-06-14T13:01:54.214432+00:00"
   },
   {
+    "id": "d6f64b837032eb8b",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Minutes 2026-06-16",
+    "date": "2026-06-16",
+    "dateDisplay": "Tue, Jun 16",
+    "time": "",
+    "summary": "\u2022 Text Amendment\n\u2022 Text Amendment",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/06/Planning-Commission-Minutes-2026-06-16.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Text Amendment\n\u2022 Text Amendment",
+    "parcels": [
+      "70-18-29-400-028"
+    ],
+    "scrapedAt": "2026-06-23T13:46:11.211165+00:00"
+  },
+  {
     "id": "9c1418f7a070fe9a",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -2009,24 +2031,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-21T17:22:10.410627+00:00"
-  },
-  {
-    "id": "54f453ff38283e14",
-    "county": "Allegan",
-    "source": "Ganges Township Planning Commission",
-    "title": "Planning Commission - March 24, 2026.pdf",
-    "date": "2026-03-24",
-    "dateDisplay": "Tue, Mar 24",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gangestownship.org/public-documents/3_24_26 PC Reg Meeting Minutes APPROVED.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-29T14:14:35.886560+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
