@@ -43,6 +43,26 @@
     "scrapedAt": "2026-06-19T14:16:36.748102+00:00"
   },
   {
+    "id": "06eebe4cf5b73419",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Ordinance 650 \u2013 Lusher Rezoning RR to R-1",
+    "date": "2026-06-23",
+    "dateDisplay": "Tue, Jun 23",
+    "time": "",
+    "summary": "Notice of Proposed Ordinance 650",
+    "details": "",
+    "link": "https://ghtmi.gov/ordinance-650-lusher-rezoning-rr-to-r-1/?utm_source=rss&utm_medium=rss&utm_campaign=ordinance-650-lusher-rezoning-rr-to-r-1",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-25T21:05:47.044148+00:00"
+  },
+  {
     "id": "cf76d2764d2115cf",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -648,6 +668,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-28T14:42:45.119147+00:00"
+  },
+  {
+    "id": "898202ddac03f176",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "Download",
+    "date": "2026-05-27",
+    "dateDisplay": "Wed, May 27",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/wp-content/uploads/2026/06/Signed-May-27-2026-Meeting-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-06-25T21:06:00.934822+00:00"
   },
   {
     "id": "07157a62f918e996",
