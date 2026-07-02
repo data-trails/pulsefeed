@@ -886,6 +886,26 @@
     "scrapedAt": "2026-05-19T13:57:58.107459+00:00"
   },
   {
+    "id": "cd9ef8040929664b",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "May 19,2026",
+    "date": "2026-05-19",
+    "dateDisplay": "Tue, May 19",
+    "time": "",
+    "summary": "A. Marina Expansion - Final Site Plan Review\nA. Sign Ordinance Amendment Review",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/06/APPROVED-May-19-2026-PC-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. Marina Expansion - Final Site Plan Review\nA. Sign Ordinance Amendment Review",
+    "parcels": [],
+    "scrapedAt": "2026-07-02T13:03:28.364170+00:00"
+  },
+  {
     "id": "8a8f07dadf2845d2",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -1880,57 +1900,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-18T14:36:43.957015+00:00"
-  },
-  {
-    "id": "19a2e11b01372867",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "April 2, 2026 Township Board Minutes",
-    "date": "2026-04-02",
-    "dateDisplay": "Thu, Apr 2",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/April-2-2026-Township-Board-Minutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-19T13:57:07.364214+00:00"
-  },
-  {
-    "id": "f49416ab32d5c8c9",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "April 2, 2026 Township Board Agenda",
-    "date": "2026-04-02",
-    "dateDisplay": "Thu, Apr 2",
-    "time": "",
-    "summary": "1. Public Hearing Ordinance #192 Moratorium on Data Centers\n3. Data Center",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/April-2-2026-Township-Board-Agenda.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "1. Public Hearing Ordinance #192 Moratorium on Data Centers\n3. Data Center",
-    "scrapedAt": "2026-05-16T00:27:17.653017+00:00"
-  },
-  {
-    "id": "c90e30845b6727ae",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-04-02",
-    "dateDisplay": "Thu, Apr 2",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/03/040226FireBoardAgenda.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:28:25.610540+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
