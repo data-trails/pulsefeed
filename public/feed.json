@@ -1,5 +1,41 @@
 [
   {
+    "id": "808861cd2cfb162a",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Agenda-7-8-26.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-03T13:01:26.501687+00:00"
+  },
+  {
+    "id": "a124a82e3a26e0f3",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07082026-1694",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-03T13:02:46.120923+00:00"
+  },
+  {
     "id": "e1f624a9add3cbec",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -95,6 +131,28 @@
     "pdfItems": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates \u2013 Planned Unit Development",
     "parcels": [],
     "scrapedAt": "2026-06-19T14:16:36.748102+00:00"
+  },
+  {
+    "id": "702f48426b22f47f",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "Download",
+    "date": "2026-06-24",
+    "dateDisplay": "Wed, Jun 24",
+    "time": "",
+    "summary": "\u2022 Moore said that the wording in the ordinance had not changed much since the",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/wp-content/uploads/2026/07/PC-Minutes-June-24-2026-am-edits.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Moore said that the wording in the ordinance had not changed much since the",
+    "parcels": [
+      "70-11-12-100-031"
+    ],
+    "scrapedAt": "2026-07-03T13:02:09.475694+00:00"
   },
   {
     "id": "06eebe4cf5b73419",
@@ -812,6 +870,24 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-21T14:17:31.596399+00:00"
+  },
+  {
+    "id": "3904e483db431656",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "May 20, 2026 \u2014\u2009Posted May 15, 2026 10:43 AM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previo",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_05202026-1681",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-03T13:02:47.785339+00:00"
   },
   {
     "id": "e2d8fbcf406d947c",
