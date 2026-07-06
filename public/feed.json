@@ -58,6 +58,24 @@
     "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
   },
   {
+    "id": "9014863389dc76dc",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/070126BoardMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-06T14:31:56.203713+00:00"
+  },
+  {
     "id": "e9c1c97737d6c2cc",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -1960,22 +1978,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:31.395499+00:00"
-  },
-  {
-    "id": "c5555818e0609523",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "April 6, 2026",
-    "date": "2026-04-06",
-    "dateDisplay": "Mon, Apr 6",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/05/04.06.2026-Approved-PC-Meeting-Minutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-18T14:36:43.957015+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
