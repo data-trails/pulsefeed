@@ -1,5 +1,45 @@
 [
   {
+    "id": "2d17b78703dfe5aa",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "July 9, 2026 Township Board Agenda",
+    "date": "2026-07-09",
+    "dateDisplay": "Thu, Jul 9",
+    "time": "",
+    "summary": "1. Second Read of Ordinance 194 Request to Rezone 1183 107th Ave to AG\n3. Appoint Construction Board of Appeals\n6. Resolution 2026-9 Battery Energy Storage System Temporary Moratorium\n7. Ordinance #196 Temporary Moratorium on Battery Energy Storage System\n3. Data Center",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/July-9-2026-Township-Board-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Second Read of Ordinance 194 Request to Rezone 1183 107th Ave to AG\n3. Appoint Construction Board of Appeals\n6. Resolution 2026-9 Battery Energy Storage System Temporary Moratorium\n7. Ordinance #196 Temporary Moratorium on Battery Energy Storage System\n3. Data Center",
+    "parcels": [],
+    "scrapedAt": "2026-07-09T13:52:08.587032+00:00"
+  },
+  {
+    "id": "23e713956e222ba2",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Township Board Public Hearing Baumann PUD",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/township-board-public-hearing-baumann-pud/?utm_source=rss&utm_medium=rss&utm_campaign=township-board-public-hearing-baumann-pud",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-09T13:53:48.629459+00:00"
+  },
+  {
     "id": "808861cd2cfb162a",
     "county": "Allegan",
     "source": "Leighton Township Planning Commission",
@@ -56,6 +96,24 @@
       "70-16-21-238-001"
     ],
     "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
+  },
+  {
+    "id": "8f7bdfb51e559b74",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "July 6, 2026",
+    "date": "2026-07-06",
+    "dateDisplay": "Mon, Jul 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/07062026-PC-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-09T13:53:21.443132+00:00"
   },
   {
     "id": "9014863389dc76dc",
@@ -1895,22 +1953,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.345380+00:00"
-  },
-  {
-    "id": "2ffa8fd8040f07fb",
-    "county": "Allegan",
-    "source": "Heath Township Planning Commission",
-    "title": "Board Meeting Agenda for April 13th Meeting",
-    "date": "2026-04-09",
-    "dateDisplay": "Thu, Apr 9",
-    "time": "",
-    "summary": "View Agenda",
-    "details": "",
-    "link": "https://heathtownship.net/board-meeting-agenda-for-april-13th-meeting/",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:22.173840+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
