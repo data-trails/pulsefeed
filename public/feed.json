@@ -1,5 +1,65 @@
 [
   {
+    "id": "8f593c3955e4a722",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "July 15, 2026 Planning Commission Agenda",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/July-15-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:15:52.094136+00:00"
+  },
+  {
+    "id": "4a8cf4663ecd20fb",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "July 13, 2026",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/July-2026-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:16:49.471284+00:00"
+  },
+  {
+    "id": "ab678891de82afdd",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Heyboer Dimensional Variance Township Zoning Board of Appeal Public Hearing",
+    "date": "2026-07-09",
+    "dateDisplay": "Thu, Jul 9",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/heyboer-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=heyboer-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:17:18.912661+00:00"
+  },
+  {
     "id": "2d17b78703dfe5aa",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -800,6 +860,24 @@
     "scrapedAt": "2026-05-21T17:22:25.116551+00:00"
   },
   {
+    "id": "512f57bfd9eac862",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "June 1, 2026",
+    "date": "2026-06-01",
+    "dateDisplay": "Mon, Jun 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/06.01.2026-APPROVED-amp-AMENDED-PC-Meeting-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:16:50.848128+00:00"
+  },
+  {
     "id": "d0be9bce6a9cb7f5",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -946,6 +1024,24 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-21T14:17:31.596399+00:00"
+  },
+  {
+    "id": "e29a48c35cd55353",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "May 20, 2026 Planning Commission Minutes",
+    "date": "2026-05-20",
+    "dateDisplay": "Wed, May 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/May-20-2026-Planning-Commission-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:15:51.180234+00:00"
   },
   {
     "id": "3904e483db431656",
