@@ -1,5 +1,23 @@
 [
   {
+    "id": "fa64cf75756342eb",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07152026-1695",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-11T11:59:10.341129+00:00"
+  },
+  {
     "id": "8f593c3955e4a722",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -20,6 +38,42 @@
     "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
     "parcels": [],
     "scrapedAt": "2026-07-10T13:15:52.094136+00:00"
+  },
+  {
+    "id": "a0127afe26f5d1ba",
+    "county": "Allegan",
+    "source": "Fillmore Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-14",
+    "dateDisplay": "Tue, Jul 14",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-of-Trustees-Mtg-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-11T11:57:04.395215+00:00"
+  },
+  {
+    "id": "02490b38729365f7",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-14",
+    "dateDisplay": "Tue, Jul 14",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/07/071426BdAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-11T11:57:52.963733+00:00"
   },
   {
     "id": "4a8cf4663ecd20fb",
@@ -174,6 +228,27 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-09T13:53:21.443132+00:00"
+  },
+  {
+    "id": "94bac455d50b7c99",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates \u2013 Planned Unit Development",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/070126PCMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates \u2013 Planned Unit Development",
+    "parcels": [],
+    "scrapedAt": "2026-07-11T11:57:54.311142+00:00"
   },
   {
     "id": "9014863389dc76dc",
