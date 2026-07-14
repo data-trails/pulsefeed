@@ -1,5 +1,43 @@
 [
   {
+    "id": "65e2d414e6e1a143",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Agenda 2026-07-21",
+    "date": "2026-07-21",
+    "dateDisplay": "Tue, Jul 21",
+    "time": "",
+    "summary": "\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan\n\u2022 City of Hudsonville Master Plan Map Notice",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/07/Planning-Commission-Agenda-2026-07-21.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan\n\u2022 City of Hudsonville Master Plan Map Notice",
+    "parcels": [],
+    "scrapedAt": "2026-07-14T12:20:49.866041+00:00"
+  },
+  {
+    "id": "63025d79e168764f",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/071526ParksAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-14T12:20:00.484278+00:00"
+  },
+  {
     "id": "fa64cf75756342eb",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
@@ -74,6 +112,27 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-11T11:57:52.963733+00:00"
+  },
+  {
+    "id": "2878856550c150d9",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Hearing Notice for Ordinance 196 to Enact a Temporary Moratorium On Future Battery Energy Storage Systems (BESS)",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-hearing-notice-for-ordinance-196-to-enact-a-temporary-moratorium-on-future-battery-energy-storage-systems-bess/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-14T12:19:09.847796+00:00"
   },
   {
     "id": "4a8cf4663ecd20fb",
@@ -210,6 +269,24 @@
       "70-16-21-238-001"
     ],
     "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
+  },
+  {
+    "id": "baa6ddda8c636df3",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "July 6, 2026",
+    "date": "2026-07-06",
+    "dateDisplay": "Mon, Jul 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/07062026-PC-Agenda-1.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-14T12:20:15.035217+00:00"
   },
   {
     "id": "8f7bdfb51e559b74",
@@ -2025,51 +2102,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.345330+00:00"
-  },
-  {
-    "id": "ef28246398d2a47a",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-04-14",
-    "dateDisplay": "Tue, Apr 14",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1395-agenda-april-14-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-20-200-016",
-      "70-16-09-200-037",
-      "70-16-22-271-011",
-      "70-16-09-300-086",
-      "70-16-21-100-046"
-    ],
-    "scrapedAt": "2026-05-21T17:22:27.085514+00:00"
-  },
-  {
-    "id": "454309f44ae8ebfa",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-04-14",
-    "dateDisplay": "Tue, Apr 14",
-    "time": "",
-    "summary": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n1. The proposed text amendment would clarify the intent of the ordinance.",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1402-draft-minutes-april-14-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "1. Whether or not the proposed rezoning is consistent with the goals, policies and\n2. Whether the proposed district and the uses allowed are compatible with the\n3. The potential uses allowed in the proposed zoning district shall also be compatible\n4. Whether, if rezoned, the site is capable of accommodating the uses allowed,\n1. The proposed text amendment would clarify the intent of the ordinance.\n2. The proposed text amendment would correct an error or oversight in the ordinance.\n3. The proposed text amendment would address changes to the State legislation,\n4. The proposed text amendment would promote compliance with changes in other\n5. In the event the amendment will add a use to a district, that use shall be fully\n6. The amendment will not create incompatible land uses within a zoning district, or\n7. The proposed text amendment is supported by the findings of reports, studies, or",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:33.192213+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
