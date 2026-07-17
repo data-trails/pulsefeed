@@ -20,6 +20,24 @@
     "scrapedAt": "2026-07-14T12:20:49.866041+00:00"
   },
   {
+    "id": "0e4e1ef280f5287a",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Planning Commission Meeting July 20",
+    "date": "2026-07-16",
+    "dateDisplay": "Thu, Jul 16",
+    "time": "",
+    "summary": "View Notice View Agenda Meeting Link: https://teams.microsoft.com/meet/291140616275161?p=9QJ5jPCFEsZ5JvNAec",
+    "details": "",
+    "link": "https://chesterottawami.gov/planning-commission-meeting-july-20/?utm_source=rss&utm_medium=rss&utm_campaign=planning-commission-meeting-july-20",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-17T12:16:30.045192+00:00"
+  },
+  {
     "id": "505f06009c001efe",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -205,6 +223,26 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-10T13:16:49.471284+00:00"
+  },
+  {
+    "id": "796a9b2defc378b1",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Ottawa County Begins Citizen Phone Survey",
+    "date": "2026-07-09",
+    "dateDisplay": "Thu, Jul 9",
+    "time": "",
+    "summary": "From Ottawa County Press Release: Help make Ottawa County a better place by taking 15 minutes to answer the call and provide valuable feedback. Starting this week, Ottawa County adults will have the opportunity to provide input on their satisfaction with local government services, priorities, tax burden, communication preferences, and more by responding to the [&#8230;]",
+    "details": "",
+    "link": "https://chesterottawami.gov/ottawa-county-begins-citizen-phone-survey/?utm_source=rss&utm_medium=rss&utm_campaign=ottawa-county-begins-citizen-phone-survey",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-17T12:16:30.045294+00:00"
   },
   {
     "id": "ab678891de82afdd",
