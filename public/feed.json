@@ -38,6 +38,24 @@
     "scrapedAt": "2026-07-17T12:16:30.045192+00:00"
   },
   {
+    "id": "9fcba2a0aa84edfe",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/071426ParksMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-18T11:58:16.633262+00:00"
+  },
+  {
     "id": "505f06009c001efe",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -130,6 +148,24 @@
     "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
     "parcels": [],
     "scrapedAt": "2026-07-10T13:15:52.094136+00:00"
+  },
+  {
+    "id": "19d65a2bd784e133",
+    "county": "Allegan",
+    "source": "Fillmore Township Planning Commission",
+    "title": "July 14",
+    "date": "2026-07-14",
+    "dateDisplay": "Tue, Jul 14",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-18T11:57:28.899011+00:00"
   },
   {
     "id": "2c732e3c19732cfd",
