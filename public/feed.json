@@ -1,5 +1,23 @@
 [
   {
+    "id": "33e219dcb2f1a973",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "August 5, 2026",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/080526-PC-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-21T12:27:21.578723+00:00"
+  },
+  {
     "id": "65e2d414e6e1a143",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -18,6 +36,24 @@
     "pdfItems": "\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan\n\u2022 City of Hudsonville Master Plan Map Notice",
     "parcels": [],
     "scrapedAt": "2026-07-14T12:20:49.866041+00:00"
+  },
+  {
+    "id": "490da748f6d947e9",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Township Board Public Hearing Baumann PUD \u2013 Rescheduled",
+    "date": "2026-07-20",
+    "dateDisplay": "Mon, Jul 20",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/township-board-public-hearing-baumann-pud-rescheduled/?utm_source=rss&utm_medium=rss&utm_campaign=township-board-public-hearing-baumann-pud-rescheduled",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-21T12:27:44.285510+00:00"
   },
   {
     "id": "0e4e1ef280f5287a",
@@ -2077,27 +2113,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:40.783848+00:00"
-  },
-  {
-    "id": "686718059d4b6a87",
-    "county": "Ottawa",
-    "source": "Crockery Township Planning Commission",
-    "title": "April 21,2026",
-    "date": "2026-04-21",
-    "dateDisplay": "Tue, Apr 21",
-    "time": "",
-    "summary": "B. GRM District Ordinance Text Amendment - Public Hearing\nC. Master Plan Map (Added Discussion, by Planner Bigelow)\nA. Sign Ordinance Review",
-    "details": "",
-    "link": "https://crockerytownship.gov/wp-content/uploads/2026/05/APPROVED-April-21-2026-PC-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "B. GRM District Ordinance Text Amendment - Public Hearing\nC. Master Plan Map (Added Discussion, by Planner Bigelow)\nA. Sign Ordinance Review",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:22.404497+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
