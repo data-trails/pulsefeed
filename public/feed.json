@@ -359,6 +359,26 @@
     "scrapedAt": "2026-07-09T13:52:08.587032+00:00"
   },
   {
+    "id": "e219f6679e018893",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Draft Minutes",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Minutes-07-08-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "parcels": [],
+    "scrapedAt": "2026-07-22T12:44:13.557230+00:00"
+  },
+  {
     "id": "23e713956e222ba2",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -411,6 +431,28 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-03T13:02:46.120923+00:00"
+  },
+  {
+    "id": "634c7d1a9ee61af0",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-07-07",
+    "dateDisplay": "Tue, Jul 7",
+    "time": "",
+    "summary": "49424. Works closely with Paradigm Dog School for years. She is in favor of the special use\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1438-draft-minutes-july-7-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "49424. Works closely with Paradigm Dog School for years. She is in favor of the special use\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "parcels": [
+      "70-16-08-300-026"
+    ],
+    "scrapedAt": "2026-07-22T12:45:33.307698+00:00"
   },
   {
     "id": "e1f624a9add3cbec",
@@ -2075,44 +2117,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:02.089459+00:00"
-  },
-  {
-    "id": "662774c4dcecb498",
-    "county": "Ottawa",
-    "source": "Port Sheldon Township Planning Commission",
-    "title": "Download",
-    "date": "2026-04-22",
-    "dateDisplay": "Wed, Apr 22",
-    "time": "",
-    "summary": "2. Andy Moore stated that the request is to rezone back to AG instead of R1. The zoning\n3. Motion to recommend to the township board to rezone property from R1 to AG.\n2. Grittey asked about the noise ordinance but Moore said that existing ordinance prohibits\n3. Moore stated there lsn't a great regulatory issue here in terms of zoning, but it may be a",
-    "details": "",
-    "link": "https://www.portsheldontwp.org/wp-content/uploads/2026/06/Signed-PC-Meeting-Minutes-for-April-22-2026.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "2. Andy Moore stated that the request is to rezone back to AG instead of R1. The zoning\n3. Motion to recommend to the township board to rezone property from R1 to AG.\n2. Grittey asked about the noise ordinance but Moore said that existing ordinance prohibits\n3. Moore stated there lsn't a great regulatory issue here in terms of zoning, but it may be a",
-    "parcels": [],
-    "scrapedAt": "2026-06-08T14:51:40.350334+00:00"
-  },
-  {
-    "id": "1e1587b5f6994de0",
-    "county": "Ottawa",
-    "source": "Port Sheldon Township Planning Commission",
-    "title": "Township Request for EPA Public Hearing \u2013 Deep Injection Well Permit",
-    "date": "2026-04-22",
-    "dateDisplay": "Wed, Apr 22",
-    "time": "",
-    "summary": "Township Board Requests EPA Public Hearing \u2013 Consumers Energy Deep Injection Well Permit Click here to view formal letter sent to EPA from Township During a recent meeting of the Port Sheldon Township Board of&#8230; READ MORE The post Township Request for EPA Public Hearing \u2013 Deep Injection Well Permit first appeared on Port Sheldon Township .",
-    "details": "",
-    "link": "https://www.portsheldontwp.org/township-request-for-epa-public-hearing-deep-injection-well-permit/",
-    "tag": "Recent",
-    "topics": [
-      "Industrial"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:40.783848+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
