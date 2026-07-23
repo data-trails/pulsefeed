@@ -1,5 +1,27 @@
 [
   {
+    "id": "ea665b77cd56dd0c",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-08-11",
+    "dateDisplay": "Tue, Aug 11",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1439-agenda-august-11-2026/file",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-23-100-108",
+      "70-16-19-300-105",
+      "70-16-21-238-001"
+    ],
+    "scrapedAt": "2026-07-23T12:46:30.177071+00:00"
+  },
+  {
     "id": "33e219dcb2f1a973",
     "county": "Allegan",
     "source": "Otsego Township Planning Commission",
@@ -901,6 +923,26 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-06-12T14:13:37.529324+00:00"
+  },
+  {
+    "id": "945c493ab07d00c6",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-06-10",
+    "dateDisplay": "Wed, Jun 10",
+    "time": "",
+    "summary": "8. Commissioner Comments: ZA Castello said they are hosting a data center seminar with Township",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Minutes-06-10-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Industrial"
+    ],
+    "pdfItems": "8. Commissioner Comments: ZA Castello said they are hosting a data center seminar with Township",
+    "parcels": [],
+    "scrapedAt": "2026-07-23T12:44:57.720156+00:00"
   },
   {
     "id": "b280e61ca9cfdd0c",
