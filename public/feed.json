@@ -40,6 +40,24 @@
     "scrapedAt": "2026-07-21T12:27:21.578723+00:00"
   },
   {
+    "id": "f7e72640710368fd",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "July 21,2026 (Synopsis Minutes)",
+    "date": "2026-07-21",
+    "dateDisplay": "Tue, Jul 21",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/07/July-21-2026-Synopsis-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-24T12:25:25.222529+00:00"
+  },
+  {
     "id": "65e2d414e6e1a143",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -2143,22 +2161,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.345215+00:00"
-  },
-  {
-    "id": "6378900ff4d5b357",
-    "county": "Ottawa",
-    "source": "Blendon Township Planning Commission",
-    "title": "NOTICE OF PUBLIC HEARING PLANNING COMMISSION MAY 11th",
-    "date": "2026-04-24",
-    "dateDisplay": "Fri, Apr 24",
-    "time": "",
-    "summary": "View Notice",
-    "details": "",
-    "link": "https://www.blendontownship-mi.gov/notice-of-public-hearing-planning-commission-may-11th/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-planning-commission-may-11th",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:02.089459+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
