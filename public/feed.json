@@ -22,6 +22,26 @@
     "scrapedAt": "2026-07-23T12:46:30.177071+00:00"
   },
   {
+    "id": "bc064c2397f489eb",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/080526PCAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "parcels": [],
+    "scrapedAt": "2026-07-26T12:09:17.555777+00:00"
+  },
+  {
     "id": "33e219dcb2f1a973",
     "county": "Allegan",
     "source": "Otsego Township Planning Commission",
