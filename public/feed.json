@@ -81,6 +81,24 @@
     "scrapedAt": "2026-07-21T12:27:21.578723+00:00"
   },
   {
+    "id": "27680d720d9419df",
+    "county": "Allegan",
+    "source": "Allegan Township Planning Commission",
+    "title": "August 3rd, 2026 Board Meeting Agenda",
+    "date": "2026-07-31",
+    "dateDisplay": "Fri, Jul 31",
+    "time": "",
+    "summary": "View Agenda",
+    "details": "",
+    "link": "https://allegantownship.org/august-3rd-2026-board-meeting-agenda/?utm_source=rss&utm_medium=rss&utm_campaign=august-3rd-2026-board-meeting-agenda",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-03T13:44:05.593507+00:00"
+  },
+  {
     "id": "2e6e9bfd51225ccd",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -826,6 +844,26 @@
       "70-11-12-100-031"
     ],
     "scrapedAt": "2026-07-03T13:02:09.475694+00:00"
+  },
+  {
+    "id": "fbfe0b1d7f4acdbf",
+    "county": "Allegan",
+    "source": "Ganges Township Planning Commission",
+    "title": "Planning Commission - June 23, 2026.pdf",
+    "date": "2026-06-23",
+    "dateDisplay": "Tue, Jun 23",
+    "time": "",
+    "summary": "3) Amend Zoning Ordinance\nG. Cotton wondered if the Brewpub hours could be changed in the Zoning",
+    "details": "",
+    "link": "https://www.gangestownship.org/public-documents/6_23_26 PC Reg Meeting Minutes APPROVED.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "3) Amend Zoning Ordinance\nG. Cotton wondered if the Brewpub hours could be changed in the Zoning",
+    "parcels": [],
+    "scrapedAt": "2026-08-03T13:55:40.581627+00:00"
   },
   {
     "id": "06eebe4cf5b73419",
@@ -1601,6 +1639,26 @@
     "scrapedAt": "2026-05-16T00:28:24.544079+00:00"
   },
   {
+    "id": "078212571ae74179",
+    "county": "Allegan",
+    "source": "Ganges Township Planning Commission",
+    "title": "Planning Commission - May 26, 2026.pdf",
+    "date": "2026-05-26",
+    "dateDisplay": "Tue, May 26",
+    "time": "",
+    "summary": "V. Public Hearing \u2013 CANCELLED: Zoning Ordinance Amendments",
+    "details": "",
+    "link": "https://www.gangestownship.org/public-documents/5_26_26 PC Reg Meeting Minutes APPROVED.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "V. Public Hearing \u2013 CANCELLED: Zoning Ordinance Amendments",
+    "parcels": [],
+    "scrapedAt": "2026-08-03T13:55:39.191480+00:00"
+  },
+  {
     "id": "865303720889800c",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -2284,24 +2342,6 @@
     ],
     "pdfItems": "1. REZONE REQUEST \u2013 Hammond\n2. SPECIAL LAND USE REQUEST \u2013 Siebelink\n1. SPECIAL USE \u2013 Starr Hollow Event Center/Schafer\n3. Ordinance updates \u2013 Planned Unit Development\n4. PUBLIC HEARING \u2013 Short-term Rental Moratorium",
     "scrapedAt": "2026-05-16T00:27:38.096569+00:00"
-  },
-  {
-    "id": "89856e7aa0e0ee2a",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "May 4, 2026",
-    "date": "2026-05-04",
-    "dateDisplay": "Mon, May 4",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/06/05.04.2026-APPROVED-PC-Meeting-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-11T14:48:24.346420+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
