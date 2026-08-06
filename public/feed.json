@@ -43,6 +43,49 @@
     "scrapedAt": "2026-07-30T12:48:49.715359+00:00"
   },
   {
+    "id": "7d630494e3f9195c",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 6, 2026 Township Board Agenda",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "parcels": [],
+    "scrapedAt": "2026-08-06T13:00:05.441600+00:00"
+  },
+  {
+    "id": "7cea16356ac54811",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "August 12, 2026 Board Meeting Agenda and Packet",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "Download The post August 12, 2026 Board Meeting Agenda and Packet first appeared on Port Sheldon Township .",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/august-12-2026-board-meeting-agenda-and-packet/",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Industrial",
+      "Zoning"
+    ],
+    "pdfItems": "10. Discuss \u2013 Additional Parking Signage for Windsnest Park*\n11. Consider \u2013 Redirecting Proposed Zoning Amendments back to Planning Commission*\n12. Consider \u2013 Garbage Collection Ordinance*",
+    "parcels": [],
+    "scrapedAt": "2026-08-06T13:00:36.009248+00:00"
+  },
+  {
     "id": "4b413bb1fa3befb6",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -2209,42 +2252,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:40.783667+00:00"
-  },
-  {
-    "id": "c263e14e6abe813e",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "May 7, 2026 Township Board Minutes",
-    "date": "2026-05-07",
-    "dateDisplay": "Thu, May 7",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/May-7-2026-Township-Board-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-09T13:46:23.386354+00:00"
-  },
-  {
-    "id": "2bb79c3597823d5e",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "May 7, 2026 Township Board Agenda",
-    "date": "2026-05-07",
-    "dateDisplay": "Thu, May 7",
-    "time": "",
-    "summary": "3. Data Center",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/May-7-2026-Township-Board-Agenda.pdf",
-    "tag": "Recent",
-    "topics": [
-      "Industrial"
-    ],
-    "pdfItems": "3. Data Center",
-    "scrapedAt": "2026-05-16T00:27:16.742072+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
