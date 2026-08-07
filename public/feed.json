@@ -1,5 +1,25 @@
 [
   {
+    "id": "463e3097c99ffd5b",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "September 1, 2026 ZBA Board Agenda",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "time": "",
+    "summary": "5. Evaluate criteria for a variance",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/September-1-2026-ZBA-Board-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "5. Evaluate criteria for a variance",
+    "parcels": [],
+    "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
+  },
+  {
     "id": "ea665b77cd56dd0c",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -43,6 +63,46 @@
     "scrapedAt": "2026-07-30T12:48:49.715359+00:00"
   },
   {
+    "id": "618a1c299f9ffa7f",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Notice Zoning Board of Appeals Variance Request for 471 105th Ave.",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-notice-zoning-board-of-appeals-variance-request-for-471-105th-ave/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-07T11:50:04.914990+00:00"
+  },
+  {
+    "id": "6f607dd917b40137",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Notice Zoning Board of Appeals Variance Request for 995 106th Ave.",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-notice-zoning-board-of-appeals-variance-request-for-995-106th-ave/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-07T11:50:04.915045+00:00"
+  },
+  {
     "id": "7d630494e3f9195c",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -63,6 +123,26 @@
     "pdfItems": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
     "parcels": [],
     "scrapedAt": "2026-08-06T13:00:05.441600+00:00"
+  },
+  {
+    "id": "409c2132756152bc",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda Update",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCAgendaUPDATE.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "parcels": [],
+    "scrapedAt": "2026-08-07T11:50:29.105806+00:00"
   },
   {
     "id": "7cea16356ac54811",
