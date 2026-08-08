@@ -20,6 +20,26 @@
     "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
   },
   {
+    "id": "972371c217e8206c",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Agenda 2026-08-18",
+    "date": "2026-08-18",
+    "dateDisplay": "Tue, Aug 18",
+    "time": "",
+    "summary": "\u2022 Text Amendments",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/08/Planning-Commission-Agenda-2026-08-18.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Text Amendments",
+    "parcels": [],
+    "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
+  },
+  {
     "id": "ea665b77cd56dd0c",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -42,6 +62,24 @@
     "scrapedAt": "2026-07-23T12:46:30.177071+00:00"
   },
   {
+    "id": "d8e828cad3af4789",
+    "county": "Allegan",
+    "source": "Heath Township Planning Commission",
+    "title": "August 10, 2026 Meeting Agenda",
+    "date": "2026-08-10",
+    "dateDisplay": "Mon, Aug 10",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://heathtownship.net/wp-content/uploads/2026/08/agenda-for-August-2026.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-08T11:34:36.326661+00:00"
+  },
+  {
     "id": "81f627530fe4faa8",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -61,6 +99,84 @@
     "pdfItems": "5. Heron Energy Storage LLC. Special Land Use Permit and Site Plan",
     "parcels": [],
     "scrapedAt": "2026-07-30T12:48:49.715359+00:00"
+  },
+  {
+    "id": "084dd3c42b918829",
+    "county": "Allegan",
+    "source": "Heath Township Planning Commission",
+    "title": "August 10, 2026 Township Board Meeting",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
+    "time": "",
+    "summary": "August 10, 2026 Meeting Agenda",
+    "details": "",
+    "link": "https://heathtownship.net/august-10-2026-township-board-meeting/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-08T11:34:30.183374+00:00"
+  },
+  {
+    "id": "82743c066e653c35",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Board Meeting August 10",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
+    "time": "",
+    "summary": "View Packet View Agenda Join: https://teams.microsoft.com/meet/23486100713887?p=KRDDrJkv3AWlzF5LEW Meeting ID: 234 861 007 138 87 Passcode: 7kw35Hz2",
+    "details": "",
+    "link": "https://chesterottawami.gov/board-meeting-august-10/?utm_source=rss&utm_medium=rss&utm_campaign=board-meeting-august-10",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-08T11:36:32.375386+00:00"
+  },
+  {
+    "id": "08b2ae4f81c12763",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Kaminski Dimensional Variance",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
+    "time": "",
+    "summary": "Public Hearing Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/kaminski-dimensional-variance/?utm_source=rss&utm_medium=rss&utm_campaign=kaminski-dimensional-variance",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 A retaining wall measuring 5-foot in height at a 25\u2019 5\u201d front yard setback\n\u2022 A 6-foot tall retaining wall with a zero-foot southern side yard setback\n\u2022 Retaining walls measuring 4-feet, 4-feet, and 3-feet at zero foot setbacks",
+    "parcels": [
+      "70-03-36-303-025"
+    ],
+    "scrapedAt": "2026-08-08T11:36:39.402346+00:00"
+  },
+  {
+    "id": "bc173bf96f69b44e",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Rambo Dimensional Variance",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
+    "time": "",
+    "summary": "Public Hearing Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/rambo-dimensional-variance/?utm_source=rss&utm_medium=rss&utm_campaign=rambo-dimensional-variance",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-08T11:36:39.402394+00:00"
   },
   {
     "id": "618a1c299f9ffa7f",
