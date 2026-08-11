@@ -40,6 +40,24 @@
     "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
   },
   {
+    "id": "322ab2630bab668e",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-12",
+    "dateDisplay": "Wed, Aug 12",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081226Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:49:34.282958+00:00"
+  },
+  {
     "id": "ea665b77cd56dd0c",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -60,6 +78,26 @@
       "70-16-21-238-001"
     ],
     "scrapedAt": "2026-07-23T12:46:30.177071+00:00"
+  },
+  {
+    "id": "9545b89d2a9dac90",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "September 2, 2026 Notice of Public Hearing \u2013 Port Sheldon Township Zoning Board of Appeals",
+    "date": "2026-08-10",
+    "dateDisplay": "Mon, Aug 10",
+    "time": "",
+    "summary": "NOTICE OF PUBLIC HEARING PORT SHELDON TOWNSHIP ZONING BOARD OF APPEALS Please take notice that a Public Hearing will be held on Wednesday, September 2, 2026, at 5:30 pm at the Port Sheldon Township Hall&#8230; READ MORE The post September 2, 2026 Notice of Public Hearing \u2013 Port Sheldon Township Zoning Board of Appeals first appeared on Port Sheldon Township .",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/september-2-2026-notice-of-public-hearing-port-sheldon-township-zoning-board-of-appeals/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:50:25.259606+00:00"
   },
   {
     "id": "d8e828cad3af4789",
@@ -239,6 +277,24 @@
     "pdfItems": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
     "parcels": [],
     "scrapedAt": "2026-08-06T13:00:05.441600+00:00"
+  },
+  {
+    "id": "7a84e6573a664aca",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081226BdMinutes080526.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:49:35.211463+00:00"
   },
   {
     "id": "409c2132756152bc",
@@ -674,6 +730,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-11T11:57:52.963733+00:00"
+  },
+  {
+    "id": "97a147cd2aa63003",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - July 2026",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/July 13 2026 Regular Meeting Minutes- UNOFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:50:42.446182+00:00"
   },
   {
     "id": "2878856550c150d9",
@@ -1473,6 +1547,27 @@
     "scrapedAt": "2026-06-05T13:54:56.880811+00:00"
   },
   {
+    "id": "8818ff16683bfcf5",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - June 2026",
+    "date": "2026-06-08",
+    "dateDisplay": "Mon, Jun 8",
+    "time": "",
+    "summary": "\u2022 Capital improvements to public safety buildings/structures\"\n- Adjustment of the cost structure to allow for simpler logistics, the overall cost to",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/June 8 2026 Regular Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "\u2022 Capital improvements to public safety buildings/structures\"\n- Adjustment of the cost structure to allow for simpler logistics, the overall cost to",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:50:41.532334+00:00"
+  },
+  {
     "id": "8da08bc63aa21930",
     "county": "Allegan",
     "source": "Lee Township Planning Commission",
@@ -2262,104 +2357,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:27:44.223883+00:00"
-  },
-  {
-    "id": "550e492a027c8178",
-    "county": "Allegan",
-    "source": "Fillmore Township Planning Commission",
-    "title": "May 12",
-    "date": "2026-05-12",
-    "dateDisplay": "Tue, May 12",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://fillmoretownship.org/wp-content/uploads/2026/06/May-12-2026-Board-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-07T12:24:05.330813+00:00"
-  },
-  {
-    "id": "3634bb0b08053b23",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-05-12",
-    "dateDisplay": "Tue, May 12",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1403-agenda-may-12-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-09-100-012",
-      "70-16-22-271-011",
-      "70-16-21-100-046",
-      "70-16-21-100-045"
-    ],
-    "scrapedAt": "2026-05-21T17:22:26.103452+00:00"
-  },
-  {
-    "id": "3d1d0008c04e4163",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-05-12",
-    "dateDisplay": "Tue, May 12",
-    "time": "",
-    "summary": "4. Mixed use development projects and/or mixed use buildings;\n7. Minimal adverse traffic impacts and accommodate safe and efficient pedestrian",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1409-draft-minutes-may-12-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Housing"
-    ],
-    "pdfItems": "4. Mixed use development projects and/or mixed use buildings;\n7. Minimal adverse traffic impacts and accommodate safe and efficient pedestrian",
-    "parcels": [
-      "70-16-09-100-012",
-      "70-16-22-271-011"
-    ],
-    "scrapedAt": "2026-05-21T17:22:31.318541+00:00"
-  },
-  {
-    "id": "b5b375c33999956c",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "First Reading \u2013 Proposed Zoning Ordinance Amendment",
-    "date": "2026-05-12",
-    "dateDisplay": "Tue, May 12",
-    "time": "",
-    "summary": "First Reading Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/first-reading-proposed-zoning-ordinance-amendment/?utm_source=rss&utm_medium=rss&utm_campaign=first-reading-proposed-zoning-ordinance-amendment",
-    "tag": "Recent",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:12.345084+00:00"
-  },
-  {
-    "id": "ec7b10b54bd747f4",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Planning Commission Meeting Cancelled May 18th",
-    "date": "2026-05-12",
-    "dateDisplay": "Tue, May 12",
-    "time": "",
-    "summary": "Cancellation Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/planning-commission-meeting-cancelled-may-18th/?utm_source=rss&utm_medium=rss&utm_campaign=planning-commission-meeting-cancelled-may-18th",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:12.345156+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
