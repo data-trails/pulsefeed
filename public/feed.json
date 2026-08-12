@@ -40,6 +40,24 @@
     "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
   },
   {
+    "id": "9defed65c5f21f1d",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda,",
+    "date": "2026-08-12",
+    "dateDisplay": "Wed, Aug 12",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/08/PC-Agenda-8-12-26-1.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-12T11:58:08.587473+00:00"
+  },
+  {
     "id": "322ab2630bab668e",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -56,6 +74,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-08-11T11:49:34.282958+00:00"
+  },
+  {
+    "id": "5592209df60e5d65",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "8/24/26 Public Hearing \u2013 Increasing Property Taxes",
+    "date": "2026-08-11",
+    "dateDisplay": "Tue, Aug 11",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/8-24-26-public-hearing-increasing-property-taxes/?utm_source=rss&utm_medium=rss&utm_campaign=8-24-26-public-hearing-increasing-property-taxes",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-12T11:58:58.227204+00:00"
   },
   {
     "id": "ea665b77cd56dd0c",
@@ -730,6 +766,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-11T11:57:52.963733+00:00"
+  },
+  {
+    "id": "930f09ab6a6c3142",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - July 2026",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/July 13 2026 Regular Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-12T12:04:23.349819+00:00"
   },
   {
     "id": "97a147cd2aa63003",
@@ -2325,38 +2379,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:29:12.344907+00:00"
-  },
-  {
-    "id": "5c3be836c48effa9",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-05-13",
-    "dateDisplay": "Wed, May 13",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/05/051326Agenda.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:42.854938+00:00"
-  },
-  {
-    "id": "4b6aeeea89c4de84",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-05-13",
-    "dateDisplay": "Wed, May 13",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/05/051326BoardMinutes.pdf",
-    "tag": "Recent",
-    "topics": [],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:44.223883+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
