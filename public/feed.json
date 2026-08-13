@@ -40,6 +40,24 @@
     "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
   },
   {
+    "id": "423d5f00d564a1e2",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-13",
+    "dateDisplay": "Thu, Aug 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/081326GFDBoardAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-13T11:53:07.385839+00:00"
+  },
+  {
     "id": "9defed65c5f21f1d",
     "county": "Allegan",
     "source": "Leighton Township Planning Commission",
@@ -315,6 +333,26 @@
     "scrapedAt": "2026-08-06T13:00:05.441600+00:00"
   },
   {
+    "id": "939049e1a3009f75",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "parcels": [],
+    "scrapedAt": "2026-08-13T11:53:06.296558+00:00"
+  },
+  {
     "id": "7a84e6573a664aca",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -582,6 +620,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-17T12:16:30.045192+00:00"
+  },
+  {
+    "id": "9d14c2df647255b7",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Jul 15, 2026 \u2014\u2009Posted Jul 10, 2026 11:53 AM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previo",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_07152026-1695",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-13T11:54:25.598375+00:00"
   },
   {
     "id": "9fcba2a0aa84edfe",
@@ -2361,24 +2417,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:27:31.996445+00:00"
-  },
-  {
-    "id": "f85298c4ad557dbe",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "6/1/26 PC Public Hearing \u2013 Lusher Rezoning",
-    "date": "2026-05-14",
-    "dateDisplay": "Thu, May 14",
-    "time": "",
-    "summary": "View Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/6-1-26-pc-public-hearing-lusher-rezoning/?utm_source=rss&utm_medium=rss&utm_campaign=6-1-26-pc-public-hearing-lusher-rezoning",
-    "tag": "Recent",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:29:12.344907+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
