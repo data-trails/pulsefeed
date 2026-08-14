@@ -1,5 +1,27 @@
 [
   {
+    "id": "ebb1df7dbe39c524",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1443-agenda-september-1-2026/file",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-16-451-005",
+      "70-16-09-100-012",
+      "70-16-21-238-001"
+    ],
+    "scrapedAt": "2026-08-14T11:50:25.937035+00:00"
+  },
+  {
     "id": "463e3097c99ffd5b",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -38,6 +60,48 @@
     "pdfItems": "\u2022 Text Amendments",
     "parcels": [],
     "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
+  },
+  {
+    "id": "f53145406c1f683a",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Notice for Zoning Board of Appeals Variance Request for 596 10th Street",
+    "date": "2026-08-13",
+    "dateDisplay": "Thu, Aug 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-notice-for-zoning-board-of-appeals-variance-request-for-596-10th-street/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-14T11:49:38.270983+00:00"
+  },
+  {
+    "id": "73c89c7931f389d6",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Public Notice for Zoning Board of Appeals Variance Request for 559 10th Street",
+    "date": "2026-08-13",
+    "dateDisplay": "Thu, Aug 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/public-notice-for-zoning-board-of-appeals-variance-request-for-559-10th-street/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-14T11:49:38.271040+00:00"
   },
   {
     "id": "423d5f00d564a1e2",
@@ -2398,25 +2462,6 @@
     ],
     "pdfItems": "",
     "scrapedAt": "2026-05-19T13:57:54.838638+00:00"
-  },
-  {
-    "id": "99bcc55947e00f16",
-    "county": "Allegan",
-    "source": "Hopkins Township Planning Commission",
-    "title": "JUNE 11 SOLAR MEETING",
-    "date": "2026-05-15",
-    "dateDisplay": "Fri, May 15",
-    "time": "",
-    "summary": "There will be a public meeting held by Northstar Clean Energy on June 11th at 5:30PM at Hopkins United Methodist Church to review the site plan for the proposed solar project. They have chosen to withdraw their applications from both Monterey and Hopkins Township and will be applying through the Michigan Public Service Commission. The following [&#8230;]",
-    "details": "",
-    "link": "https://www.hopkinstownship.org/2026/05/15/june-11-solar-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=june-11-solar-meeting",
-    "tag": "Upcoming",
-    "topics": [
-      "Zoning",
-      "Industrial"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-16T00:27:31.996445+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
