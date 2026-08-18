@@ -42,6 +42,28 @@
     "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
   },
   {
+    "id": "fbc371914a9bbe5a",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 19, 2026 Planning Commission Agenda",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-19-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "scrapedAt": "2026-08-18T11:33:09.020821+00:00"
+  },
+  {
     "id": "e0b2f269b99fc3ad",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -997,6 +1019,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-10T13:16:49.471284+00:00"
+  },
+  {
+    "id": "cca8fcf4c8007c15",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "July 9, 2026 Township Board Minutes",
+    "date": "2026-07-09",
+    "dateDisplay": "Thu, Jul 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/July-9-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-18T11:33:07.865531+00:00"
   },
   {
     "id": "796a9b2defc378b1",
@@ -2385,101 +2425,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-19T13:57:58.107459+00:00"
-  },
-  {
-    "id": "cd9ef8040929664b",
-    "county": "Ottawa",
-    "source": "Crockery Township Planning Commission",
-    "title": "May 19,2026",
-    "date": "2026-05-19",
-    "dateDisplay": "Tue, May 19",
-    "time": "",
-    "summary": "A. Marina Expansion - Final Site Plan Review\nA. Sign Ordinance Amendment Review",
-    "details": "",
-    "link": "https://crockerytownship.gov/wp-content/uploads/2026/06/APPROVED-May-19-2026-PC-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "A. Marina Expansion - Final Site Plan Review\nA. Sign Ordinance Amendment Review",
-    "parcels": [],
-    "scrapedAt": "2026-07-02T13:03:28.364170+00:00"
-  },
-  {
-    "id": "8a8f07dadf2845d2",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Minutes 2026-05-19",
-    "date": "2026-05-19",
-    "dateDisplay": "Tue, May 19",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/05/Planning-Commission-Minutes-2026-05-19.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-29T14:14:15.906887+00:00"
-  },
-  {
-    "id": "ec669b3cc19a9cb1",
-    "county": "Allegan",
-    "source": "Cheshire Township Planning Commission",
-    "title": "AGENDA",
-    "date": "2026-05-19",
-    "dateDisplay": "Tue, May 19",
-    "time": "",
-    "summary": "8. Zoning Administrator\u2019s Report",
-    "details": "",
-    "link": "https://cheshiretownshipmi.gov/minutes/agendas/May 19 2026.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "8. Zoning Administrator\u2019s Report",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:04.073860+00:00"
-  },
-  {
-    "id": "fcc124d5f6b98f05",
-    "county": "Ottawa",
-    "source": "Crockery Township Planning Commission",
-    "title": "May 19,2026 (Synopsis Minutes)",
-    "date": "2026-05-19",
-    "dateDisplay": "Tue, May 19",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://crockerytownship.gov/wp-content/uploads/2026/05/May-19-2026-Synopsis-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-21T17:22:23.296546+00:00"
-  },
-  {
-    "id": "07288c1a5d279799",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Agenda 2026-05-19",
-    "date": "2026-05-19",
-    "dateDisplay": "Tue, May 19",
-    "time": "",
-    "summary": "\u2022 Text Amendment Draft\n\u2022 Special Use Request",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/05/Planning-Commission-Agenda-2026-05-19.pdf",
-    "tag": "Upcoming",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Text Amendment Draft\n\u2022 Special Use Request",
-    "scrapedAt": "2026-05-16T00:29:28.679120+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
