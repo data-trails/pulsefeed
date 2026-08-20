@@ -216,6 +216,24 @@
     "scrapedAt": "2026-08-13T11:53:07.385839+00:00"
   },
   {
+    "id": "e4e52199c1841394",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-12",
+    "dateDisplay": "Wed, Aug 12",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/081226BoardMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-20T11:32:52.396448+00:00"
+  },
+  {
     "id": "315b27461484f18f",
     "county": "Allegan",
     "source": "Leighton Township Planning Commission",
@@ -2377,24 +2395,6 @@
     "pdfItems": "V. Public Hearing \u2013 CANCELLED: Zoning Ordinance Amendments",
     "parcels": [],
     "scrapedAt": "2026-08-03T13:55:39.191480+00:00"
-  },
-  {
-    "id": "865303720889800c",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "5/27/26 Zoning Board of Appeals Cancelled",
-    "date": "2026-05-21",
-    "dateDisplay": "Thu, May 21",
-    "time": "",
-    "summary": "View Announcement",
-    "details": "",
-    "link": "https://ghtmi.gov/5-27-26-zoning-board-of-appeals-cancelled/?utm_source=rss&utm_medium=rss&utm_campaign=5-27-26-zoning-board-of-appeals-cancelled",
-    "tag": "Upcoming",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "scrapedAt": "2026-05-21T14:17:31.596399+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
