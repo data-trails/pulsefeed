@@ -60,6 +60,49 @@
     "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
   },
   {
+    "id": "f7f9f184aae7f38a",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Notice of Adoption \u2013 Zoning Ordinance Amendment",
+    "date": "2026-08-20",
+    "dateDisplay": "Thu, Aug 20",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://chesterottawami.gov/notice-of-adoption-zoning-ordinance-amendment/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-adoption-zoning-ordinance-amendment",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-21T11:38:09.082001+00:00"
+  },
+  {
+    "id": "ae8c66ee3e61e98d",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Planning Commission Meeting August 24",
+    "date": "2026-08-20",
+    "dateDisplay": "Thu, Aug 20",
+    "time": "",
+    "summary": "View Packet View Agenda Join: https://teams.microsoft.com/meet/262370580726662?p=uJWJ5lWGszlsLj8im5 Meeting ID: 262 370 580 726 662 Passcode: TR92tr2j",
+    "details": "",
+    "link": "https://chesterottawami.gov/planning-commission-meeting-august-24/?utm_source=rss&utm_medium=rss&utm_campaign=planning-commission-meeting-august-24",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Industrial",
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Battery Energy Storage Systems Review- Utility Scale\n\u2022 Data Center Review (Tabled at previous meeting after discussion)\n\u2022 Zoning Board of Appeals report - PC Rep Jon Denhof\n\u2022 Zoning Report",
+    "parcels": [
+      "70-01-32-100-024"
+    ],
+    "scrapedAt": "2026-08-21T11:38:09.082108+00:00"
+  },
+  {
     "id": "32b692e0d93316c3",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
