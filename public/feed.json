@@ -181,6 +181,26 @@
     "scrapedAt": "2026-08-16T11:25:53.249630+00:00"
   },
   {
+    "id": "77b213fc7060ee51",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Minutes 2026-08-18",
+    "date": "2026-08-18",
+    "dateDisplay": "Tue, Aug 18",
+    "time": "",
+    "summary": "\u2022 Text Amendments",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/08/Planning-Commission-Minutes-2026-08-18.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "\u2022 Text Amendments",
+    "parcels": [],
+    "scrapedAt": "2026-08-25T11:35:29.264929+00:00"
+  },
+  {
     "id": "972371c217e8206c",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -1998,6 +2018,87 @@
     "scrapedAt": "2026-06-15T16:21:56.034852+00:00"
   },
   {
+    "id": "791e76b32ad37e0f",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing 06/18/2026 Permaloc IFT Exemption",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-06-18-2026-permaloc-ift-exemption/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-06-18-2026-permaloc-ift-exemption",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-25T11:35:33.211082+00:00"
+  },
+  {
+    "id": "a35ce0e2d94aa0ad",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing 04/07/2026",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-04-07-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-04-07-2026",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "A. A request from Donald and Bonita Hamstra, property owners at 10283 Polk Street, also known as parcel",
+    "parcels": [
+      "70-12-12-300-021",
+      "70-12-02-100-027"
+    ],
+    "scrapedAt": "2026-08-25T11:35:33.211140+00:00"
+  },
+  {
+    "id": "5e66c5759e326234",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Zoning Ordinance Amendments 02/19/2026",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-zoning-ordinance-amendments-02-19-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-zoning-ordinance-amendments-02-19-2026",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. ORDINANCE NO. 2026-01\nB. ORDINANCE NO. 2026-02",
+    "parcels": [],
+    "scrapedAt": "2026-08-25T11:35:33.211205+00:00"
+  },
+  {
+    "id": "a2b335c508f145b8",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Zoning Ordinance Amendment 12/18/2025",
+    "date": "2026-06-04",
+    "dateDisplay": "Thu, Jun 4",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-zoning-ordinance-amendment-12-18-2025/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-zoning-ordinance-amendment-12-18-2025",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-25T11:35:33.211253+00:00"
+  },
+  {
     "id": "d5513389a31149f1",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -2438,26 +2539,6 @@
     "topics": [],
     "pdfItems": "",
     "scrapedAt": "2026-05-16T00:28:24.544079+00:00"
-  },
-  {
-    "id": "078212571ae74179",
-    "county": "Allegan",
-    "source": "Ganges Township Planning Commission",
-    "title": "Planning Commission - May 26, 2026.pdf",
-    "date": "2026-05-26",
-    "dateDisplay": "Tue, May 26",
-    "time": "",
-    "summary": "V. Public Hearing \u2013 CANCELLED: Zoning Ordinance Amendments",
-    "details": "",
-    "link": "https://www.gangestownship.org/public-documents/5_26_26 PC Reg Meeting Minutes APPROVED.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "V. Public Hearing \u2013 CANCELLED: Zoning Ordinance Amendments",
-    "parcels": [],
-    "scrapedAt": "2026-08-03T13:55:39.191480+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
