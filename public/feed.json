@@ -18,6 +18,42 @@
     "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
   },
   {
+    "id": "1e97e762aa8f3b4c",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Planning Commission Regular Meeting Cancelled",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_09022026-1704",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-27T20:59:12.936294+00:00"
+  },
+  {
+    "id": "5621e8d63abda380",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Sep 2, 2026 \u2014\u2009Posted Aug 26, 2026 10:13 AM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09022026-1704",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-27T20:59:13.925008+00:00"
+  },
+  {
     "id": "b3bfbf38712c1bd1",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -80,6 +116,28 @@
     "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
   },
   {
+    "id": "bdb7ffb3f65d2be1",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing Olive Township Planning Commission September 01, 2026",
+    "date": "2026-08-27",
+    "dateDisplay": "Thu, Aug 27",
+    "time": "",
+    "summary": "&#160; View the Notice of Public Hearing to expand Special Land Use here",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-september-01-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-september-01-2026",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. Public Hearing for a request from Amy Kotsier, Property Owner, to expand an existing Special Land Use at\nB. A proposed amendment to Article 16A of the Olive Township Zoning Ordinance as it pertains to the\nC. A proposed amendment to Section 3.22 of the Olive Township Zoning Ordinance as it pertains to the",
+    "parcels": [
+      "70-12-22-200-022"
+    ],
+    "scrapedAt": "2026-08-27T20:58:42.633791+00:00"
+  },
+  {
     "id": "f7f9f184aae7f38a",
     "county": "Ottawa",
     "source": "Chester Township Planning Commission",
@@ -121,6 +179,24 @@
       "70-01-32-100-024"
     ],
     "scrapedAt": "2026-08-21T11:38:09.082108+00:00"
+  },
+  {
+    "id": "50629157ef00113f",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Aug 19, 2026 \u2014\u2009Posted Aug 18, 2026 12:21 PM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previo",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_08192026-1701",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-27T20:59:15.671900+00:00"
   },
   {
     "id": "40a714d35d1d7dc0",
@@ -2427,46 +2503,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-05-30T12:07:40.856941+00:00"
-  },
-  {
-    "id": "88c51554a79103e1",
-    "county": "Ottawa",
-    "source": "Spring Lake Township Planning Commission",
-    "title": "Code Enforcement Officer Employment Posting",
-    "date": "2026-05-28",
-    "dateDisplay": "Thu, May 28",
-    "time": "",
-    "summary": "Code Enforcement Officer The Village of Spring Lake, Spring Lake Township, and the City of Ferrysburg seek a part-time Code Enforcement Officer to conduct on-site inspections and investigate potential violations of state and local codes, ordinances, and standards related to the health, safety, and welfare of residents. Responsibilities include proactive enforcement of zoning and general [&#8230;]",
-    "details": "",
-    "link": "https://springlaketwp.org/code-enforcement-officer-employment-posting/",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-30T12:08:36.072421+00:00"
-  },
-  {
-    "id": "ec7f931d5f4ed147",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Second Reading \u2013 Proposed Zoning Ordinance Amendment",
-    "date": "2026-05-28",
-    "dateDisplay": "Thu, May 28",
-    "time": "",
-    "summary": "Second Reading Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/second-reading-proposed-zoning-ordinance-amendment/?utm_source=rss&utm_medium=rss&utm_campaign=second-reading-proposed-zoning-ordinance-amendment",
-    "tag": "Upcoming",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-28T14:42:45.119147+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
