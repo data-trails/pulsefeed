@@ -18,6 +18,24 @@
     "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
   },
   {
+    "id": "1e9973eb88e8101f",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/090226BdAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-28T21:20:40.714029+00:00"
+  },
+  {
     "id": "1e97e762aa8f3b4c",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
@@ -2485,24 +2503,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-07-10T13:16:50.848128+00:00"
-  },
-  {
-    "id": "d0be9bce6a9cb7f5",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Township staff recommends closing compost operations",
-    "date": "2026-05-29",
-    "dateDisplay": "Fri, May 29",
-    "time": "",
-    "summary": "Public hearing on June 3 to address bad odors from Cocoa Corp., what to do next.",
-    "details": "",
-    "link": "https://laketowntwp.org/township-staff-recommends-closing-compost-operations/",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-05-30T12:07:40.856941+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
