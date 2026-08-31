@@ -940,6 +940,26 @@
     "scrapedAt": "2026-07-30T12:48:43.010785+00:00"
   },
   {
+    "id": "a5919f93595789eb",
+    "county": "Allegan",
+    "source": "Ganges Township Planning Commission",
+    "title": "Planning Commission - July 28, 2026.pdf",
+    "date": "2026-07-28",
+    "dateDisplay": "Tue, Jul 28",
+    "time": "",
+    "summary": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI",
+    "details": "",
+    "link": "https://www.gangestownship.org/public-documents/7_28_26 PC Reg Meeting Minutes APPROVED.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI",
+    "parcels": [],
+    "scrapedAt": "2026-08-31T18:00:55.189158+00:00"
+  },
+  {
     "id": "01e5f4cd48660816",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -2485,24 +2505,6 @@
       "70-16-23-100-098"
     ],
     "scrapedAt": "2026-05-21T17:22:25.116551+00:00"
-  },
-  {
-    "id": "512f57bfd9eac862",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "June 1, 2026",
-    "date": "2026-06-01",
-    "dateDisplay": "Mon, Jun 1",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/06.01.2026-APPROVED-amp-AMENDED-PC-Meeting-Minutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-10T13:16:50.848128+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
