@@ -1,5 +1,41 @@
 [
   {
+    "id": "25cba0b8a3a81225",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/09/090926BdAgendaV2.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:49:34.487349+00:00"
+  },
+  {
+    "id": "cebe2b4f323c84a4",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Agenda-9-9-26.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:50:14.344566+00:00"
+  },
+  {
     "id": "a2aca7c9aaf6aab5",
     "county": "Allegan",
     "source": "Otsego Township Planning Commission",
@@ -16,6 +52,111 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
+  },
+  {
+    "id": "67db62f613f07c19",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "9/8/2026 Planning Commission Cancellation",
+    "date": "2026-09-04",
+    "dateDisplay": "Fri, Sep 4",
+    "time": "",
+    "summary": "View Cancellation Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/9-8-2026-planning-commission-cancellation/?utm_source=rss&utm_medium=rss&utm_campaign=9-8-2026-planning-commission-cancellation",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:50:53.434737+00:00"
+  },
+  {
+    "id": "8f6b11ad5ed5da61",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing Olive Township Planning Commission 09/01/2026",
+    "date": "2026-09-04",
+    "dateDisplay": "Fri, Sep 4",
+    "time": "",
+    "summary": "&#160; Read the notice of special meeting here",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-09-01-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-09-01-2026",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. Public Hearing for a request from Amy Kotsier, Property Owner, to expand an existing Special Land Use at\nB. A proposed amendment to Article 16A of the Olive Township Zoning Ordinance as it pertains to the\nC. A proposed amendment to Section 3.22 of the Olive Township Zoning Ordinance as it pertains to the",
+    "parcels": [
+      "70-12-22-200-022"
+    ],
+    "scrapedAt": "2026-09-05T13:51:09.459400+00:00"
+  },
+  {
+    "id": "de1e04ab3a2e1d89",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Packet",
+    "date": "2026-09-03",
+    "dateDisplay": "Thu, Sep 3",
+    "time": "",
+    "summary": "Georgetown Master Plan Draft Notice Dewpointe Application Dewpointe OCRC DewpointeWest5TentativePlatReport DewpointeWestPh5.FVReview MEMO.DewpointePlatPhase5 Preliminary Plat for Dewpointe West Phase 5 DewpointePublicComment DewpointePUDAmend DewpointeWestPUDResolution MEMO.DewpointeWestPUDAmend ZoningMapAmendOrd EmeraldSpringsApplication EmeraldSpringsSitePlanSet MEMO.EmeraldSpringsAmend GLES.FVR",
+    "details": "",
+    "link": "https://allendalemi.gov/packet/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "\u2022 Goal: Concentrate the density of commercial land uses to protect open spaces and rural character\n\u2022 Goal: Promote the development, redevelopment, and rehabilitation of commercial areas to provide\n\u2022 Recommendation: Intensive commercial land uses should have the resources to support such\n\u2022 Recommendation: Require that future commercial development does not intrude upon the residents in\n\u2022 Recommendation: Intensive land uses should be located within the boundaries of the public water and",
+    "parcels": [
+      "70-09-20-300-005",
+      "70-09-20-300-022"
+    ],
+    "scrapedAt": "2026-09-05T13:50:35.390053+00:00"
+  },
+  {
+    "id": "163ead2bcacd5545",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Ritchie Dimensional Variance Township Zoning Board of Appeal Public Hearing",
+    "date": "2026-09-03",
+    "dateDisplay": "Thu, Sep 3",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:50:53.434790+00:00"
+  },
+  {
+    "id": "d9b61423ed79cbaa",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Kessler Dimensional Variance Township Zoning Board of Appeal Public Hearing",
+    "date": "2026-09-03",
+    "dateDisplay": "Thu, Sep 3",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/kessler-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=kessler-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:50:53.434831+00:00"
   },
   {
     "id": "354fc7e379d69716",
@@ -38,6 +179,24 @@
     "pdfItems": "1. Second Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n2. First Read for Ordinance 197 Permitting Accessory Solar Panels and\n3. Data Center",
     "parcels": [],
     "scrapedAt": "2026-09-01T15:26:15.840209+00:00"
+  },
+  {
+    "id": "fc715ab7509cc5f2",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090926BdMinutes090226.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:49:35.520053+00:00"
   },
   {
     "id": "1e9973eb88e8101f",
@@ -523,6 +682,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-08-11T11:49:34.282958+00:00"
+  },
+  {
+    "id": "8091d9baf61a25ec",
+    "county": "Allegan",
+    "source": "Fillmore Township Planning Commission",
+    "title": "August 11",
+    "date": "2026-08-11",
+    "dateDisplay": "Tue, Aug 11",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/09/August-11-2026-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-05T13:48:36.101056+00:00"
   },
   {
     "id": "e4a453032e9be2b0",
