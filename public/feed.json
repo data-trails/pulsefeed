@@ -54,6 +54,26 @@
     "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
   },
   {
+    "id": "200625177b9e3dc8",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "We are taking Application for Planning Commission and Zoning Board of Appeals Members",
+    "date": "2026-09-08",
+    "dateDisplay": "Tue, Sep 8",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/ad-for-planning-commission-and-zoning-board-of-appeals/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-09T15:03:54.978814+00:00"
+  },
+  {
     "id": "67db62f613f07c19",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
@@ -271,6 +291,28 @@
     "pdfItems": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
     "scrapedAt": "2026-08-23T11:26:39.700425+00:00"
+  },
+  {
+    "id": "087be9f6689f1bf0",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1454-draft-minutes-september-1-2026/file",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-16-451-005",
+      "70-16-09-100-012",
+      "70-16-21-238-001"
+    ],
+    "scrapedAt": "2026-09-09T15:07:31.159918+00:00"
   },
   {
     "id": "186b4594bfa91be9",
@@ -2251,80 +2293,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-06-12T14:13:37.529324+00:00"
-  },
-  {
-    "id": "945c493ab07d00c6",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-06-10",
-    "dateDisplay": "Wed, Jun 10",
-    "time": "",
-    "summary": "8. Commissioner Comments: ZA Castello said they are hosting a data center seminar with Township",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Minutes-06-10-26.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Industrial"
-    ],
-    "pdfItems": "8. Commissioner Comments: ZA Castello said they are hosting a data center seminar with Township",
-    "parcels": [],
-    "scrapedAt": "2026-07-23T12:44:57.720156+00:00"
-  },
-  {
-    "id": "b280e61ca9cfdd0c",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-06-10",
-    "dateDisplay": "Wed, Jun 10",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/061026BdMinutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-12T14:12:56.746315+00:00"
-  },
-  {
-    "id": "1f22b22e1a312777",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-06-10",
-    "dateDisplay": "Wed, Jun 10",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/06/PC-Agenda-6-10-26.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-10T14:28:03.684535+00:00"
-  },
-  {
-    "id": "a6353fcf6b147ffb",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-06-10",
-    "dateDisplay": "Wed, Jun 10",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/061026Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-05T13:54:56.880811+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
