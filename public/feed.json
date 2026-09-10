@@ -1,5 +1,26 @@
 [
   {
+    "id": "db5fb3bac6c5902b",
+    "county": "Allegan",
+    "source": "Saugatuck Township Planning Commission",
+    "title": "Administrative Assistant Position Opening",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "Saugatuck Township is seeking an Administrative Assistant to support the Offices of Building, Zoning, and Treasury. Role Summary: As Administrative Assistant, you will be the welcoming face and vital operational [&#8230;] The post Administrative Assistant Position Opening appeared first on Saugatuck Township .",
+    "details": "",
+    "link": "https://saugatucktownshipmi.gov/administrative-assistant-position-opening/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "\u2022 Collect, monitor, and issue (when approved) Building, Zoning, and Rental permits. This requires the\n\u2022 Collect deposits and fees associated with Building, Zoning, Rental and Assessing Departments.",
+    "parcels": [],
+    "scrapedAt": "2026-09-10T14:58:42.031391+00:00"
+  },
+  {
     "id": "25cba0b8a3a81225",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -293,6 +314,26 @@
     "scrapedAt": "2026-08-23T11:26:39.700425+00:00"
   },
   {
+    "id": "dc01d42b0689b263",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "September 1, 2026 Zoning Board of Appeals Minutes",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/September-1-2026-Zoning-Board-of-Appeals.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-10T14:56:35.905823+00:00"
+  },
+  {
     "id": "087be9f6689f1bf0",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -397,6 +438,31 @@
       "70-12-22-200-022"
     ],
     "scrapedAt": "2026-08-27T20:58:42.633791+00:00"
+  },
+  {
+    "id": "7b0daa74431fc24b",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "Download",
+    "date": "2026-08-26",
+    "dateDisplay": "Wed, Aug 26",
+    "time": "",
+    "summary": "1. Dan Leeuw presented that they are 85% towards completion. The mining is on\n5. ThePlanning Commission discussed the height of fences in AG, Industrial and\n1. Potential changes to the zoning map to better reflect the future land use map.\n3. Consider increasing the required minimum lot size in the Ag-1 district and/or",
+    "details": "",
+    "link": "https://cdn-www-portsheldontwp-org-unli.b-cdn.net/wp-content/uploads/2026/09/PC-Minutes-August-26-2026-.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Dan Leeuw presented that they are 85% towards completion. The mining is on\n5. ThePlanning Commission discussed the height of fences in AG, Industrial and\n1. Potential changes to the zoning map to better reflect the future land use map.\n3. Consider increasing the required minimum lot size in the Ag-1 district and/or",
+    "parcels": [
+      "70-11-24-100-024",
+      "70-11-02-200-010"
+    ],
+    "scrapedAt": "2026-09-10T15:00:21.155182+00:00"
   },
   {
     "id": "f7f9f184aae7f38a",
@@ -943,6 +1009,24 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-08-08T11:36:39.402394+00:00"
+  },
+  {
+    "id": "1ee465d6075f6d7e",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 6, 2026 Township Board Minutes",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-10T14:56:35.198323+00:00"
   },
   {
     "id": "618a1c299f9ffa7f",
