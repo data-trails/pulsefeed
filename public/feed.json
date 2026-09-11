@@ -1,5 +1,89 @@
 [
   {
+    "id": "2af953902214da3b",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Planning Commission Regular Meeting Cancelled",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_09162026-1707",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-11T14:58:58.240911+00:00"
+  },
+  {
+    "id": "9650896915fb93b8",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Sep 16, 2026 \u2014\u2009Posted Sep 11, 2026 10:48 AM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09162026-1707",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-11T14:58:59.559283+00:00"
+  },
+  {
+    "id": "4f95f58094216897",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Agenda 2026-09-15",
+    "date": "2026-09-15",
+    "dateDisplay": "Tue, Sep 15",
+    "time": "",
+    "summary": "\u2022 Seeking a pole barn in front of the dwelling\n\u2022 Seeking an Event Barn in the Agricultural and Rural Residential District",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/09/Planning-Commission-Agenda-2026-09-15.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "\u2022 Seeking a pole barn in front of the dwelling\n\u2022 Seeking an Event Barn in the Agricultural and Rural Residential District",
+    "parcels": [],
+    "scrapedAt": "2026-09-11T14:58:10.733096+00:00"
+  },
+  {
+    "id": "42634bac13cd61cd",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing Olive Township Planning Commission 10/06/2026",
+    "date": "2026-09-11",
+    "dateDisplay": "Fri, Sep 11",
+    "time": "",
+    "summary": "&#160; Read the notice of Public Hearing here",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-10-06-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-10-06-2026",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "A. A request from Amy Koetsier, Property Owner, to expand an existing Special Land Use at 11554 Tyler St., also\nB. A request from Village Motor Sports, interested party, for a Special Land Use to construct and operate a\nC. A request from Travis Bronik, interested party, to rezone the following three parcels from the AG Agricultural\nD. A proposed amendment to Section 2.02 of the Olive Township Zoning Ordinance as it pertains to the definitions\nE. A proposed amendment to Section 21.12 of the Olive Township Zoning Ordinance as it pertains to the regulation",
+    "parcels": [
+      "70-12-22-200-022",
+      "70-12-32-400-032",
+      "70-12-32-400-033",
+      "70-12-31-300-005",
+      "70-12-31-300-006",
+      "70-12-31-300-008"
+    ],
+    "scrapedAt": "2026-09-11T14:58:14.741643+00:00"
+  },
+  {
     "id": "db5fb3bac6c5902b",
     "county": "Allegan",
     "source": "Saugatuck Township Planning Commission",
@@ -2359,24 +2443,6 @@
       "70-18-29-400-028"
     ],
     "scrapedAt": "2026-06-23T13:46:11.211165+00:00"
-  },
-  {
-    "id": "9c1418f7a070fe9a",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "6/15/26 Planning Commission Cancelled",
-    "date": "2026-06-12",
-    "dateDisplay": "Fri, Jun 12",
-    "time": "",
-    "summary": "View Announcement",
-    "details": "",
-    "link": "https://ghtmi.gov/6-15-26-planning-commission-cancelled/?utm_source=rss&utm_medium=rss&utm_campaign=6-15-26-planning-commission-cancelled",
-    "tag": "Upcoming",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-12T14:13:37.529324+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
