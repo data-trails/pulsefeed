@@ -1,5 +1,51 @@
 [
   {
+    "id": "d64bb334b0caf6bf",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "File",
+    "date": "2026-10-06",
+    "dateDisplay": "Tue, Oct 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1455-agenda-october-6-2026/file",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-16-22-400-038",
+      "70-16-20-476-030",
+      "70-16-09-100-012",
+      "70-16-09-200-037",
+      "70-16-21-238-001"
+    ],
+    "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
+  },
+  {
+    "id": "e2912843cfcbe05b",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "September 16, 2026 Planning Commission Agenda",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/September-16-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "scrapedAt": "2026-09-14T16:55:05.459408+00:00"
+  },
+  {
     "id": "2af953902214da3b",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
@@ -54,6 +100,42 @@
     "pdfItems": "\u2022 Seeking a pole barn in front of the dwelling\n\u2022 Seeking an Event Barn in the Agricultural and Rural Residential District",
     "parcels": [],
     "scrapedAt": "2026-09-11T14:58:10.733096+00:00"
+  },
+  {
+    "id": "ca64443087e5537f",
+    "county": "Allegan",
+    "source": "Allegan Township Planning Commission",
+    "title": "Notice of Public Hearing on Increased Property Taxes Thursday, September 24th at 10am",
+    "date": "2026-09-14",
+    "dateDisplay": "Mon, Sep 14",
+    "time": "",
+    "summary": "View Announcement",
+    "details": "",
+    "link": "https://allegantownship.org/notice-of-public-hearing-on-increased-property-taxes-thursday-september-24th-at-10am/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-on-increased-property-taxes-thursday-september-24th-at-10am",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-14T16:54:52.595718+00:00"
+  },
+  {
+    "id": "3eae7a918e2e4939",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Board Meeting September 14",
+    "date": "2026-09-11",
+    "dateDisplay": "Fri, Sep 11",
+    "time": "",
+    "summary": "View Packet View Agenda Microsoft Teams meeting Join: https://teams.microsoft.com/meet/228117148995698?p=neyfH8hiE5O20Co3EB Meeting ID: 228 117 148 995 698 Passcode: DC7zV2Fi",
+    "details": "",
+    "link": "https://chesterottawami.gov/board-meeting-september-14/?utm_source=rss&utm_medium=rss&utm_campaign=board-meeting-september-14",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-14T16:55:58.674274+00:00"
   },
   {
     "id": "42634bac13cd61cd",
@@ -157,6 +239,27 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
+  },
+  {
+    "id": "f503f220ad754b18",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "September 8, 2026 ZBA Agenda",
+    "date": "2026-09-08",
+    "dateDisplay": "Tue, Sep 8",
+    "time": "",
+    "summary": "5. Evaluate criteria for a variance\n1. Request from Irish Design & Build Inc., 596 10th Street, Plainwell,\n2. Request from Brandon Bruischart, 559 10th Street, Plainwell, Michigan",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/September-8-2026-ZBA-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "5. Evaluate criteria for a variance\n1. Request from Irish Design & Build Inc., 596 10th Street, Plainwell,\n2. Request from Brandon Bruischart, 559 10th Street, Plainwell, Michigan",
+    "parcels": [],
+    "scrapedAt": "2026-09-14T16:55:06.295182+00:00"
   },
   {
     "id": "200625177b9e3dc8",
