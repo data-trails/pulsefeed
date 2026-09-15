@@ -24,6 +24,24 @@
     "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
   },
   {
+    "id": "54b7780e0b08389b",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/091626ParksAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-15T15:31:22.295172+00:00"
+  },
+  {
     "id": "e2912843cfcbe05b",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -164,6 +182,24 @@
       "70-12-31-300-008"
     ],
     "scrapedAt": "2026-09-11T14:58:14.741643+00:00"
+  },
+  {
+    "id": "3529ab80577c14c9",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Draft Minutes",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Minutes-09-09-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-15T15:32:02.236367+00:00"
   },
   {
     "id": "db5fb3bac6c5902b",
@@ -407,6 +443,27 @@
     "pdfItems": "1. Second Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n2. First Read for Ordinance 197 Permitting Accessory Solar Panels and\n3. Data Center",
     "parcels": [],
     "scrapedAt": "2026-09-01T15:26:15.840209+00:00"
+  },
+  {
+    "id": "6b61a3d2f07e9735",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "parcels": [],
+    "scrapedAt": "2026-09-15T15:31:20.974916+00:00"
   },
   {
     "id": "fc715ab7509cc5f2",
@@ -2524,28 +2581,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-06-14T13:01:54.214432+00:00"
-  },
-  {
-    "id": "d6f64b837032eb8b",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Minutes 2026-06-16",
-    "date": "2026-06-16",
-    "dateDisplay": "Tue, Jun 16",
-    "time": "",
-    "summary": "\u2022 Text Amendment\n\u2022 Text Amendment",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/06/Planning-Commission-Minutes-2026-06-16.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Text Amendment\n\u2022 Text Amendment",
-    "parcels": [
-      "70-18-29-400-028"
-    ],
-    "scrapedAt": "2026-06-23T13:46:11.211165+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
