@@ -24,6 +24,24 @@
     "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
   },
   {
+    "id": "a80bc62481284140",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/091626ParksMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-18T14:54:14.500966+00:00"
+  },
+  {
     "id": "0bac1191a3c96241",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
@@ -200,6 +218,24 @@
       "70-12-31-300-008"
     ],
     "scrapedAt": "2026-09-11T14:58:14.741643+00:00"
+  },
+  {
+    "id": "ba24e1edbe1dc402",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090926BdMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-18T14:54:13.150617+00:00"
   },
   {
     "id": "3529ab80577c14c9",
@@ -2447,26 +2483,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-06-22T15:58:18.669459+00:00"
-  },
-  {
-    "id": "d20a8a3a24182a14",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Agenda 2026-06-19",
-    "date": "2026-06-19",
-    "dateDisplay": "Fri, Jun 19",
-    "time": "",
-    "summary": "\u2022 Text Amendment\n\u2022 Text Amendment",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/06/Planning-Commission-Agenda-2026-06-19.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Text Amendment\n\u2022 Text Amendment",
-    "parcels": [],
-    "scrapedAt": "2026-06-06T12:11:28.280422+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
