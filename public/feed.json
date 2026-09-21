@@ -176,6 +176,24 @@
     "scrapedAt": "2026-09-11T14:58:59.559283+00:00"
   },
   {
+    "id": "e6d217073ae987ac",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "September 15,2026 (Synopsis Minutes)",
+    "date": "2026-09-15",
+    "dateDisplay": "Tue, Sep 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/09/September-15-2026-Synopsis-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-21T16:57:52.908612+00:00"
+  },
+  {
     "id": "4f95f58094216897",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -1643,6 +1661,26 @@
     "scrapedAt": "2026-08-31T18:00:55.189158+00:00"
   },
   {
+    "id": "659c555cf65bee83",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "July 21,2026",
+    "date": "2026-07-21",
+    "dateDisplay": "Tue, Jul 21",
+    "time": "",
+    "summary": "A. Sign Ordinance Text Amendment - Public Hearing\nB. Downtown overlay zoning",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/09/APPROVED-July-21-2026-PC-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "A. Sign Ordinance Text Amendment - Public Hearing\nB. Downtown overlay zoning",
+    "parcels": [],
+    "scrapedAt": "2026-09-21T16:57:52.131777+00:00"
+  },
+  {
     "id": "01e5f4cd48660816",
     "county": "Ottawa",
     "source": "Jamestown Charter Township Planning Commission",
@@ -2503,48 +2541,6 @@
     "pdfItems": "",
     "parcels": [],
     "scrapedAt": "2026-06-25T21:05:47.044148+00:00"
-  },
-  {
-    "id": "cf76d2764d2115cf",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Draft Ordinance #195 to Amend the Gun Plain Charter Township Zoning Ordinane to Permit and Regulate Dwelling Units.",
-    "date": "2026-06-22",
-    "dateDisplay": "Mon, Jun 22",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/draft-ordinance-195-to-amend-the-gun-plain-charter-township-zoning-ordinane-to-permit-and-regulate-dwelling-units/",
-    "tag": "Upcoming",
-    "docType": "",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-22T15:58:18.669399+00:00"
-  },
-  {
-    "id": "003e9609f2d375f5",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Public Hearing Notice for Ordinance #195 to Amend the Gun Plain Charter Township Zoning Ordinance to Permit and Regulate Accessory Dwelling Units",
-    "date": "2026-06-22",
-    "dateDisplay": "Mon, Jun 22",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gunplain.org/public-hearing-notice-for-ordinance-195-to-amend-the-gun-plain-charter-township-zoning-ordinance-to-permit-and-regulate-accessory-dwelling-units/",
-    "tag": "Upcoming",
-    "docType": "",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-22T15:58:18.669459+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
