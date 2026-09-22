@@ -24,6 +24,44 @@
     "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
   },
   {
+    "id": "9d81c351a2fae7d3",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Notice of Election Commission Meeting",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "View Notice View Agenda Microsoft Teams meeting Join: https://teams.microsoft.com/meet/211449129491999?p=KsRQleEUAbVrPLwy3E Meeting ID: 211 449 129 491 999 Passcode: xn2fx3mA",
+    "details": "",
+    "link": "https://chesterottawami.gov/notice-of-election-commission-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-election-commission-meeting",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-22T15:29:25.574504+00:00"
+  },
+  {
+    "id": "72d16a17ad90a99b",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Ordinance 651 \u2013 Baumann PUD Rezoning",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "View Ordinance",
+    "details": "",
+    "link": "https://ghtmi.gov/ordinance-651-baumann-pud-rezoning/?utm_source=rss&utm_medium=rss&utm_campaign=ordinance-651-baumann-pud-rezoning",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-22T15:29:32.630413+00:00"
+  },
+  {
     "id": "26d0416575779836",
     "county": "Ottawa",
     "source": "Olive Township Planning Commission",
@@ -2501,46 +2539,6 @@
       "70-11-12-100-031"
     ],
     "scrapedAt": "2026-07-03T13:02:09.475694+00:00"
-  },
-  {
-    "id": "fbfe0b1d7f4acdbf",
-    "county": "Allegan",
-    "source": "Ganges Township Planning Commission",
-    "title": "Planning Commission - June 23, 2026.pdf",
-    "date": "2026-06-23",
-    "dateDisplay": "Tue, Jun 23",
-    "time": "",
-    "summary": "3) Amend Zoning Ordinance\nG. Cotton wondered if the Brewpub hours could be changed in the Zoning",
-    "details": "",
-    "link": "https://www.gangestownship.org/public-documents/6_23_26 PC Reg Meeting Minutes APPROVED.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "3) Amend Zoning Ordinance\nG. Cotton wondered if the Brewpub hours could be changed in the Zoning",
-    "parcels": [],
-    "scrapedAt": "2026-08-03T13:55:40.581627+00:00"
-  },
-  {
-    "id": "06eebe4cf5b73419",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Ordinance 650 \u2013 Lusher Rezoning RR to R-1",
-    "date": "2026-06-23",
-    "dateDisplay": "Tue, Jun 23",
-    "time": "",
-    "summary": "Notice of Proposed Ordinance 650",
-    "details": "",
-    "link": "https://ghtmi.gov/ordinance-650-lusher-rezoning-rr-to-r-1/?utm_source=rss&utm_medium=rss&utm_campaign=ordinance-650-lusher-rezoning-rr-to-r-1",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-25T21:05:47.044148+00:00"
   },
   {
     "id": "98c30bfa420e7fca",
