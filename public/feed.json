@@ -24,6 +24,27 @@
     "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
   },
   {
+    "id": "4041657e94f2c34d",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Notice of Planning Commission Meeting",
+    "date": "2026-09-24",
+    "dateDisplay": "Thu, Sep 24",
+    "time": "",
+    "summary": "View Meeting Packet View Agenda Microsoft Teams meeting Join: https://teams.microsoft.com/meet/262323490129951?p=d1DgxsjQt3Gqp6Yf2c Meeting ID: 262 323 490 129 951 Passcode: e42sS35f",
+    "details": "",
+    "link": "https://chesterottawami.gov/notice-of-planning-commission-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-planning-commission-meeting",
+    "tag": "Upcoming",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "\u2022 Battery Energy Storage Systems Review\n\u2022 Data Center Review (Tabled at previous meeting after discussion)\n\u2022 Zoning Board of Appeals report - PC Rep Jon Denhof\n\u2022 Zoning Report",
+    "parcels": [],
+    "scrapedAt": "2026-09-24T15:47:55.450692+00:00"
+  },
+  {
     "id": "9d81c351a2fae7d3",
     "county": "Ottawa",
     "source": "Chester Township Planning Commission",
