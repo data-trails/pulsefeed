@@ -1,0 +1,694 @@
+[
+  {
+    "id": "ALG-ALLE-TWP-PC",
+    "county": "Allegan",
+    "name": "Allegan Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://allegantownship.org/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Corrected from township-board page; official page blocks automated verification with 403, so test in scraper.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: (blank). Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://allegantownship.org/feed/",
+      "url": "https://allegantownship.org/planning-commission/"
+    }
+  },
+  {
+    "id": "ALG-CASC-TWP-PC",
+    "county": "Allegan",
+    "name": "Casco Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.cascotownship.info/meetings---planning-commission.html",
+    "deploymentStatus": "Production",
+    "handler": "manual",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: manual. Method changes require separate testing and approval.\nCurrently emits a manual placeholder only; no automated collection.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://www.cascotownship.info/meetings---planning-commission.html"
+    }
+  },
+  {
+    "id": "ALG-CHES-TWP-PC",
+    "county": "Allegan",
+    "name": "Cheshire Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://cheshiretownshipmi.gov/minutes.html",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Shared archive contains board and Planning Commission records.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://cheshiretownshipmi.gov/minutes.html",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-CLYD-TWP-PC",
+    "county": "Allegan",
+    "name": "Clyde Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://clydetwp.com/",
+    "deploymentStatus": "Manual Setup Needed",
+    "handler": "candidate",
+    "notes": "Original anchor removed; main site retained.\nApproved inventory only; not configured in production. Add manual placeholder only in separately approved inventory expansion.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-DORR-TWP-PC",
+    "county": "Allegan",
+    "name": "Dorr Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://dorrtownshipmi.gov/-Minutes-Agendas/Planning-Commission",
+    "deploymentStatus": "Production",
+    "handler": "manual",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: manual. Method changes require separate testing and approval.\nCurrently emits a manual placeholder only; no automated collection.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://dorrtownshipmi.gov/-Minutes-Agendas/Planning-Commission"
+    }
+  },
+  {
+    "id": "ALG-FILL-TWP-PC",
+    "county": "Allegan",
+    "name": "Fillmore Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://fillmoretownship.org/board-minutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Shared minutes page.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: (blank). Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://fillmoretownship.org/feed/",
+      "url": "https://fillmoretownship.org/board-minutes/"
+    }
+  },
+  {
+    "id": "ALG-GANG-TWP-PC",
+    "county": "Allegan",
+    "name": "Ganges Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.gangestownship.org/Planning-Commission-Meetings-Archive.html",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Retained targeted meeting archive over general commission page.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://www.gangestownship.org/Planning-Commission-Meetings-Archive.html",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-GUNP-TWP-PC",
+    "county": "Allegan",
+    "name": "Gun Plain Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.gunplain.org/government-area/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Official jurisdiction name and dedicated Planning Commission page verified.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nLegacy name retained exactly for item-ID continuity.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.gunplain.org/feed/",
+      "url": "https://www.gunplain.org/meeting-minutes-and-agendas/"
+    }
+  },
+  {
+    "id": "ALG-HEAT-TWP-PC",
+    "county": "Allegan",
+    "name": "Heath Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://heathtownship.net/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Dedicated page includes Planning Commission minutes.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://heathtownship.net/feed",
+      "url": "https://heathtownship.net/"
+    }
+  },
+  {
+    "id": "ALG-HOPK-TWP-PC",
+    "county": "Allegan",
+    "name": "Hopkins Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.hopkinstownship.org/board-minutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.hopkinstownship.org/feed",
+      "url": "https://www.hopkinstownship.org/board-minutes/"
+    }
+  },
+  {
+    "id": "ALG-LAKE-TWP-PC",
+    "county": "Allegan",
+    "name": "Laketown Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://laketowntwp.org/boards-commissions/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://laketowntwp.org/feed",
+      "url": "https://laketowntwp.org/boards-commissions/"
+    }
+  },
+  {
+    "id": "ALG-LEE-TWP-PC",
+    "county": "Allegan",
+    "name": "Lee Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "http://www.leetwp.org/meetingminutes.htm",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Rejected intern replacement because it belongs to Lee Township, Calhoun County.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: html. Method changes require separate testing and approval.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "http://www.leetwp.org/meetingminutes.htm",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-LEIG-TWP-PC",
+    "county": "Allegan",
+    "name": "Leighton Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://leightontownship.org/meetings-minutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://leightontownship.org/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://leightontownship.org/feed/",
+      "url": "https://leightontownship.org/meetings-minutes/"
+    }
+  },
+  {
+    "id": "ALG-MANL-TWP-PC",
+    "county": "Allegan",
+    "name": "Manlius Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.manliustwp.org/boardmeetings",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Intern formula error rejected.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-MART-TWP-PC",
+    "county": "Allegan",
+    "name": "Martin Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.martintownship.org/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Intern row contained Manlius feed in wrong field.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: rss_html. Method changes require separate testing and approval.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.martintownship.org/feed",
+      "url": "https://www.martintownship.org/"
+    }
+  },
+  {
+    "id": "ALG-MONT-TWP-PC",
+    "county": "Allegan",
+    "name": "Monterey Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.montereytownship.org/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Intern row was column-shifted.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: html. Method changes require separate testing and approval.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://www.montereytownship.org/",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-OTSE-TWP-PC",
+    "county": "Allegan",
+    "name": "Otsego Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.otsegotownship.org/building-planning-and-zoning/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.otsegotownship.org/feed",
+      "url": "https://www.otsegotownship.org/building-planning-and-zoning/"
+    }
+  },
+  {
+    "id": "ALG-OVER-TWP-PC",
+    "county": "Allegan",
+    "name": "Overisel Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://overiseltownship.org/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://overiseltownship.org/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://overiseltownship.org/feed/",
+      "url": "https://overiseltownship.org/planning-commission/"
+    }
+  },
+  {
+    "id": "ALG-SALE-TWP-PC",
+    "county": "Allegan",
+    "name": "Salem Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://salemtownship.org/planning-commission",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Rejected intern salemtwp.org source because it is not the Allegan County municipality.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-SAUG-TWP-PC",
+    "county": "Allegan",
+    "name": "Saugatuck Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://saugatucktownshipmi.gov/saugatuck-township-local-government/packets-agendas-minutes/agendas/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Intern blank URL and /feed rejected.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://saugatucktownshipmi.gov/feed",
+      "url": "https://saugatucktownshipmi.gov/saugatuck-township-local-government/packets-agendas-minutes/agendas/"
+    }
+  },
+  {
+    "id": "ALG-TROW-TWP-PC",
+    "county": "Allegan",
+    "name": "Trowbridge Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://trowbridgetownship.org/meeting-minutes",
+    "deploymentStatus": "Production",
+    "handler": "manual",
+    "notes": "Retained targeted minutes page; intern blank URL and /feed rejected.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nCurrently emits a manual placeholder only; no automated collection.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://trowbridgetownship.org/"
+    }
+  },
+  {
+    "id": "ALG-VALL-TWP-PC",
+    "county": "Allegan",
+    "name": "Valley Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://valleytwp.org/plancommission.htm",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Dedicated Planning Commission page verified.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://valleytwp.org/minutes.htm",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-WATS-TWP-PC",
+    "county": "Allegan",
+    "name": "Watson Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://watsontownshipmi.gov/planning-commission",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Dedicated Planning Commission page verified.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://watsontownshipmi.gov/feed",
+      "url": "https://watsontownshipmi.gov/"
+    }
+  },
+  {
+    "id": "ALG-WAYL-TWP-PC",
+    "county": "Allegan",
+    "name": "Wayland Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://waytwp.org/departments/zoning/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://waytwp.org/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://waytwp.org/feed/",
+      "url": "https://waytwp.org/departments/zoning/"
+    }
+  },
+  {
+    "id": "ALG-ALLE-CITY-PC",
+    "county": "Allegan",
+    "name": "City of Allegan Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.cityofallegan.org/government/planning_commission.php",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://www.cityofallegan.org/government/planning_commission.php",
+      "rss": ""
+    }
+  },
+  {
+    "id": "OTT-ALLE-TWP-PC",
+    "county": "Ottawa",
+    "name": "Allendale Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://allendalemi.gov/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://allendalemi.gov/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://allendalemi.gov/feed/",
+      "url": "https://allendalemi.gov/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-BLEN-TWP-PC",
+    "county": "Ottawa",
+    "name": "Blendon Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.blendontownship-mi.gov/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://www.blendontownship-mi.gov/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.blendontownship-mi.gov/feed/",
+      "url": "https://www.blendontownship-mi.gov/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-CHES-TWP-PC",
+    "county": "Ottawa",
+    "name": "Chester Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.chester-twp.org/documents/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.chester-twp.org/feed",
+      "url": "https://www.chester-twp.org/documents/"
+    }
+  },
+  {
+    "id": "OTT-CROC-TWP-PC",
+    "county": "Ottawa",
+    "name": "Crockery Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://crockerytownship.gov/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://crockerytownship.gov/planning-commission/",
+      "rss": ""
+    }
+  },
+  {
+    "id": "OTT-GEOR-TWP-PC",
+    "county": "Ottawa",
+    "name": "Georgetown Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.gtwp.com/AgendaCenter/Planning-Commission-5",
+    "deploymentStatus": "Production",
+    "handler": "civicplus",
+    "notes": "Promoted verified Planning Commission AgendaCenter URL.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nAgendaCenter category and base URL are both required.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "agenda_center_url": "https://www.gtwp.com/AgendaCenter/Planning-Commission-5",
+      "base_url": "https://www.gtwp.com"
+    }
+  },
+  {
+    "id": "OTT-GRHV-TWP-PC",
+    "county": "Ottawa",
+    "name": "Grand Haven Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://ghtmi.gov/boards/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://ghtmi.gov/feed",
+      "url": "https://ghtmi.gov/boards/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-HOLL-TWP-PC",
+    "county": "Ottawa",
+    "name": "Holland Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission",
+    "deploymentStatus": "Production",
+    "handler": "joomla",
+    "notes": "Merged duplicate minutes-specific row; discarded misspelling and shifted feed.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nBoth ordered agendas and minutes endpoints remain deployed; public parent URL is not a replacement.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "pages": [
+        "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas",
+        "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes"
+      ]
+    }
+  },
+  {
+    "id": "OTT-JAME-TWP-PC",
+    "county": "Ottawa",
+    "name": "Jamestown Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://twp.jamestown.mi.us/government/boards-and-minutes/planning-commission-agendas-minutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Retained targeted archive over general events page.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://twp.jamestown.mi.us/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://twp.jamestown.mi.us/feed/",
+      "url": "https://twp.jamestown.mi.us/government/boards-and-minutes/planning-commission-agendas-minutes/"
+    }
+  },
+  {
+    "id": "OTT-OLIV-TWP-PC",
+    "county": "Ottawa",
+    "name": "Olive Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.olivetownship.org/document-category/pcminutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Exact duplicate removed; document category retained because it contains current agenda and minutes.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: file.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.olivetownship.org/feed",
+      "url": "https://www.olivetownship.org/document-category/pcminutes/"
+    }
+  },
+  {
+    "id": "OTT-PARK-TWP-PC",
+    "county": "Ottawa",
+    "name": "Park Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://parktownship.org/our_township/board_of_trustees/meeting_agendas,_minutes___packets/planning_commission.php",
+    "deploymentStatus": "Production",
+    "handler": "manual",
+    "notes": "Retained official Ottawa County Park Township source; rejected Port Sheldon and unrelated Park Township candidates.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: manual. Method changes require separate testing and approval.\nCurrently emits a manual placeholder only; no automated collection.\nPrevious Scraper Type: folder.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://webgen1files1.revize.com/parktwpmi/Document_Center/Meeting%20Agenda_Minutes%20%26%20Packets/Planning%20Commission/"
+    }
+  },
+  {
+    "id": "OTT-POLK-TWP-PC",
+    "county": "Ottawa",
+    "name": "Polkton Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://polktontownship.com/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://polktontownship.com/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://polktontownship.com/feed/",
+      "url": "https://polktontownship.com/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-PORT-TWP-PC",
+    "county": "Ottawa",
+    "name": "Port Sheldon Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.portsheldontwp.org/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://www.portsheldontwp.org/feed",
+      "url": "https://www.portsheldontwp.org/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-ROBI-TWP-PC",
+    "county": "Ottawa",
+    "name": "Robinson Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://robinsontwpmi.gov/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Official Ottawa County site verified; rejected townshipofrobinson.com candidate.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: rss_html. Method changes require separate testing and approval.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://robinsontwpmi.gov/feed",
+      "url": "https://robinsontwpmi.gov/"
+    }
+  },
+  {
+    "id": "OTT-SPRL-TWP-PC",
+    "county": "Ottawa",
+    "name": "Spring Lake Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://springlaketwp.org/board/planning-commission/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Production = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://springlaketwp.org/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://springlaketwp.org/feed/",
+      "url": "https://springlaketwp.org/board/planning-commission/"
+    }
+  },
+  {
+    "id": "OTT-TALL-TWP-PC",
+    "county": "Ottawa",
+    "name": "Tallmadge Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://tallmadge.com/minutes-agendas/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Retained page containing actual minutes and agendas; planning page kept as reference in log.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nPrevious Scraper Type: html.\nPrevious workbook RSS Feed: https://tallmadge.com/feed. Production RSS URL is copied verbatim from JSON.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "https://tallmadge.com/feed/",
+      "url": "https://tallmadge.com/minutes-agendas/"
+    }
+  },
+  {
+    "id": "OTT-WRIG-TWP-PC",
+    "county": "Ottawa",
+    "name": "Wright Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "http://wrighttownshipottawami.gov/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Intern dedicated page could not be independently verified; retain current production source.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: rss_html. Method changes require separate testing and approval.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "rss": "http://wrighttownshipottawami.gov/feed",
+      "url": "http://wrighttownshipottawami.gov/"
+    }
+  },
+  {
+    "id": "OTT-ZEEC-TWP-PC",
+    "county": "Ottawa",
+    "name": "Zeeland Charter Township Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://zeelandchartertwpmi.documents-on-demand.com/?l=a4b4517ae6eaef11a439000c29a59557&r=F55C7EF4F39A152611E1858D96AA487A",
+    "deploymentStatus": "Production",
+    "handler": "manual",
+    "notes": "Retained production portal parameters pending direct portal test.\nProduction = configured in JSON; does not certify successful automated collection. Exact operational URLs are on Source Endpoints.\nDesired method differs from production: manual. Method changes require separate testing and approval.\nCurrently emits a manual placeholder only; no automated collection.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {
+      "url": "https://zeelandchartertwpmi.documents-on-demand.com/"
+    }
+  },
+  {
+    "id": "OTT-COOP-CITY-PC",
+    "county": "Ottawa",
+    "name": "City of Coopersville Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://cityofcoopersville.com/government/agendas-minutes/",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Activated after 2026-09-25 live archive and PDF tests: four current Planning Commission documents collected without request or extraction errors. Uses body-scoped HTML collection, filename/table dates, and HTML base URL resolution. Coverage is limited to documents exposed by the public archive.",
+    "endpoints": {
+      "url": "https://cityofcoopersville.com/government/agendas-minutes/",
+      "rss": ""
+    }
+  },
+  {
+    "id": "OTT-FERR-CITY-PC",
+    "county": "Ottawa",
+    "name": "City of Ferrysburg Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://ferrysburg.org/boards/planning-commission/",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Replaced incorrect City Council minutes URL with verified Planning Commission page.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "OTT-GRHV-CITY-PC",
+    "county": "Ottawa",
+    "name": "City of Grand Haven Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://grandhaven.org/city-services/meeting-agendas-minutes-notices/",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Central city archive includes Planning Commission agendas, notices and minutes.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "OTT-HUDS-CITY-PC",
+    "county": "Ottawa",
+    "name": "City of Hudsonville Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.hudsonville.org/directory/agendas_minutes/planning_commission.php",
+    "deploymentStatus": "Production",
+    "handler": "rss_html",
+    "notes": "Activated after 2026-09-25 live archive and PDF tests: four current Planning Commission documents collected without request or extraction errors. Uses body-scoped HTML collection, filename/table dates, and HTML base URL resolution. Coverage is limited to documents exposed by the public archive.",
+    "endpoints": {
+      "url": "https://www.hudsonville.org/directory/agendas_minutes/planning_commission.php",
+      "rss": ""
+    }
+  },
+  {
+    "id": "ALG-OTSE-CITY-PC",
+    "county": "Allegan",
+    "name": "City of Otsego Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.cityofotsego.org/agenda-meeting-minutes/planning-commission/",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Dedicated archive verified.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-SAUG-CITY-PC",
+    "county": "Allegan",
+    "name": "City of Saugatuck Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.saugatuckcity.com/planning-commission.html",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Dedicated Planning Commission page verified.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-WAYL-CITY-PC",
+    "county": "Allegan",
+    "name": "City of Wayland Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.cityofwayland.org/public-notices/",
+    "deploymentStatus": "Adapter Needed",
+    "handler": "candidate",
+    "notes": "Public notices page surfaces Planning Commission meetings and cancellations; document portal remains on Hold.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nText notices require an HTML notice/link-following adapter; the current HTML handler collects qualifying PDFs only. Document portal remains on Hold.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "OTT-ZEEL-CITY-PC",
+    "county": "Ottawa",
+    "name": "City of Zeeland Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.cityofzeeland.com/agendas-meetings/#planning-commission",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Central page contains current Planning Commission agendas and minutes.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "ALG-HOPK-VILL-PC",
+    "county": "Allegan",
+    "name": "Village of Hopkins Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://villageofhopkins.org/village-planning-commission/",
+    "deploymentStatus": "Manual Setup Needed",
+    "handler": "candidate",
+    "notes": "Corrected from Hopkins Township site. Village Planning Commission meets only as special meetings.\nApproved inventory only; not configured in production. Add manual placeholder only in separately approved inventory expansion.\nPrevious Workflow Status: Active - Manual Review. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  },
+  {
+    "id": "OTT-SPRL-VILL-PC",
+    "county": "Ottawa",
+    "name": "Village of Spring Lake Planning Commission",
+    "meetingBody": "Planning Commission",
+    "url": "https://www.springlakevillage.org/boards/planning-commission/",
+    "deploymentStatus": "Ready for Testing",
+    "handler": "candidate",
+    "notes": "Official-looking dedicated page; test redirect behavior in production scraper.\nApproved inventory only; not configured in production. Keep unconfigured during parity refactor; validate dated direct PDF links and body scoping before addition.\nValidate dated direct PDF links, meeting-body scope and redirects before any activation.\nPrevious Workflow Status: Active - Automated. Approval describes desired coverage; Deployment Status describes configuration.",
+    "endpoints": {}
+  }
+]

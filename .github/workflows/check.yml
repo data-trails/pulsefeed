@@ -1,0 +1,28 @@
+name: Check application and source configuration
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-python@v5.6.0
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - run: pip install -r scraper/requirements.txt
+      - run: python scraper/source_workbook.py --check
+      - run: python -m unittest discover -s scraper -p 'test_*.py' -q
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
