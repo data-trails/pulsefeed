@@ -3,17 +3,21 @@
     "id": "d64bb334b0caf6bf",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
-    "title": "File",
+    "title": "Agenda October 6 2026",
     "date": "2026-10-06",
     "dateDisplay": "Tue, Oct 6",
     "time": "",
-    "summary": "",
+    "summary": "a. Zoning Ordinance Text Amendment\nb. 11283 Chicago Dr (70-16-22-400-038) – Special Land Use Permit\nc. 104 River Hills Dr (70-16-20-476-030) – Special Land Use Permit\nd. 0 (vac) Quincy St (70-16-09-100-012) – Preliminary Site Condominium\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
     "details": "",
     "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1455-agenda-october-6-2026/file",
     "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "a. Zoning Ordinance Text Amendment\nb. 11283 Chicago Dr (70-16-22-400-038) – Special Land Use Permit\nc. 104 River Hills Dr (70-16-20-476-030) – Special Land Use Permit\nd. 0 (vac) Quincy St (70-16-09-100-012) – Preliminary Site Condominium\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
     "parcels": [
       "70-16-22-400-038",
       "70-16-20-476-030",
@@ -21,7 +25,9 @@
       "70-16-09-200-037",
       "70-16-21-238-001"
     ],
-    "scrapedAt": "2026-09-14T16:56:33.991282+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:34.834210+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
     "id": "4041657e94f2c34d",
@@ -30,19 +36,41 @@
     "title": "Notice of Planning Commission Meeting",
     "date": "2026-09-24",
     "dateDisplay": "Thu, Sep 24",
+    "dateType": "publication",
     "time": "",
     "summary": "View Meeting Packet View Agenda Microsoft Teams meeting Join: https://teams.microsoft.com/meet/262323490129951?p=d1DgxsjQt3Gqp6Yf2c Meeting ID: 262 323 490 129 951 Passcode: e42sS35f",
     "details": "",
     "link": "https://chesterottawami.gov/notice-of-planning-commission-meeting/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-planning-commission-meeting",
-    "tag": "Upcoming",
-    "docType": "Minutes",
+    "tag": "Recent",
+    "docType": "Agenda",
     "topics": [
-      "Zoning",
-      "Industrial"
+      "Industrial",
+      "Zoning"
     ],
-    "pdfItems": "\u2022 Battery Energy Storage Systems Review\n\u2022 Data Center Review (Tabled at previous meeting after discussion)\n\u2022 Zoning Board of Appeals report - PC Rep Jon Denhof\n\u2022 Zoning Report",
+    "pdfItems": "• Battery Energy Storage Systems Review\n• Data Center Review (Tabled at previous meeting after discussion)\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [],
-    "scrapedAt": "2026-09-24T15:47:55.450692+00:00"
+    "scrapedAt": "2026-09-25T15:48:07.440443+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
+  },
+  {
+    "id": "c842d1006d29169d",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Cancellation",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/09/9.-PC-Cancel-9.21.26.pdf",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:01.491522+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "9d81c351a2fae7d3",
@@ -60,13 +88,34 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-22T15:29:25.574504+00:00"
+    "scrapedAt": "2026-09-22T15:29:25.574504+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
+  },
+  {
+    "id": "83bf2fab37e53c26",
+    "county": "Allegan",
+    "source": "City of Allegan Planning Commission",
+    "title": "Packet",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.cityofallegan.org/09-21-26-PC Packet.pdf?t=202609181321140",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-25T15:47:58.253331+00:00",
+    "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
     "id": "72d16a17ad90a99b",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Ordinance 651 \u2013 Baumann PUD Rezoning",
+    "title": "Ordinance 651 – Baumann PUD Rezoning",
     "date": "2026-09-21",
     "dateDisplay": "Mon, Sep 21",
     "time": "",
@@ -80,7 +129,53 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-22T15:29:32.630413+00:00"
+    "scrapedAt": "2026-09-22T15:29:32.630413+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
+  },
+  {
+    "id": "63f3cea7216506b3",
+    "county": "Ottawa",
+    "source": "City of Coopersville Planning Commission",
+    "title": "September Planning Commission Agenda",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "a. Discussion/Action – Preliminary Site Plan Review for Alt Oil at 1291 W. Randall St.",
+    "details": "",
+    "link": "https://cityofcoopersville.com/wp-content/uploads/2026/09/20260921-PC-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "a. Discussion/Action – Preliminary Site Plan Review for Alt Oil at 1291 W. Randall St.",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:06.056294+00:00",
+    "sourceId": "OTT-COOP-CITY-PC"
+  },
+  {
+    "id": "227331bfa742cdb7",
+    "county": "Allegan",
+    "source": "City of Allegan Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-21",
+    "dateDisplay": "Mon, Sep 21",
+    "time": "",
+    "summary": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
+    "details": "",
+    "link": "https://www.cityofallegan.org/09-21-26-PC Agenda.pdf?t=202609181320470",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:57.742180+00:00",
+    "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
     "id": "26d0416575779836",
@@ -100,7 +195,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-19T14:19:16.905411+00:00"
+    "scrapedAt": "2026-09-19T14:19:16.905411+00:00",
+    "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
     "id": "1b1860f42f8bdf49",
@@ -120,7 +216,32 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-19T14:19:16.905458+00:00"
+    "scrapedAt": "2026-09-19T14:19:16.905458+00:00",
+    "sourceId": "OTT-OLIV-TWP-PC"
+  },
+  {
+    "id": "e2912843cfcbe05b",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "September 16, 2026 Planning Commission Agenda",
+    "date": "2026-09-16",
+    "dateDisplay": "Wed, Sep 16",
+    "time": "",
+    "summary": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/September-16-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:46:55.400287+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "a80bc62481284140",
@@ -138,25 +259,28 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-18T14:54:14.500966+00:00"
+    "scrapedAt": "2026-09-18T14:54:14.500966+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
-    "id": "0bac1191a3c96241",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Notice of Special Meeting of the Gun Plain Charter Township Planning Commission",
+    "id": "9650896915fb93b8",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Sep 16, 2026 — Posted Sep 11, 2026 10:48 AM Planning Commission Regular Meeting Cancelled Download ▼ Agenda",
     "date": "2026-09-16",
     "dateDisplay": "Wed, Sep 16",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "https://www.gunplain.org/notice-of-special-meeting-of-the-gun-plain-charter-township-planning-commission/",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09162026-1707",
     "tag": "Recent",
-    "docType": "",
+    "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-17T15:29:19.672666+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:14.915988+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "54b7780e0b08389b",
@@ -169,34 +293,13 @@
     "summary": "",
     "details": "",
     "link": "http://laketowntwp.org/wp-content/uploads/2026/09/091626ParksAgenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-15T15:31:22.295172+00:00"
-  },
-  {
-    "id": "e2912843cfcbe05b",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "September 16, 2026 Planning Commission Agenda",
-    "date": "2026-09-16",
-    "dateDisplay": "Wed, Sep 16",
-    "time": "",
-    "summary": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/September-16-2026-Planning-Commission-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
-    "parcels": [],
-    "scrapedAt": "2026-09-14T16:55:05.459408+00:00"
+    "scrapedAt": "2026-09-15T15:31:22.295172+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "2af953902214da3b",
@@ -209,30 +312,34 @@
     "summary": "",
     "details": "",
     "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_09162026-1707",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-11T14:58:58.240911+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:14.223674+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
-    "id": "9650896915fb93b8",
-    "county": "Ottawa",
-    "source": "Georgetown Charter Township Planning Commission",
-    "title": "Sep 16, 2026 \u2014\u2009Posted Sep 11, 2026 10:48 AM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "id": "0bac1191a3c96241",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Notice of Special Meeting of the Gun Plain Charter Township Planning Commission",
     "date": "2026-09-16",
     "dateDisplay": "Wed, Sep 16",
+    "dateType": "publication",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09162026-1707",
-    "tag": "Upcoming",
-    "docType": "Minutes",
+    "link": "https://www.gunplain.org/notice-of-special-meeting-of-the-gun-plain-charter-township-planning-commission/",
+    "tag": "Recent",
+    "docType": "",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-11T14:58:59.559283+00:00"
+    "scrapedAt": "2026-09-25T15:46:46.417715+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "e6d217073ae987ac",
@@ -250,7 +357,30 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-21T16:57:52.908612+00:00"
+    "scrapedAt": "2026-09-21T16:57:52.908612+00:00",
+    "sourceId": "OTT-CROC-TWP-PC"
+  },
+  {
+    "id": "51de415788ed0f06",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Minutes 2026-09-15",
+    "date": "2026-09-15",
+    "dateDisplay": "Tue, Sep 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/09/Planning-Commission-Minutes-2026-09-15.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [
+      "70-18-15-300-022"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:46.597865+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
   },
   {
     "id": "4f95f58094216897",
@@ -260,17 +390,19 @@
     "date": "2026-09-15",
     "dateDisplay": "Tue, Sep 15",
     "time": "",
-    "summary": "\u2022 Seeking a pole barn in front of the dwelling\n\u2022 Seeking an Event Barn in the Agricultural and Rural Residential District",
+    "summary": "• Seeking a pole barn in front of the dwelling\n• Seeking an Event Barn in the Agricultural and Rural Residential District",
     "details": "",
     "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/09/Planning-Commission-Agenda-2026-09-15.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Housing"
     ],
-    "pdfItems": "\u2022 Seeking a pole barn in front of the dwelling\n\u2022 Seeking an Event Barn in the Agricultural and Rural Residential District",
+    "pdfItems": "• Seeking a pole barn in front of the dwelling\n• Seeking an Event Barn in the Agricultural and Rural Residential District",
     "parcels": [],
-    "scrapedAt": "2026-09-11T14:58:10.733096+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:46.906514+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
   },
   {
     "id": "ca64443087e5537f",
@@ -283,12 +415,43 @@
     "summary": "View Announcement",
     "details": "",
     "link": "https://allegantownship.org/notice-of-public-hearing-on-increased-property-taxes-thursday-september-24th-at-10am/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-on-increased-property-taxes-thursday-september-24th-at-10am",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-14T16:54:52.595718+00:00"
+    "scrapedAt": "2026-09-14T16:54:52.595718+00:00",
+    "sourceId": "ALG-ALLE-TWP-PC"
+  },
+  {
+    "id": "42634bac13cd61cd",
+    "county": "Ottawa",
+    "source": "Olive Township Planning Commission",
+    "title": "Notice of Public Hearing Olive Township Planning Commission 10/06/2026",
+    "date": "2026-09-11",
+    "dateDisplay": "Fri, Sep 11",
+    "dateType": "publication",
+    "time": "",
+    "summary": "&#160; Read the notice of Public Hearing here",
+    "details": "",
+    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-10-06-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-10-06-2026",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Housing",
+      "Zoning"
+    ],
+    "pdfItems": "A. A request from Amy Koetsier, Property Owner, to expand an existing Special Land Use at 11554 Tyler St., also\nB. A request from Village Motor Sports, interested party, for a Special Land Use to construct and operate a\nC. A request from Travis Bronik, interested party, to rezone the following three parcels from the AG Agricultural\nD. A proposed amendment to Section 2.02 of the Olive Township Zoning Ordinance as it pertains to the definitions\nE. A proposed amendment to Section 21.12 of the Olive Township Zoning Ordinance as it pertains to the regulation",
+    "parcels": [
+      "70-12-22-200-022",
+      "70-12-32-400-032",
+      "70-12-32-400-033",
+      "70-12-31-300-005",
+      "70-12-31-300-006",
+      "70-12-31-300-008"
+    ],
+    "scrapedAt": "2026-09-25T15:48:49.186243+00:00",
+    "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
     "id": "3eae7a918e2e4939",
@@ -306,71 +469,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-14T16:55:58.674274+00:00"
-  },
-  {
-    "id": "42634bac13cd61cd",
-    "county": "Ottawa",
-    "source": "Olive Township Planning Commission",
-    "title": "Notice of Public Hearing Olive Township Planning Commission 10/06/2026",
-    "date": "2026-09-11",
-    "dateDisplay": "Fri, Sep 11",
-    "time": "",
-    "summary": "&#160; Read the notice of Public Hearing here",
-    "details": "",
-    "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-10-06-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-10-06-2026",
-    "tag": "Upcoming",
-    "docType": "",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "A. A request from Amy Koetsier, Property Owner, to expand an existing Special Land Use at 11554 Tyler St., also\nB. A request from Village Motor Sports, interested party, for a Special Land Use to construct and operate a\nC. A request from Travis Bronik, interested party, to rezone the following three parcels from the AG Agricultural\nD. A proposed amendment to Section 2.02 of the Olive Township Zoning Ordinance as it pertains to the definitions\nE. A proposed amendment to Section 21.12 of the Olive Township Zoning Ordinance as it pertains to the regulation",
-    "parcels": [
-      "70-12-22-200-022",
-      "70-12-32-400-032",
-      "70-12-32-400-033",
-      "70-12-31-300-005",
-      "70-12-31-300-006",
-      "70-12-31-300-008"
-    ],
-    "scrapedAt": "2026-09-11T14:58:14.741643+00:00"
-  },
-  {
-    "id": "ba24e1edbe1dc402",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-09-09",
-    "dateDisplay": "Wed, Sep 9",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090926BdMinutes.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-18T14:54:13.150617+00:00"
-  },
-  {
-    "id": "3529ab80577c14c9",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Draft Minutes",
-    "date": "2026-09-09",
-    "dateDisplay": "Wed, Sep 9",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Minutes-09-09-26.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-15T15:32:02.236367+00:00"
+    "scrapedAt": "2026-09-14T16:55:58.674274+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
   },
   {
     "id": "db5fb3bac6c5902b",
@@ -389,9 +489,122 @@
       "Zoning",
       "Housing"
     ],
-    "pdfItems": "\u2022 Collect, monitor, and issue (when approved) Building, Zoning, and Rental permits. This requires the\n\u2022 Collect deposits and fees associated with Building, Zoning, Rental and Assessing Departments.",
+    "pdfItems": "• Collect, monitor, and issue (when approved) Building, Zoning, and Rental permits. This requires the\n• Collect deposits and fees associated with Building, Zoning, Rental and Assessing Departments.",
     "parcels": [],
-    "scrapedAt": "2026-09-10T14:58:42.031391+00:00"
+    "scrapedAt": "2026-09-10T14:58:42.031391+00:00",
+    "sourceId": "ALG-SAUG-TWP-PC"
+  },
+  {
+    "id": "cebe2b4f323c84a4",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "a. Rezoning Request - Doug Helmholdt - 1064142nd Avenue\na. Data Centers draft amendment\nb. Battery Energy Storage Systems draft amendment",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Agenda-9-9-26.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. Rezoning Request - Doug Helmholdt - 1064142nd Avenue\na. Data Centers draft amendment\nb. Battery Energy Storage Systems draft amendment",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:28.766101+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
+  },
+  {
+    "id": "ba24e1edbe1dc402",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090926BdMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-18T14:54:13.150617+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "a4aec368c21a0622",
+    "county": "Allegan",
+    "source": "Wayland Township Planning Commission",
+    "title": "9-9-26 draft",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "a. Public Hearing: An application for Special Use from Jack and Kay Herp, property owners at 3207\nb. Special Use Permit Application: Jack and Kay Herp, property owners at 3207 5th St., also known\na. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Miner gave an update from the Data Center Seminar hosted by PCI on",
+    "details": "",
+    "link": "http://waytwp.org/wp-content/uploads/2026/09/9-9-26-draft.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. Public Hearing: An application for Special Use from Jack and Kay Herp, property owners at 3207\nb. Special Use Permit Application: Jack and Kay Herp, property owners at 3207 5th St., also known\na. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Miner gave an update from the Data Center Seminar hosted by PCI on",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:56.840677+00:00",
+    "sourceId": "ALG-WAYL-TWP-PC"
+  },
+  {
+    "id": "a2aca7c9aaf6aab5",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "September 9, 2026",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "a. Gravel Ordinance Discussion\nb. Battery Storage Ordinance Discussion\nc. Data Center Ordinance Discussion\na. Harmoni Towers – Special User Permit\nb. Jim Szilagyi of Lakeshore Golf Properties, LLC - Text amendment\ni. Text amendment to the Otsego Township Zoning Ordinance to\nc. Master Plan - Comment and take action on recommending or not",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/08/090926-PC-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. Gravel Ordinance Discussion\nb. Battery Storage Ordinance Discussion\nc. Data Center Ordinance Discussion\na. Harmoni Towers – Special User Permit\nb. Jim Szilagyi of Lakeshore Golf Properties, LLC - Text amendment\ni. Text amendment to the Otsego Township Zoning Ordinance to\nc. Master Plan - Comment and take action on recommending or not",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:44.473338+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
+  },
+  {
+    "id": "3529ab80577c14c9",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Draft Minutes",
+    "date": "2026-09-09",
+    "dateDisplay": "Wed, Sep 9",
+    "time": "",
+    "summary": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). This was originally\na. Data Centers draft amendment. Kotrba reviewed a draft data center ordinance that included\nb. Battery Energy Storage Systems draft amendment. Kotrba reviewed a draft BESS ordinance\nc. Short-Term Rental Ordinance. Kortba provided an updated draft of the short-term rental zoning",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Minutes-09-09-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). This was originally\na. Data Centers draft amendment. Kotrba reviewed a draft data center ordinance that included\nb. Battery Energy Storage Systems draft amendment. Kotrba reviewed a draft BESS ordinance\nc. Short-Term Rental Ordinance. Kortba provided an updated draft of the short-term rental zoning",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:28.661243+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
     "id": "25cba0b8a3a81225",
@@ -404,48 +617,13 @@
     "summary": "",
     "details": "",
     "link": "https://laketowntwp.org/wp-content/uploads/2026/09/090926BdAgendaV2.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-05T13:49:34.487349+00:00"
-  },
-  {
-    "id": "cebe2b4f323c84a4",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-09-09",
-    "dateDisplay": "Wed, Sep 9",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/09/PC-Agenda-9-9-26.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-05T13:50:14.344566+00:00"
-  },
-  {
-    "id": "a2aca7c9aaf6aab5",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "September 9, 2026",
-    "date": "2026-09-09",
-    "dateDisplay": "Wed, Sep 9",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/08/090926-PC-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-19T11:31:48.098750+00:00"
+    "scrapedAt": "2026-09-05T13:49:34.487349+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "f503f220ad754b18",
@@ -466,7 +644,30 @@
     ],
     "pdfItems": "5. Evaluate criteria for a variance\n1. Request from Irish Design & Build Inc., 596 10th Street, Plainwell,\n2. Request from Brandon Bruischart, 559 10th Street, Plainwell, Michigan",
     "parcels": [],
-    "scrapedAt": "2026-09-14T16:55:06.295182+00:00"
+    "scrapedAt": "2026-09-14T16:55:06.295182+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "f0b2c1c982a561ac",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-08",
+    "dateDisplay": "Tue, Sep 8",
+    "time": "",
+    "summary": "A. Meegan Zickus – 78th Ave – Running for House of Representatives in 89th District; Three C’s\nA. Dewpointe West Tentative Preliminary Plat Phase 5 – Seeking 58 Single Family residential lots",
+    "details": "",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/09/9.8.26-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "A. Meegan Zickus – 78th Ave – Running for House of Representatives in 89th District; Three C’s\nA. Dewpointe West Tentative Preliminary Plat Phase 5 – Seeking 58 Single Family residential lots",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:01.803727+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "200625177b9e3dc8",
@@ -475,6 +676,7 @@
     "title": "We are taking Application for Planning Commission and Zoning Board of Appeals Members",
     "date": "2026-09-08",
     "dateDisplay": "Tue, Sep 8",
+    "dateType": "publication",
     "time": "",
     "summary": "",
     "details": "",
@@ -486,25 +688,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-09T15:03:54.978814+00:00"
-  },
-  {
-    "id": "67db62f613f07c19",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "9/8/2026 Planning Commission Cancellation",
-    "date": "2026-09-04",
-    "dateDisplay": "Fri, Sep 4",
-    "time": "",
-    "summary": "View Cancellation Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/9-8-2026-planning-commission-cancellation/?utm_source=rss&utm_medium=rss&utm_campaign=9-8-2026-planning-commission-cancellation",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-05T13:50:53.434737+00:00"
+    "scrapedAt": "2026-09-25T15:46:46.417780+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "8f6b11ad5ed5da61",
@@ -513,6 +698,7 @@
     "title": "Notice of Public Hearing Olive Township Planning Commission 09/01/2026",
     "date": "2026-09-04",
     "dateDisplay": "Fri, Sep 4",
+    "dateType": "publication",
     "time": "",
     "summary": "&#160; Read the notice of special meeting here",
     "details": "",
@@ -526,7 +712,28 @@
     "parcels": [
       "70-12-22-200-022"
     ],
-    "scrapedAt": "2026-09-05T13:51:09.459400+00:00"
+    "scrapedAt": "2026-09-25T15:48:49.186297+00:00",
+    "sourceId": "OTT-OLIV-TWP-PC"
+  },
+  {
+    "id": "67db62f613f07c19",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "9/8/2026 Planning Commission Cancellation",
+    "date": "2026-09-04",
+    "dateDisplay": "Fri, Sep 4",
+    "dateType": "publication",
+    "time": "",
+    "summary": "View Cancellation Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/9-8-2026-planning-commission-cancellation/?utm_source=rss&utm_medium=rss&utm_campaign=9-8-2026-planning-commission-cancellation",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-25T15:48:28.075264+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "de1e04ab3a2e1d89",
@@ -546,32 +753,13 @@
       "Housing",
       "Industrial"
     ],
-    "pdfItems": "\u2022 Goal: Concentrate the density of commercial land uses to protect open spaces and rural character\n\u2022 Goal: Promote the development, redevelopment, and rehabilitation of commercial areas to provide\n\u2022 Recommendation: Intensive commercial land uses should have the resources to support such\n\u2022 Recommendation: Require that future commercial development does not intrude upon the residents in\n\u2022 Recommendation: Intensive land uses should be located within the boundaries of the public water and",
+    "pdfItems": "• Goal: Concentrate the density of commercial land uses to protect open spaces and rural character\n• Goal: Promote the development, redevelopment, and rehabilitation of commercial areas to provide\n• Recommendation: Intensive commercial land uses should have the resources to support such\n• Recommendation: Require that future commercial development does not intrude upon the residents in\n• Recommendation: Intensive land uses should be located within the boundaries of the public water and",
     "parcels": [
       "70-09-20-300-005",
       "70-09-20-300-022"
     ],
-    "scrapedAt": "2026-09-05T13:50:35.390053+00:00"
-  },
-  {
-    "id": "163ead2bcacd5545",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Ritchie Dimensional Variance Township Zoning Board of Appeal Public Hearing",
-    "date": "2026-09-03",
-    "dateDisplay": "Thu, Sep 3",
-    "time": "",
-    "summary": "View Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-05T13:50:53.434790+00:00"
+    "scrapedAt": "2026-09-05T13:50:35.390053+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "d9b61423ed79cbaa",
@@ -591,7 +779,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-05T13:50:53.434831+00:00"
+    "scrapedAt": "2026-09-05T13:50:53.434831+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "354fc7e379d69716",
@@ -604,7 +793,7 @@
     "summary": "1. Second Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n2. First Read for Ordinance 197 Permitting Accessory Solar Panels and\n3. Data Center",
     "details": "",
     "link": "https://www.gunplain.org/wp-content/uploads/September-3-2026-Township-Board-Agenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Zoning",
@@ -613,28 +802,29 @@
     ],
     "pdfItems": "1. Second Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n2. First Read for Ordinance 197 Permitting Accessory Solar Panels and\n3. Data Center",
     "parcels": [],
-    "scrapedAt": "2026-09-01T15:26:15.840209+00:00"
+    "scrapedAt": "2026-09-01T15:26:15.840209+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
-    "id": "6b61a3d2f07e9735",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-09-02",
-    "dateDisplay": "Wed, Sep 2",
+    "id": "163ead2bcacd5545",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Ritchie Dimensional Variance Township Zoning Board of Appeal Public Hearing",
+    "date": "2026-09-03",
+    "dateDisplay": "Thu, Sep 3",
     "time": "",
-    "summary": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "summary": "View Notice",
     "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCMinutes.pdf",
+    "link": "https://ghtmi.gov/ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing/?utm_source=rss&utm_medium=rss&utm_campaign=ritchie-dimensional-variance-township-zoning-board-of-appeal-public-hearing",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "",
     "topics": [
-      "Zoning",
-      "Housing"
+      "Zoning"
     ],
-    "pdfItems": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-15T15:31:20.974916+00:00"
+    "scrapedAt": "2026-09-05T13:50:53.434790+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "fc715ab7509cc5f2",
@@ -652,7 +842,91 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-05T13:49:35.520053+00:00"
+    "scrapedAt": "2026-09-05T13:49:35.520053+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "f2c7e7c50f4eef9f",
+    "county": "Ottawa",
+    "source": "City of Coopersville Planning Commission",
+    "title": "September Special Planning Commission Agenda",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://cityofcoopersville.com/wp-content/uploads/2026/09/20260902-PC-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:06.119992+00:00",
+    "sourceId": "OTT-COOP-CITY-PC"
+  },
+  {
+    "id": "b3bfbf38712c1bd1",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/090226PCAgenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "parcels": [],
+    "scrapedAt": "2026-08-23T11:26:39.700425+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "6b61a3d2f07e9735",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCMinutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
+    "parcels": [],
+    "scrapedAt": "2026-09-15T15:31:20.974916+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "5621e8d63abda380",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Sep 2, 2026 — Posted Aug 26, 2026 10:13 AM Planning Commission Regular Meeting Cancelled Download ▼ Agenda",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09022026-1704",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:16.439046+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "1e9973eb88e8101f",
@@ -665,12 +939,13 @@
     "summary": "",
     "details": "",
     "link": "https://laketowntwp.org/wp-content/uploads/2026/08/090226BdAgenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-28T21:20:40.714029+00:00"
+    "scrapedAt": "2026-08-28T21:20:40.714029+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "1e97e762aa8f3b4c",
@@ -683,50 +958,42 @@
     "summary": "",
     "details": "",
     "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_09022026-1704",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-27T20:59:12.936294+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:15.603918+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
-    "id": "5621e8d63abda380",
+    "id": "ebb1df7dbe39c524",
     "county": "Ottawa",
-    "source": "Georgetown Charter Township Planning Commission",
-    "title": "Sep 2, 2026 \u2014\u2009Posted Aug 26, 2026 10:13 AM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
-    "date": "2026-09-02",
-    "dateDisplay": "Wed, Sep 2",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "Agenda September 1 2026",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
     "time": "",
-    "summary": "",
+    "summary": "a. 12353 James Street (70-16-16-451-005) - Site Plan Review\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
     "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_09022026-1704",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-27T20:59:13.925008+00:00"
-  },
-  {
-    "id": "b3bfbf38712c1bd1",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-09-02",
-    "dateDisplay": "Wed, Sep 2",
-    "time": "",
-    "summary": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
-    "details": "",
-    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/090226PCAgenda.pdf",
-    "tag": "Upcoming",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1443-agenda-september-1-2026/file",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
-      "Zoning"
+      "Zoning",
+      "Housing",
+      "Industrial"
     ],
-    "pdfItems": "1. Special Land Use \u2013 Emily Scrimger of Mathison Architects\n2. Special Land Use \u2013 John Franks\n3. Special Land Use \u2013 Jeff Hosher\n4. Special Land Use \u2013 Scott Mead\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
-    "parcels": [],
-    "scrapedAt": "2026-08-23T11:26:39.700425+00:00"
+    "pdfItems": "a. 12353 James Street (70-16-16-451-005) - Site Plan Review\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "parcels": [
+      "70-16-16-451-005",
+      "70-16-09-100-012",
+      "70-16-21-238-001"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:35.621080+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
     "id": "dc01d42b0689b263",
@@ -746,71 +1013,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-10T14:56:35.905823+00:00"
-  },
-  {
-    "id": "087be9f6689f1bf0",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-09-01",
-    "dateDisplay": "Tue, Sep 1",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1454-draft-minutes-september-1-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-16-451-005",
-      "70-16-09-100-012",
-      "70-16-21-238-001"
-    ],
-    "scrapedAt": "2026-09-09T15:07:31.159918+00:00"
-  },
-  {
-    "id": "186b4594bfa91be9",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "9/21/2026 Planning Commission Public Hearing \u2013 Heyboer Rezoning",
-    "date": "2026-09-01",
-    "dateDisplay": "Tue, Sep 1",
-    "time": "",
-    "summary": "View Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/9-21-2026-planning-commission-public-hearing-heyboer-rezoning/?utm_source=rss&utm_medium=rss&utm_campaign=9-21-2026-planning-commission-public-hearing-heyboer-rezoning",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-09-02T15:06:45.566213+00:00"
-  },
-  {
-    "id": "ebb1df7dbe39c524",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-09-01",
-    "dateDisplay": "Tue, Sep 1",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1443-agenda-september-1-2026/file",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-16-451-005",
-      "70-16-09-100-012",
-      "70-16-21-238-001"
-    ],
-    "scrapedAt": "2026-08-14T11:50:25.937035+00:00"
+    "scrapedAt": "2026-09-10T14:56:35.905823+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "463e3097c99ffd5b",
@@ -823,14 +1027,64 @@
     "summary": "5. Evaluate criteria for a variance",
     "details": "",
     "link": "https://www.gunplain.org/wp-content/uploads/September-1-2026-ZBA-Board-Agenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Zoning"
     ],
     "pdfItems": "5. Evaluate criteria for a variance",
     "parcels": [],
-    "scrapedAt": "2026-08-07T11:50:07.471536+00:00"
+    "scrapedAt": "2026-08-07T11:50:07.471536+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "186b4594bfa91be9",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "9/21/2026 Planning Commission Public Hearing – Heyboer Rezoning",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "dateType": "publication",
+    "time": "",
+    "summary": "View Notice",
+    "details": "",
+    "link": "https://ghtmi.gov/9-21-2026-planning-commission-public-hearing-heyboer-rezoning/?utm_source=rss&utm_medium=rss&utm_campaign=9-21-2026-planning-commission-public-hearing-heyboer-rezoning",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-25T15:48:28.075339+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
+  },
+  {
+    "id": "087be9f6689f1bf0",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "Draft Minutes September 1 2026",
+    "date": "2026-09-01",
+    "dateDisplay": "Tue, Sep 1",
+    "time": "",
+    "summary": "a. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1454-draft-minutes-september-1-2026/file",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "parcels": [
+      "70-16-16-451-005",
+      "70-16-09-100-012",
+      "70-16-21-238-001"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:39.021259+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
     "id": "bdb7ffb3f65d2be1",
@@ -843,7 +1097,7 @@
     "summary": "&#160; View the Notice of Public Hearing to expand Special Land Use here",
     "details": "",
     "link": "https://olivetownship-mi.gov/notice-of-public-hearing-olive-township-planning-commission-september-01-2026/?utm_source=rss&utm_medium=rss&utm_campaign=notice-of-public-hearing-olive-township-planning-commission-september-01-2026",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "",
     "topics": [
       "Zoning"
@@ -852,7 +1106,8 @@
     "parcels": [
       "70-12-22-200-022"
     ],
-    "scrapedAt": "2026-08-27T20:58:42.633791+00:00"
+    "scrapedAt": "2026-08-27T20:58:42.633791+00:00",
+    "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
     "id": "7b0daa74431fc24b",
@@ -877,13 +1132,41 @@
       "70-11-24-100-024",
       "70-11-02-200-010"
     ],
-    "scrapedAt": "2026-09-10T15:00:21.155182+00:00"
+    "scrapedAt": "2026-09-10T15:00:21.155182+00:00",
+    "sourceId": "OTT-PORT-TWP-PC"
+  },
+  {
+    "id": "36cfcf048bcc50f4",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "Download",
+    "date": "2026-08-26",
+    "dateDisplay": "Wed, Aug 26",
+    "time": "",
+    "summary": "6. Zoning Administrator Updates:\nc. The Township Board passed a motion to redirect the Proposed Zoning",
+    "details": "",
+    "link": "https://cdn-www-portsheldontwp-org-unli.b-cdn.net/wp-content/uploads/2026/08/PC-Packet-August-26-2026-002.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "6. Zoning Administrator Updates:\nc. The Township Board passed a motion to redirect the Proposed Zoning",
+    "parcels": [
+      "70-11-24-100-024",
+      "70-11-02-200-010",
+      "70-11-12-100-031"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:56.543133+00:00",
+    "sourceId": "OTT-PORT-TWP-PC"
   },
   {
     "id": "f7f9f184aae7f38a",
     "county": "Ottawa",
     "source": "Chester Township Planning Commission",
-    "title": "Notice of Adoption \u2013 Zoning Ordinance Amendment",
+    "title": "Notice of Adoption – Zoning Ordinance Amendment",
     "date": "2026-08-20",
     "dateDisplay": "Thu, Aug 20",
     "time": "",
@@ -897,7 +1180,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-21T11:38:09.082001+00:00"
+    "scrapedAt": "2026-08-21T11:38:09.082001+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
   },
   {
     "id": "ae8c66ee3e61e98d",
@@ -916,17 +1200,106 @@
       "Industrial",
       "Zoning"
     ],
-    "pdfItems": "\u2022 Battery Energy Storage Systems Review- Utility Scale\n\u2022 Data Center Review (Tabled at previous meeting after discussion)\n\u2022 Zoning Board of Appeals report - PC Rep Jon Denhof\n\u2022 Zoning Report",
+    "pdfItems": "• Battery Energy Storage Systems Review- Utility Scale\n• Data Center Review (Tabled at previous meeting after discussion)\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [
       "70-01-32-100-024"
     ],
-    "scrapedAt": "2026-08-21T11:38:09.082108+00:00"
+    "scrapedAt": "2026-08-21T11:38:09.082108+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
+  },
+  {
+    "id": "fbc371914a9bbe5a",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 19, 2026 Planning Commission Agenda",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-19-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:46:55.518664+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "e0b2f269b99fc3ad",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081926Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-16T11:25:53.249630+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "88077416b3a2ec0c",
+    "county": "Ottawa",
+    "source": "City of Hudsonville Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "1. Hudsonville Community Fairgrounds – Zoning Ordinance Map Amendment – Public Hearing",
+    "details": "",
+    "link": "https://www.hudsonville.org/Documents/Directory/Agendas Minutes/Planning Commission/2026/8-19-26 PC Agenda.pdf?t=202608240820200",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Hudsonville Community Fairgrounds – Zoning Ordinance Map Amendment – Public Hearing",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:07.864495+00:00",
+    "sourceId": "OTT-HUDS-CITY-PC"
+  },
+  {
+    "id": "79f46a4ef3a3f3e8",
+    "county": "Ottawa",
+    "source": "City of Hudsonville Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-19",
+    "dateDisplay": "Wed, Aug 19",
+    "time": "",
+    "summary": "2. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n• The northern portion of the rezoning was an error in the past master plan and just needed to be\n• The eastern portion up for rezoning is the portion that is not currently owned by the fairgrounds.\n• The property is going to be rezoned for the fairgrounds which may be growing too large for a\n• The Planning Commission is looking at t",
+    "details": "",
+    "link": "https://www.hudsonville.org/Documents/Directory/Agendas Minutes/Planning Commission/2026/8-19-26 PC Draft Minutes.pdf?t=202608241143530",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "2. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n• The northern portion of the rezoning was an error in the past master plan and just needed to be\n• The eastern portion up for rezoning is the portion that is not currently owned by the fairgrounds.\n• The property is going to be rezoned for the fairgrounds which may be growing too large for a\n• The Planning Commission is looking at this request based on the zoning and the capacity of the\n• Window Coverage & Murals",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:08.250540+00:00",
+    "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
     "id": "50629157ef00113f",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
-    "title": "Aug 19, 2026 \u2014\u2009Posted Aug 18, 2026 12:21 PM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previo",
+    "title": "Aug 19, 2026 — Posted Aug 18, 2026 12:21 PM Planning Commission Regular Meeting Agenda Download ▼ HTML PDF Packet Previo",
     "date": "2026-08-19",
     "dateDisplay": "Wed, Aug 19",
     "time": "",
@@ -938,7 +1311,9 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-27T20:59:15.671900+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:17.875509+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "40a714d35d1d7dc0",
@@ -956,85 +1331,28 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-26T11:36:06.285524+00:00"
+    "scrapedAt": "2026-08-26T11:36:06.285524+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "32b692e0d93316c3",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
-    "title": "HTML PDF Packet",
+    "title": "HTML PDF Packet Previous Versions",
     "date": "2026-08-19",
     "dateDisplay": "Wed, Aug 19",
     "time": "",
     "summary": "",
     "details": "",
     "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_08192026-1701",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-19T11:33:12.104693+00:00"
-  },
-  {
-    "id": "fbc371914a9bbe5a",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "August 19, 2026 Planning Commission Agenda",
-    "date": "2026-08-19",
-    "dateDisplay": "Wed, Aug 19",
-    "time": "",
-    "summary": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/August-19-2026-Planning-Commission-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
-    "parcels": [],
-    "scrapedAt": "2026-08-18T11:33:09.020821+00:00"
-  },
-  {
-    "id": "e0b2f269b99fc3ad",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-08-19",
-    "dateDisplay": "Wed, Aug 19",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081926Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-16T11:25:53.249630+00:00"
-  },
-  {
-    "id": "77b213fc7060ee51",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Minutes 2026-08-18",
-    "date": "2026-08-18",
-    "dateDisplay": "Tue, Aug 18",
-    "time": "",
-    "summary": "\u2022 Text Amendments",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/08/Planning-Commission-Minutes-2026-08-18.pdf",
     "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Text Amendments",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-25T11:35:29.264929+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:18.567555+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "972371c217e8206c",
@@ -1044,23 +1362,90 @@
     "date": "2026-08-18",
     "dateDisplay": "Tue, Aug 18",
     "time": "",
-    "summary": "\u2022 Text Amendments",
+    "summary": "• Text Amendments",
     "details": "",
     "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/08/Planning-Commission-Agenda-2026-08-18.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Zoning"
     ],
-    "pdfItems": "\u2022 Text Amendments",
+    "pdfItems": "• Text Amendments",
     "parcels": [],
-    "scrapedAt": "2026-08-08T11:36:48.820861+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:47.534194+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
+  },
+  {
+    "id": "77b213fc7060ee51",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Minutes 2026-08-18",
+    "date": "2026-08-18",
+    "dateDisplay": "Tue, Aug 18",
+    "time": "",
+    "summary": "• Text Amendments",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/08/Planning-Commission-Minutes-2026-08-18.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "• Text Amendments",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:47.358392+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
+  },
+  {
+    "id": "cfa000d7280f0a8a",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Cancellation",
+    "date": "2026-08-17",
+    "dateDisplay": "Mon, Aug 17",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/08/8.-PC-Cancel-8.17.26.pdf",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:01.854362+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
+  },
+  {
+    "id": "a9cc32d7bde0faf6",
+    "county": "Ottawa",
+    "source": "City of Coopersville Planning Commission",
+    "title": "August 17",
+    "date": "2026-08-17",
+    "dateDisplay": "Mon, Aug 17",
+    "time": "",
+    "summary": "1. Any future changes to PUD site plan phasing shall be administratively reviewed as a “minor\n2. Review and approval of Phase 4 construction plans by City Engineer.\n3. Obtain a Building Permit and Flat Work Permit before beginning construction of any\n5. Obtain a Sign Permit from the Zoning Administrator prior to the placement of any sign in\n10. Sidewalks shall be provided along all streets per Sec",
+    "details": "",
+    "link": "https://cityofcoopersville.com/wp-content/uploads/2026/09/20260817-PC-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Any future changes to PUD site plan phasing shall be administratively reviewed as a “minor\n2. Review and approval of Phase 4 construction plans by City Engineer.\n3. Obtain a Building Permit and Flat Work Permit before beginning construction of any\n5. Obtain a Sign Permit from the Zoning Administrator prior to the placement of any sign in\n10. Sidewalks shall be provided along all streets per Section 1264.04(b).\n11. A variance from Section 1228.03(1)(j)(1) shall be obtained from the Board of Zoning",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:06.985510+00:00",
+    "sourceId": "OTT-COOP-CITY-PC"
   },
   {
     "id": "74205b9e70de45f9",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Notice of Cancellation \u2013 Planning Commission Meeting for August 17, 2026.",
+    "title": "Notice of Cancellation – Planning Commission Meeting for August 17, 2026.",
     "date": "2026-08-17",
     "dateDisplay": "Mon, Aug 17",
     "time": "",
@@ -1072,7 +1457,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-19T11:32:19.938979+00:00"
+    "scrapedAt": "2026-08-19T11:32:19.938979+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "f53145406c1f683a",
@@ -1093,7 +1479,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-14T11:49:38.270983+00:00"
+    "scrapedAt": "2026-08-14T11:49:38.270983+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "73c89c7931f389d6",
@@ -1114,7 +1501,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-14T11:49:38.271040+00:00"
+    "scrapedAt": "2026-08-14T11:49:38.271040+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "423d5f00d564a1e2",
@@ -1127,12 +1515,13 @@
     "summary": "",
     "details": "",
     "link": "http://laketowntwp.org/wp-content/uploads/2026/08/081326GFDBoardAgenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-13T11:53:07.385839+00:00"
+    "scrapedAt": "2026-08-13T11:53:07.385839+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "e4e52199c1841394",
@@ -1150,25 +1539,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-20T11:32:52.396448+00:00"
-  },
-  {
-    "id": "315b27461484f18f",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Draft Minutes",
-    "date": "2026-08-12",
-    "dateDisplay": "Wed, Aug 12",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/08/PC-Minutes-08-12-26.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-15T11:27:09.406259+00:00"
+    "scrapedAt": "2026-08-20T11:32:52.396448+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "9defed65c5f21f1d",
@@ -1179,14 +1551,39 @@
     "dateDisplay": "Wed, Aug 12",
     "time": "",
     "summary": "",
-    "details": "",
+    "details": "PDF extraction failed on the latest check; previously extracted content is retained.",
     "link": "https://leightontownship.org/wp-content/uploads/2026/08/PC-Agenda-8-12-26-1.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-12T11:58:08.587473+00:00"
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-25T15:47:29.214637+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
+  },
+  {
+    "id": "3ce7d6da268afe35",
+    "county": "Allegan",
+    "source": "Wayland Township Planning Commission",
+    "title": "8-12-26",
+    "date": "2026-08-12",
+    "dateDisplay": "Wed, Aug 12",
+    "time": "",
+    "summary": "a. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Chairman Brenner encouraged everyone to start studying data center\n9. Public Comment #2: Colin Kummerfeldt informed the PC that Apex Energy has sent the Permit",
+    "details": "",
+    "link": "http://waytwp.org/wp-content/uploads/2026/09/8-12-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Chairman Brenner encouraged everyone to start studying data center\n9. Public Comment #2: Colin Kummerfeldt informed the PC that Apex Energy has sent the Permit",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:56.423780+00:00",
+    "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
     "id": "322ab2630bab668e",
@@ -1199,12 +1596,90 @@
     "summary": "",
     "details": "",
     "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081226Agenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-11T11:49:34.282958+00:00"
+    "scrapedAt": "2026-08-11T11:49:34.282958+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "315b27461484f18f",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-12",
+    "dateDisplay": "Wed, Aug 12",
+    "time": "",
+    "summary": "a. Rezoning Request – Jeff Wiegers – Division and 140th (C-2 to R-1). Applicant Jeff Wiegers has\na. Data Centers draft amendment. No changes.\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. Moore provided an updated draft of the short-term rental zoning",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/08/PC-Minutes-08-12-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "a. Rezoning Request – Jeff Wiegers – Division and 140th (C-2 to R-1). Applicant Jeff Wiegers has\na. Data Centers draft amendment. No changes.\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. Moore provided an updated draft of the short-term rental zoning",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:29.157361+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
+  },
+  {
+    "id": "ea665b77cd56dd0c",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "Agenda August 11 2026",
+    "date": "2026-08-11",
+    "dateDisplay": "Tue, Aug 11",
+    "time": "",
+    "summary": "a. 11024 Chicago Drive (70-16-23-100-108) – Special Land Use Permit\nb. 645 Douglas Avenue (70-16-19-300-105) – Special Land Use Permit\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1439-agenda-august-11-2026/file",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. 11024 Chicago Drive (70-16-23-100-108) – Special Land Use Permit\nb. 645 Douglas Avenue (70-16-19-300-105) – Special Land Use Permit\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "parcels": [
+      "70-16-23-100-108",
+      "70-16-19-300-105",
+      "70-16-21-238-001"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:36.362543+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
+  },
+  {
+    "id": "e4a453032e9be2b0",
+    "county": "Ottawa",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "Draft Minutes August 11 2026",
+    "date": "2026-08-11",
+    "dateDisplay": "Tue, Aug 11",
+    "time": "",
+    "summary": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "details": "",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1444-draft-minutes-august-11-2026/file",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
+    "parcels": [
+      "70-16-23-100-108",
+      "70-16-19-300-105",
+      "70-16-21-238-001"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:40.439849+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
     "id": "8091d9baf61a25ec",
@@ -1222,37 +1697,14 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-05T13:48:36.101056+00:00"
-  },
-  {
-    "id": "e4a453032e9be2b0",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-08-11",
-    "dateDisplay": "Tue, Aug 11",
-    "time": "",
-    "summary": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1444-draft-minutes-august-11-2026/file",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "4. The use will be consistent with the intent and purposes of this ordinance and the\n4. The use will be consistent with the intent and purposes of this ordinance and the",
-    "parcels": [
-      "70-16-23-100-108",
-      "70-16-19-300-105",
-      "70-16-21-238-001"
-    ],
-    "scrapedAt": "2026-08-19T11:33:09.894780+00:00"
+    "scrapedAt": "2026-09-05T13:48:36.101056+00:00",
+    "sourceId": "ALG-FILL-TWP-PC"
   },
   {
     "id": "5592209df60e5d65",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
-    "title": "8/24/26 Public Hearing \u2013 Increasing Property Taxes",
+    "title": "8/24/26 Public Hearing – Increasing Property Taxes",
     "date": "2026-08-11",
     "dateDisplay": "Tue, Aug 11",
     "time": "",
@@ -1264,49 +1716,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-12T11:58:58.227204+00:00"
-  },
-  {
-    "id": "ea665b77cd56dd0c",
-    "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-08-11",
-    "dateDisplay": "Tue, Aug 11",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1439-agenda-august-11-2026/file",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-23-100-108",
-      "70-16-19-300-105",
-      "70-16-21-238-001"
-    ],
-    "scrapedAt": "2026-07-23T12:46:30.177071+00:00"
-  },
-  {
-    "id": "9545b89d2a9dac90",
-    "county": "Ottawa",
-    "source": "Port Sheldon Township Planning Commission",
-    "title": "September 2, 2026 Notice of Public Hearing \u2013 Port Sheldon Township Zoning Board of Appeals",
-    "date": "2026-08-10",
-    "dateDisplay": "Mon, Aug 10",
-    "time": "",
-    "summary": "NOTICE OF PUBLIC HEARING PORT SHELDON TOWNSHIP ZONING BOARD OF APPEALS Please take notice that a Public Hearing will be held on Wednesday, September 2, 2026, at 5:30 pm at the Port Sheldon Township Hall&#8230; READ MORE The post September 2, 2026 Notice of Public Hearing \u2013 Port Sheldon Township Zoning Board of Appeals first appeared on Port Sheldon Township .",
-    "details": "",
-    "link": "https://www.portsheldontwp.org/september-2-2026-notice-of-public-hearing-port-sheldon-township-zoning-board-of-appeals/",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-11T11:50:25.259606+00:00"
+    "scrapedAt": "2026-08-12T11:58:58.227204+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "d8e828cad3af4789",
@@ -1319,12 +1730,34 @@
     "summary": "",
     "details": "",
     "link": "https://heathtownship.net/wp-content/uploads/2026/08/agenda-for-August-2026.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-08T11:34:36.326661+00:00"
+    "scrapedAt": "2026-08-08T11:34:36.326661+00:00",
+    "sourceId": "ALG-HEAT-TWP-PC"
+  },
+  {
+    "id": "9545b89d2a9dac90",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "September 2, 2026 Notice of Public Hearing – Port Sheldon Township Zoning Board of Appeals",
+    "date": "2026-08-10",
+    "dateDisplay": "Mon, Aug 10",
+    "time": "",
+    "summary": "NOTICE OF PUBLIC HEARING PORT SHELDON TOWNSHIP ZONING BOARD OF APPEALS Please take notice that a Public Hearing will be held on Wednesday, September 2, 2026, at 5:30 pm at the Port Sheldon Township Hall&#8230; READ MORE The post September 2, 2026 Notice of Public Hearing – Port Sheldon Township Zoning Board of Appeals first appeared on Port Sheldon Township .",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/september-2-2026-notice-of-public-hearing-port-sheldon-township-zoning-board-of-appeals/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:50:25.259606+00:00",
+    "sourceId": "OTT-PORT-TWP-PC"
   },
   {
     "id": "81f627530fe4faa8",
@@ -1337,73 +1770,17 @@
     "summary": "5. Heron Energy Storage LLC. Special Land Use Permit and Site Plan",
     "details": "",
     "link": "https://www.gunplain.org/wp-content/uploads/August-10-2026-Planning-Commission-Special-Meeting-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
+    "tag": "Recent",
+    "docType": "Agenda",
     "topics": [
       "Zoning",
       "Industrial"
     ],
     "pdfItems": "5. Heron Energy Storage LLC. Special Land Use Permit and Site Plan",
     "parcels": [],
-    "scrapedAt": "2026-07-30T12:48:49.715359+00:00"
-  },
-  {
-    "id": "084dd3c42b918829",
-    "county": "Allegan",
-    "source": "Heath Township Planning Commission",
-    "title": "August 10, 2026 Township Board Meeting",
-    "date": "2026-08-07",
-    "dateDisplay": "Fri, Aug 7",
-    "time": "",
-    "summary": "August 10, 2026 Meeting Agenda",
-    "details": "",
-    "link": "https://heathtownship.net/august-10-2026-township-board-meeting/",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-08T11:34:30.183374+00:00"
-  },
-  {
-    "id": "82743c066e653c35",
-    "county": "Ottawa",
-    "source": "Chester Township Planning Commission",
-    "title": "Board Meeting August 10",
-    "date": "2026-08-07",
-    "dateDisplay": "Fri, Aug 7",
-    "time": "",
-    "summary": "View Packet View Agenda Join: https://teams.microsoft.com/meet/23486100713887?p=KRDDrJkv3AWlzF5LEW Meeting ID: 234 861 007 138 87 Passcode: 7kw35Hz2",
-    "details": "",
-    "link": "https://chesterottawami.gov/board-meeting-august-10/?utm_source=rss&utm_medium=rss&utm_campaign=board-meeting-august-10",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-08T11:36:32.375386+00:00"
-  },
-  {
-    "id": "08b2ae4f81c12763",
-    "county": "Ottawa",
-    "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Kaminski Dimensional Variance",
-    "date": "2026-08-07",
-    "dateDisplay": "Fri, Aug 7",
-    "time": "",
-    "summary": "Public Hearing Notice",
-    "details": "",
-    "link": "https://ghtmi.gov/kaminski-dimensional-variance/?utm_source=rss&utm_medium=rss&utm_campaign=kaminski-dimensional-variance",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 A retaining wall measuring 5-foot in height at a 25\u2019 5\u201d front yard setback\n\u2022 A 6-foot tall retaining wall with a zero-foot southern side yard setback\n\u2022 Retaining walls measuring 4-feet, 4-feet, and 3-feet at zero foot setbacks",
-    "parcels": [
-      "70-03-36-303-025"
-    ],
-    "scrapedAt": "2026-08-08T11:36:39.402346+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:46:55.593680+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "bc173bf96f69b44e",
@@ -1423,45 +1800,92 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-08T11:36:39.402394+00:00"
+    "scrapedAt": "2026-08-08T11:36:39.402394+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
-    "id": "1ee465d6075f6d7e",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "August 6, 2026 Township Board Minutes",
-    "date": "2026-08-06",
-    "dateDisplay": "Thu, Aug 6",
+    "id": "82743c066e653c35",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Board Meeting August 10",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
     "time": "",
-    "summary": "",
+    "summary": "View Packet View Agenda Join: https://teams.microsoft.com/meet/23486100713887?p=KRDDrJkv3AWlzF5LEW Meeting ID: 234 861 007 138 87 Passcode: 7kw35Hz2",
     "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Minutes.pdf",
+    "link": "https://chesterottawami.gov/board-meeting-august-10/?utm_source=rss&utm_medium=rss&utm_campaign=board-meeting-august-10",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-10T14:56:35.198323+00:00"
+    "scrapedAt": "2026-08-08T11:36:32.375386+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
   },
   {
-    "id": "618a1c299f9ffa7f",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "Public Notice Zoning Board of Appeals Variance Request for 471 105th Ave.",
-    "date": "2026-08-06",
-    "dateDisplay": "Thu, Aug 6",
+    "id": "08b2ae4f81c12763",
+    "county": "Ottawa",
+    "source": "Grand Haven Charter Township Planning Commission",
+    "title": "Kaminski Dimensional Variance",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
     "time": "",
-    "summary": "",
+    "summary": "Public Hearing Notice",
     "details": "",
-    "link": "https://www.gunplain.org/public-notice-zoning-board-of-appeals-variance-request-for-471-105th-ave/",
+    "link": "https://ghtmi.gov/kaminski-dimensional-variance/?utm_source=rss&utm_medium=rss&utm_campaign=kaminski-dimensional-variance",
     "tag": "Recent",
     "docType": "",
     "topics": [
       "Zoning"
     ],
+    "pdfItems": "• A retaining wall measuring 5-foot in height at a 25’ 5” front yard setback\n• A 6-foot tall retaining wall with a zero-foot southern side yard setback\n• Retaining walls measuring 4-feet, 4-feet, and 3-feet at zero foot setbacks",
+    "parcels": [
+      "70-03-36-303-025"
+    ],
+    "scrapedAt": "2026-08-08T11:36:39.402346+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
+  },
+  {
+    "id": "084dd3c42b918829",
+    "county": "Allegan",
+    "source": "Heath Township Planning Commission",
+    "title": "August 10, 2026 Township Board Meeting",
+    "date": "2026-08-07",
+    "dateDisplay": "Fri, Aug 7",
+    "time": "",
+    "summary": "August 10, 2026 Meeting Agenda",
+    "details": "",
+    "link": "https://heathtownship.net/august-10-2026-township-board-meeting/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-07T11:50:04.914990+00:00"
+    "scrapedAt": "2026-08-08T11:34:30.183374+00:00",
+    "sourceId": "ALG-HEAT-TWP-PC"
+  },
+  {
+    "id": "7d630494e3f9195c",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 6, 2026 Township Board Agenda",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "parcels": [],
+    "scrapedAt": "2026-08-06T13:00:05.441600+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "6f607dd917b40137",
@@ -1481,29 +1905,69 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-07T11:50:04.915045+00:00"
+    "scrapedAt": "2026-08-07T11:50:04.915045+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
-    "id": "7d630494e3f9195c",
+    "id": "618a1c299f9ffa7f",
     "county": "Allegan",
     "source": "Gun Plain Township Planning Commission",
-    "title": "August 6, 2026 Township Board Agenda",
+    "title": "Public Notice Zoning Board of Appeals Variance Request for 471 105th Ave.",
     "date": "2026-08-06",
     "dateDisplay": "Thu, Aug 6",
     "time": "",
-    "summary": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "summary": "",
     "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Agenda.pdf",
-    "tag": "Upcoming",
+    "link": "https://www.gunplain.org/public-notice-zoning-board-of-appeals-variance-request-for-471-105th-ave/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-07T11:50:04.914990+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "1ee465d6075f6d7e",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "August 6, 2026 Township Board Minutes",
+    "date": "2026-08-06",
+    "dateDisplay": "Thu, Aug 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/August-6-2026-Township-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-10T14:56:35.198323+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "bc064c2397f489eb",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/080526PCAgenda.pdf",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
+      "Zoning"
     ],
-    "pdfItems": "2. Public Hearing for Ordinance 196 Temporary Moratorium on Future\n3. First Read for Ordinance 195 to Permit and Regulate Accessory Dwelling\n3. Data Center",
+    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-08-06T13:00:05.441600+00:00"
+    "scrapedAt": "2026-07-26T12:09:17.555777+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "939049e1a3009f75",
@@ -1513,7 +1977,7 @@
     "date": "2026-08-05",
     "dateDisplay": "Wed, Aug 5",
     "time": "",
-    "summary": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "summary": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "details": "",
     "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCMinutes.pdf",
     "tag": "Recent",
@@ -1521,47 +1985,10 @@
     "topics": [
       "Zoning"
     ],
-    "pdfItems": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "pdfItems": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-08-13T11:53:06.296558+00:00"
-  },
-  {
-    "id": "7a84e6573a664aca",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Minutes",
-    "date": "2026-08-05",
-    "dateDisplay": "Wed, Aug 5",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081226BdMinutes080526.pdf",
-    "tag": "Recent",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-08-11T11:49:35.211463+00:00"
-  },
-  {
-    "id": "409c2132756152bc",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda Update",
-    "date": "2026-08-05",
-    "dateDisplay": "Wed, Aug 5",
-    "time": "",
-    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCAgendaUPDATE.pdf",
-    "tag": "Recent",
-    "docType": "Agenda",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
-    "parcels": [],
-    "scrapedAt": "2026-08-07T11:50:29.105806+00:00"
+    "scrapedAt": "2026-08-13T11:53:06.296558+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "7cea16356ac54811",
@@ -1580,9 +2007,29 @@
       "Industrial",
       "Zoning"
     ],
-    "pdfItems": "10. Discuss \u2013 Additional Parking Signage for Windsnest Park*\n11. Consider \u2013 Redirecting Proposed Zoning Amendments back to Planning Commission*\n12. Consider \u2013 Garbage Collection Ordinance*",
+    "pdfItems": "10. Discuss – Additional Parking Signage for Windsnest Park*\n11. Consider – Redirecting Proposed Zoning Amendments back to Planning Commission*\n12. Consider – Garbage Collection Ordinance*",
     "parcels": [],
-    "scrapedAt": "2026-08-06T13:00:36.009248+00:00"
+    "scrapedAt": "2026-08-06T13:00:36.009248+00:00",
+    "sourceId": "OTT-PORT-TWP-PC"
+  },
+  {
+    "id": "7a84e6573a664aca",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/08/081226BdMinutes080526.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-11T11:49:35.211463+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "4b413bb1fa3befb6",
@@ -1595,32 +2042,34 @@
     "summary": "",
     "details": "",
     "link": "https://laketowntwp.org/wp-content/uploads/2026/07/080526BdAgenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-05T12:59:48.909186+00:00"
+    "scrapedAt": "2026-08-05T12:59:48.909186+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
-    "id": "bc064c2397f489eb",
+    "id": "409c2132756152bc",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
+    "title": "Agenda Update",
     "date": "2026-08-05",
     "dateDisplay": "Wed, Aug 5",
     "time": "",
-    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "summary": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/080526PCAgenda.pdf",
-    "tag": "Upcoming",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCAgendaUPDATE.pdf",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Zoning"
     ],
-    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates \u2013 Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
+    "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-07-26T12:09:17.555777+00:00"
+    "scrapedAt": "2026-08-07T11:50:29.105806+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "33e219dcb2f1a973",
@@ -1633,12 +2082,33 @@
     "summary": "",
     "details": "",
     "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/080526-PC-Agenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-21T12:27:21.578723+00:00"
+    "scrapedAt": "2026-07-21T12:27:21.578723+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
+  },
+  {
+    "id": "7b7de3ceb9ff6959",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Cancellation",
+    "date": "2026-08-03",
+    "dateDisplay": "Mon, Aug 3",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/07/8.-PC-Cancel-8.03.26.pdf",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:01.895375+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "27680d720d9419df",
@@ -1656,13 +2126,14 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-03T13:44:05.593507+00:00"
+    "scrapedAt": "2026-08-03T13:44:05.593507+00:00",
+    "sourceId": "ALG-ALLE-TWP-PC"
   },
   {
     "id": "2e6e9bfd51225ccd",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
-    "title": "8/17/2026 Planning Commission Public Hearing \u2013 Special Land Use Application",
+    "title": "8/17/2026 Planning Commission Public Hearing – Special Land Use Application",
     "date": "2026-07-30",
     "dateDisplay": "Thu, Jul 30",
     "time": "",
@@ -1676,7 +2147,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-31T13:02:01.810808+00:00"
+    "scrapedAt": "2026-07-31T13:02:01.810808+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
     "id": "2145263a79a8a4c1",
@@ -1685,6 +2157,7 @@
     "title": "Notice of Special Board Meeting for the Planning Commission on Heron Energy Storage LLC, Special Land Use Permit and Site Plan",
     "date": "2026-07-29",
     "dateDisplay": "Wed, Jul 29",
+    "dateType": "publication",
     "time": "",
     "summary": "",
     "details": "",
@@ -1697,7 +2170,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-30T12:48:43.010785+00:00"
+    "scrapedAt": "2026-09-25T15:46:46.417892+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "a5919f93595789eb",
@@ -1707,17 +2181,61 @@
     "date": "2026-07-28",
     "dateDisplay": "Tue, Jul 28",
     "time": "",
-    "summary": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI",
+    "summary": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI\nb. Zoning Board of Appeals\nc. Zoning Administrator – Discuss joint meeting with Casco Township regarding",
     "details": "",
     "link": "https://www.gangestownship.org/public-documents/7_28_26 PC Reg Meeting Minutes APPROVED.pdf",
     "tag": "Recent",
     "docType": "Minutes",
     "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI\nb. Zoning Board of Appeals\nc. Zoning Administrator – Discuss joint meeting with Casco Township regarding",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:46:42.470394+00:00",
+    "sourceId": "ALG-GANG-TWP-PC"
+  },
+  {
+    "id": "f7e72640710368fd",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "July 21,2026 (Synopsis Minutes)",
+    "date": "2026-07-21",
+    "dateDisplay": "Tue, Jul 21",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/07/July-21-2026-Synopsis-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-24T12:25:25.222529+00:00",
+    "sourceId": "OTT-CROC-TWP-PC"
+  },
+  {
+    "id": "65e2d414e6e1a143",
+    "county": "Ottawa",
+    "source": "Jamestown Charter Township Planning Commission",
+    "title": "Planning Commission Agenda 2026-07-21",
+    "date": "2026-07-21",
+    "dateDisplay": "Tue, Jul 21",
+    "time": "",
+    "summary": "• Site Plan\n• Text Amendment\n• Master Plan\n• City of Hudsonville Master Plan Map Notice",
+    "details": "",
+    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/07/Planning-Commission-Agenda-2026-07-21.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
       "Zoning"
     ],
-    "pdfItems": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI",
+    "pdfItems": "• Site Plan\n• Text Amendment\n• Master Plan\n• City of Hudsonville Master Plan Map Notice",
     "parcels": [],
-    "scrapedAt": "2026-08-31T18:00:55.189158+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:48.488178+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
   },
   {
     "id": "659c555cf65bee83",
@@ -1737,7 +2255,8 @@
     ],
     "pdfItems": "A. Sign Ordinance Text Amendment - Public Hearing\nB. Downtown overlay zoning",
     "parcels": [],
-    "scrapedAt": "2026-09-21T16:57:52.131777+00:00"
+    "scrapedAt": "2026-09-21T16:57:52.131777+00:00",
+    "sourceId": "OTT-CROC-TWP-PC"
   },
   {
     "id": "01e5f4cd48660816",
@@ -1747,7 +2266,7 @@
     "date": "2026-07-21",
     "dateDisplay": "Tue, Jul 21",
     "time": "",
-    "summary": "2. Jason Vander Meulen, 1125 Riley St., lives directly across street to the west. He stated concerns\n\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan-Planner Ransford informed the Commissioners that the Township Attorney indicated provisions\n\u2022 City of Hudsonville Master Plan Map Notice",
+    "summary": "2. Jason Vander Meulen, 1125 Riley St., lives directly across street to the west. He stated concerns\n• Site Plan\n• Text Amendment\n• Master Plan-Planner Ransford informed the Commissioners that the Township Attorney indicated provisions\n• City of Hudsonville Master Plan Map Notice",
     "details": "",
     "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/07/Planning-Commission-Minutes-2026-07-21.pdf",
     "tag": "Recent",
@@ -1756,53 +2275,37 @@
       "Zoning",
       "Housing"
     ],
-    "pdfItems": "2. Jason Vander Meulen, 1125 Riley St., lives directly across street to the west. He stated concerns\n\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan-Planner Ransford informed the Commissioners that the Township Attorney indicated provisions\n\u2022 City of Hudsonville Master Plan Map Notice",
+    "pdfItems": "2. Jason Vander Meulen, 1125 Riley St., lives directly across street to the west. He stated concerns\n• Site Plan\n• Text Amendment\n• Master Plan-Planner Ransford informed the Commissioners that the Township Attorney indicated provisions\n• City of Hudsonville Master Plan Map Notice",
     "parcels": [],
-    "scrapedAt": "2026-07-29T13:06:31.381139+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:48.301503+00:00",
+    "sourceId": "OTT-JAME-TWP-PC"
   },
   {
-    "id": "f7e72640710368fd",
+    "id": "bfb79ca6029e9bef",
     "county": "Ottawa",
-    "source": "Crockery Township Planning Commission",
-    "title": "July 21,2026 (Synopsis Minutes)",
-    "date": "2026-07-21",
-    "dateDisplay": "Tue, Jul 21",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Cancellation",
+    "date": "2026-07-20",
+    "dateDisplay": "Mon, Jul 20",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "https://crockerytownship.gov/wp-content/uploads/2026/07/July-21-2026-Synopsis-Minutes.pdf",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/07/7.-PC-Cancel-7.20.26.pdf",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-24T12:25:25.222529+00:00"
-  },
-  {
-    "id": "65e2d414e6e1a143",
-    "county": "Ottawa",
-    "source": "Jamestown Charter Township Planning Commission",
-    "title": "Planning Commission Agenda 2026-07-21",
-    "date": "2026-07-21",
-    "dateDisplay": "Tue, Jul 21",
-    "time": "",
-    "summary": "\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan\n\u2022 City of Hudsonville Master Plan Map Notice",
-    "details": "",
-    "link": "https://twp.jamestown.mi.us/wp-content/uploads/2026/07/Planning-Commission-Agenda-2026-07-21.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [
-      "Zoning"
-    ],
-    "pdfItems": "\u2022 Site Plan\n\u2022 Text Amendment\n\u2022 Master Plan\n\u2022 City of Hudsonville Master Plan Map Notice",
-    "parcels": [],
-    "scrapedAt": "2026-07-14T12:20:49.866041+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:01.938473+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "490da748f6d947e9",
     "county": "Ottawa",
     "source": "Grand Haven Charter Township Planning Commission",
-    "title": "Township Board Public Hearing Baumann PUD \u2013 Rescheduled",
+    "title": "Township Board Public Hearing Baumann PUD – Rescheduled",
     "date": "2026-07-20",
     "dateDisplay": "Mon, Jul 20",
     "time": "",
@@ -1814,7 +2317,28 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-21T12:27:44.285510+00:00"
+    "scrapedAt": "2026-07-21T12:27:44.285510+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
+  },
+  {
+    "id": "0c28f9f62b2b881f",
+    "county": "Ottawa",
+    "source": "City of Coopersville Planning Commission",
+    "title": "July 20",
+    "date": "2026-07-20",
+    "dateDisplay": "Mon, Jul 20",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://cityofcoopersville.com/wp-content/uploads/2026/08/20260720-PC-Mintes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:06.417668+00:00",
+    "sourceId": "OTT-COOP-CITY-PC"
   },
   {
     "id": "0e4e1ef280f5287a",
@@ -1832,25 +2356,50 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-17T12:16:30.045192+00:00"
+    "scrapedAt": "2026-07-17T12:16:30.045192+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
   },
   {
-    "id": "9d14c2df647255b7",
+    "id": "fa64cf75756342eb",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
-    "title": "Jul 15, 2026 \u2014\u2009Posted Jul 10, 2026 11:53 AM Planning Commission Regular Meeting Agenda Download\u00a0\u25bc HTML PDF Packet Previo",
+    "title": "HTML PDF Packet Previous Versions",
     "date": "2026-07-15",
     "dateDisplay": "Wed, Jul 15",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_07152026-1695",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07152026-1695",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-13T11:54:25.598375+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:20.645293+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
+  },
+  {
+    "id": "b4bbdd8d6db8aa8e",
+    "county": "Ottawa",
+    "source": "City of Hudsonville Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "1. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application – Public Hearing\n2. Hudsonville Community Fairgrounds – Master Plan Map Amendment – Public Hearing",
+    "details": "",
+    "link": "https://www.hudsonville.org/Documents/Directory/Agendas Minutes/Planning Commission/2026/7-15-26 PC Agenda.pdf?t=202607130847190",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application – Public Hearing\n2. Hudsonville Community Fairgrounds – Master Plan Map Amendment – Public Hearing",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:08.448149+00:00",
+    "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
     "id": "9fcba2a0aa84edfe",
@@ -1868,7 +2417,113 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-18T11:58:16.633262+00:00"
+    "scrapedAt": "2026-07-18T11:58:16.633262+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "9d14c2df647255b7",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Jul 15, 2026 — Posted Jul 10, 2026 11:53 AM Planning Commission Regular Meeting Agenda Download ▼ HTML PDF Packet Previo",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_07152026-1695",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:19.969129+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
+  },
+  {
+    "id": "8f593c3955e4a722",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "July 15, 2026 Planning Commission Agenda",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/July-15-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:46:55.683100+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "662a291a2ab9b6dd",
+    "county": "Ottawa",
+    "source": "City of Hudsonville Planning Commission",
+    "title": "Minutes",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "2. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application\n3. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n1. The application is submitted to Planning and Zoning.",
+    "details": "",
+    "link": "https://www.hudsonville.org/Documents/Directory/Agendas Minutes/Planning Commission/2026/7-15-26 PC Approved Minutes with Public Comment.pdf?t=202608240820470",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "2. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application\n3. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n1. The application is submitted to Planning and Zoning.",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:49:09.210591+00:00",
+    "sourceId": "OTT-HUDS-CITY-PC"
+  },
+  {
+    "id": "63025d79e168764f",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/071526ParksAgenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-14T12:20:00.484278+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "5b2822614b7491d7",
+    "county": "Ottawa",
+    "source": "Port Sheldon Township Planning Commission",
+    "title": "July 22, 2026 Planning Commission Meeting Cancelled",
+    "date": "2026-07-15",
+    "dateDisplay": "Wed, Jul 15",
+    "dateType": "publication",
+    "time": "",
+    "summary": "July 22, 2026 Planning Commission Meeting Cancelled due to lack of agenda items. The post July 22, 2026 Planning Commission Meeting Cancelled first appeared on Port Sheldon Township .",
+    "details": "",
+    "link": "https://www.portsheldontwp.org/july-22-2026-planning-commission-meeting-cancelled/",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-09-25T15:48:55.017658+00:00",
+    "sourceId": "OTT-PORT-TWP-PC"
   },
   {
     "id": "505f06009c001efe",
@@ -1886,101 +2541,27 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-16T12:25:22.896305+00:00"
+    "scrapedAt": "2026-07-16T12:25:22.896305+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
-    "id": "5b2822614b7491d7",
-    "county": "Ottawa",
-    "source": "Port Sheldon Township Planning Commission",
-    "title": "July 22, 2026 Planning Commission Meeting Cancelled",
-    "date": "2026-07-15",
-    "dateDisplay": "Wed, Jul 15",
-    "time": "",
-    "summary": "July 22, 2026 Planning Commission Meeting Cancelled due to lack of agenda items. The post July 22, 2026 Planning Commission Meeting Cancelled first appeared on Port Sheldon Township .",
-    "details": "",
-    "link": "https://www.portsheldontwp.org/july-22-2026-planning-commission-meeting-cancelled/",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-16T12:25:37.069113+00:00"
-  },
-  {
-    "id": "63025d79e168764f",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-07-15",
-    "dateDisplay": "Wed, Jul 15",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/071526ParksAgenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-14T12:20:00.484278+00:00"
-  },
-  {
-    "id": "fa64cf75756342eb",
-    "county": "Ottawa",
-    "source": "Georgetown Charter Township Planning Commission",
-    "title": "HTML PDF Packet",
-    "date": "2026-07-15",
-    "dateDisplay": "Wed, Jul 15",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07152026-1695",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-11T11:59:10.341129+00:00"
-  },
-  {
-    "id": "8f593c3955e4a722",
-    "county": "Allegan",
-    "source": "Gun Plain Township Planning Commission",
-    "title": "July 15, 2026 Planning Commission Agenda",
-    "date": "2026-07-15",
-    "dateDisplay": "Wed, Jul 15",
-    "time": "",
-    "summary": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
-    "details": "",
-    "link": "https://www.gunplain.org/wp-content/uploads/July-15-2026-Planning-Commission-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [
-      "Zoning",
-      "Housing",
-      "Industrial"
-    ],
-    "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
-    "parcels": [],
-    "scrapedAt": "2026-07-10T13:15:52.094136+00:00"
-  },
-  {
-    "id": "19d65a2bd784e133",
+    "id": "a0127afe26f5d1ba",
     "county": "Allegan",
     "source": "Fillmore Township Planning Commission",
-    "title": "July 14",
+    "title": "Agenda",
     "date": "2026-07-14",
     "dateDisplay": "Tue, Jul 14",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-Minutes.pdf",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-of-Trustees-Mtg-Agenda.pdf",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-18T11:57:28.899011+00:00"
+    "scrapedAt": "2026-07-11T11:57:04.395215+00:00",
+    "sourceId": "ALG-FILL-TWP-PC"
   },
   {
     "id": "2c732e3c19732cfd",
@@ -1998,25 +2579,27 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-16T12:24:45.412217+00:00"
+    "scrapedAt": "2026-07-16T12:24:45.412217+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
-    "id": "a0127afe26f5d1ba",
+    "id": "19d65a2bd784e133",
     "county": "Allegan",
     "source": "Fillmore Township Planning Commission",
-    "title": "Agenda",
+    "title": "July 14",
     "date": "2026-07-14",
     "dateDisplay": "Tue, Jul 14",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-of-Trustees-Mtg-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
+    "link": "http://fillmoretownship.org/wp-content/uploads/2026/07/July-14-2026-Board-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-11T11:57:04.395215+00:00"
+    "scrapedAt": "2026-07-18T11:57:28.899011+00:00",
+    "sourceId": "ALG-FILL-TWP-PC"
   },
   {
     "id": "02490b38729365f7",
@@ -2029,30 +2612,13 @@
     "summary": "",
     "details": "",
     "link": "https://laketowntwp.org/wp-content/uploads/2026/07/071426BdAgenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-11T11:57:52.963733+00:00"
-  },
-  {
-    "id": "930f09ab6a6c3142",
-    "county": "Allegan",
-    "source": "Lee Township Planning Commission",
-    "title": "Regular Meeting - July 2026",
-    "date": "2026-07-13",
-    "dateDisplay": "Mon, Jul 13",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://www.leetwp.org/Minutes/2026/July 13 2026 Regular Meeting Minutes- OFFICIAL.pdf",
     "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-12T12:04:23.349819+00:00"
+    "scrapedAt": "2026-07-11T11:57:52.963733+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "97a147cd2aa63003",
@@ -2070,7 +2636,46 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-11T11:50:42.446182+00:00"
+    "scrapedAt": "2026-08-11T11:50:42.446182+00:00",
+    "sourceId": "ALG-LEE-TWP-PC"
+  },
+  {
+    "id": "930f09ab6a6c3142",
+    "county": "Allegan",
+    "source": "Lee Township Planning Commission",
+    "title": "Regular Meeting - July 2026",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://www.leetwp.org/Minutes/2026/July 13 2026 Regular Meeting Minutes- OFFICIAL.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-08-12T12:04:23.349819+00:00",
+    "sourceId": "ALG-LEE-TWP-PC"
+  },
+  {
+    "id": "4a8cf4663ecd20fb",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "July 13, 2026",
+    "date": "2026-07-13",
+    "dateDisplay": "Mon, Jul 13",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/July-2026-Agenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-10T13:16:49.471284+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
     "id": "2878856550c150d9",
@@ -2091,25 +2696,8 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-14T12:19:09.847796+00:00"
-  },
-  {
-    "id": "4a8cf4663ecd20fb",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "July 13, 2026",
-    "date": "2026-07-13",
-    "dateDisplay": "Mon, Jul 13",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/07/July-2026-Agenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-10T13:16:49.471284+00:00"
+    "scrapedAt": "2026-07-14T12:19:09.847796+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "cca8fcf4c8007c15",
@@ -2127,27 +2715,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-18T11:33:07.865531+00:00"
-  },
-  {
-    "id": "796a9b2defc378b1",
-    "county": "Ottawa",
-    "source": "Chester Township Planning Commission",
-    "title": "Ottawa County Begins Citizen Phone Survey",
-    "date": "2026-07-09",
-    "dateDisplay": "Thu, Jul 9",
-    "time": "",
-    "summary": "From Ottawa County Press Release: Help make Ottawa County a better place by taking 15 minutes to answer the call and provide valuable feedback. Starting this week, Ottawa County adults will have the opportunity to provide input on their satisfaction with local government services, priorities, tax burden, communication preferences, and more by responding to the [&#8230;]",
-    "details": "",
-    "link": "https://chesterottawami.gov/ottawa-county-begins-citizen-phone-survey/?utm_source=rss&utm_medium=rss&utm_campaign=ottawa-county-begins-citizen-phone-survey",
-    "tag": "Recent",
-    "docType": "",
-    "topics": [
-      "Housing"
-    ],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-17T12:16:30.045294+00:00"
+    "scrapedAt": "2026-08-18T11:33:07.865531+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "ab678891de82afdd",
@@ -2167,7 +2736,29 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-10T13:17:18.912661+00:00"
+    "scrapedAt": "2026-07-10T13:17:18.912661+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
+  },
+  {
+    "id": "796a9b2defc378b1",
+    "county": "Ottawa",
+    "source": "Chester Township Planning Commission",
+    "title": "Ottawa County Begins Citizen Phone Survey",
+    "date": "2026-07-09",
+    "dateDisplay": "Thu, Jul 9",
+    "time": "",
+    "summary": "From Ottawa County Press Release: Help make Ottawa County a better place by taking 15 minutes to answer the call and provide valuable feedback. Starting this week, Ottawa County adults will have the opportunity to provide input on their satisfaction with local government services, priorities, tax burden, communication preferences, and more by responding to the [&#8230;]",
+    "details": "",
+    "link": "https://chesterottawami.gov/ottawa-county-begins-citizen-phone-survey/?utm_source=rss&utm_medium=rss&utm_campaign=ottawa-county-begins-citizen-phone-survey",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-07-17T12:16:30.045294+00:00",
+    "sourceId": "OTT-CHES-TWP-PC"
   },
   {
     "id": "2d17b78703dfe5aa",
@@ -2180,7 +2771,7 @@
     "summary": "1. Second Read of Ordinance 194 Request to Rezone 1183 107th Ave to AG\n3. Appoint Construction Board of Appeals\n6. Resolution 2026-9 Battery Energy Storage System Temporary Moratorium\n7. Ordinance #196 Temporary Moratorium on Battery Energy Storage System\n3. Data Center",
     "details": "",
     "link": "https://www.gunplain.org/wp-content/uploads/July-9-2026-Township-Board-Agenda.pdf",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [
       "Zoning",
@@ -2189,13 +2780,38 @@
     ],
     "pdfItems": "1. Second Read of Ordinance 194 Request to Rezone 1183 107th Ave to AG\n3. Appoint Construction Board of Appeals\n6. Resolution 2026-9 Battery Energy Storage System Temporary Moratorium\n7. Ordinance #196 Temporary Moratorium on Battery Energy Storage System\n3. Data Center",
     "parcels": [],
-    "scrapedAt": "2026-07-09T13:52:08.587032+00:00"
+    "scrapedAt": "2026-07-09T13:52:08.587032+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
+  },
+  {
+    "id": "e219f6679e018893",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Minutes",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). Doug Helmholdt has\na. Data Centers draft amendment. Moore reviewed an updated draft with the Commissioners that\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. No changes.\n7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "details": "",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Minutes-07-08-26.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). Doug Helmholdt has\na. Data Centers draft amendment. Moore reviewed an updated draft with the Commissioners that\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. No changes.\n7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:29.434106+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
     "id": "bf3276ba2f29ce6c",
     "county": "Ottawa",
     "source": "Georgetown Charter Township Planning Commission",
-    "title": "Jul 8, 2026 \u2014\u2009Posted Jul 2, 2026 4:30 PM Special Planning Commission Meeting Agenda Download\u00a0\u25bc HTML PDF Packet",
+    "title": "Jul 8, 2026 — Posted Jul 2, 2026 4:30 PM Special Planning Commission Meeting Agenda Download ▼ HTML PDF Packet",
     "date": "2026-07-08",
     "dateDisplay": "Wed, Jul 8",
     "time": "",
@@ -2207,27 +2823,71 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-08-01T12:06:17.518286+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:21.982641+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
-    "id": "e219f6679e018893",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Draft Minutes",
+    "id": "a124a82e3a26e0f3",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
     "date": "2026-07-08",
     "dateDisplay": "Wed, Jul 8",
     "time": "",
-    "summary": "7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "summary": "",
     "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Minutes-07-08-26.pdf",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07082026-1694",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:22.673305+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
+  },
+  {
+    "id": "95c9f76a4707fcb1",
+    "county": "Allegan",
+    "source": "Wayland Township Planning Commission",
+    "title": "7-8-26",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "a. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add a\nb. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to revise\nc. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add",
+    "details": "",
+    "link": "http://waytwp.org/wp-content/uploads/2026/09/Minutes-7-8-26.pdf",
     "tag": "Recent",
     "docType": "Minutes",
     "topics": [
       "Zoning"
     ],
-    "pdfItems": "7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
+    "pdfItems": "a. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add a\nb. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to revise\nc. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add",
     "parcels": [],
-    "scrapedAt": "2026-07-22T12:44:13.557230+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:56.041878+00:00",
+    "sourceId": "ALG-WAYL-TWP-PC"
+  },
+  {
+    "id": "808861cd2cfb162a",
+    "county": "Allegan",
+    "source": "Leighton Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-08",
+    "dateDisplay": "Wed, Jul 8",
+    "time": "",
+    "summary": "",
+    "details": "PDF extraction failed on the latest check; previously extracted content is retained.",
+    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Agenda-7-8-26.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-25T15:47:29.480575+00:00",
+    "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
     "id": "23e713956e222ba2",
@@ -2245,49 +2905,41 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-09T13:53:48.629459+00:00"
+    "scrapedAt": "2026-07-09T13:53:48.629459+00:00",
+    "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
-    "id": "808861cd2cfb162a",
-    "county": "Allegan",
-    "source": "Leighton Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-07-08",
-    "dateDisplay": "Wed, Jul 8",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://leightontownship.org/wp-content/uploads/2026/07/PC-Agenda-7-8-26.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-03T13:01:26.501687+00:00"
-  },
-  {
-    "id": "a124a82e3a26e0f3",
+    "id": "e1f624a9add3cbec",
     "county": "Ottawa",
-    "source": "Georgetown Charter Township Planning Commission",
-    "title": "HTML PDF Packet",
-    "date": "2026-07-08",
-    "dateDisplay": "Wed, Jul 8",
+    "source": "Holland Charter Township Planning Commission",
+    "title": "Agenda July 7 2026",
+    "date": "2026-07-07",
+    "dateDisplay": "Tue, Jul 7",
     "time": "",
-    "summary": "",
+    "summary": "a. 3225 132nd Ave (70-16-08-300-026) – Special Land Use Permit\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
     "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07082026-1694",
-    "tag": "Upcoming",
+    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1423-agenda-july-7-2026/file",
+    "tag": "Recent",
     "docType": "Agenda",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-07-03T13:02:46.120923+00:00"
+    "topics": [
+      "Zoning",
+      "Industrial"
+    ],
+    "pdfItems": "a. 3225 132nd Ave (70-16-08-300-026) – Special Land Use Permit\na. Draft Ordinance Discussion on Battery Energy Storage Systems",
+    "parcels": [
+      "70-16-08-300-026",
+      "70-16-09-200-037",
+      "70-16-21-238-001"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:37.111252+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
     "id": "634c7d1a9ee61af0",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
-    "title": "File",
+    "title": "Draft Minutes July 7 2026",
     "date": "2026-07-07",
     "dateDisplay": "Tue, Jul 7",
     "time": "",
@@ -2295,7 +2947,7 @@
     "details": "",
     "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes/1438-draft-minutes-july-7-2026/file",
     "tag": "Recent",
-    "docType": "Minutes",
+    "docType": "Agenda",
     "topics": [
       "Zoning"
     ],
@@ -2303,51 +2955,52 @@
     "parcels": [
       "70-16-08-300-026"
     ],
-    "scrapedAt": "2026-07-22T12:45:33.307698+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:42.112474+00:00",
+    "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
-    "id": "e1f624a9add3cbec",
+    "id": "e5195b276b9653f0",
     "county": "Ottawa",
-    "source": "Holland Charter Township Planning Commission",
-    "title": "File",
-    "date": "2026-07-07",
-    "dateDisplay": "Tue, Jul 7",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas/1423-agenda-july-7-2026/file",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [
-      "70-16-08-300-026",
-      "70-16-09-200-037",
-      "70-16-21-238-001"
-    ],
-    "scrapedAt": "2026-06-17T14:30:20.116195+00:00"
-  },
-  {
-    "id": "3824dea66ef05df2",
-    "county": "Allegan",
-    "source": "Otsego Township Planning Commission",
-    "title": "July 6, 2026",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Minutes",
     "date": "2026-07-06",
     "dateDisplay": "Mon, Jul 6",
     "time": "",
-    "summary": "1. The term used should be amended to use the term Battery Energy Storage System (\u201cBESS\u201d)\n3. Discussion continued noting that there is a gap between household and large/commercial\n8. Consider setbacks from property lines instead of dwellings\n1. PCI invited Planning Commissioners to attend an educational seminar for Data Centers on\n1. None (covered in Data Center Discussion)",
+    "summary": "A. Final Planned Unit Development & Site Condominium – Springfield Crossings & The Cottages\ni. Seeking 37 Single Family site condominiums and 20 duplex condominium buildings\n8. Site Plan Review: None",
     "details": "",
-    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/09/07.06.2026-APPROVED-PC-Meeting-Minutes.pdf",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/09/7.6.26-PC-Minutes.pdf",
     "tag": "Recent",
     "docType": "Minutes",
     "topics": [
       "Zoning",
-      "Housing",
-      "Industrial"
+      "Housing"
     ],
-    "pdfItems": "1. The term used should be amended to use the term Battery Energy Storage System (\u201cBESS\u201d)\n3. Discussion continued noting that there is a gap between household and large/commercial\n8. Consider setbacks from property lines instead of dwellings\n1. PCI invited Planning Commissioners to attend an educational seminar for Data Centers on\n1. None (covered in Data Center Discussion)",
+    "pdfItems": "A. Final Planned Unit Development & Site Condominium – Springfield Crossings & The Cottages\ni. Seeking 37 Single Family site condominiums and 20 duplex condominium buildings\n8. Site Plan Review: None",
     "parcels": [],
-    "scrapedAt": "2026-09-19T14:18:44.582794+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:02.242951+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
+  },
+  {
+    "id": "d6da84e14e550c98",
+    "county": "Ottawa",
+    "source": "Allendale Charter Township Planning Commission",
+    "title": "Packet",
+    "date": "2026-07-06",
+    "dateDisplay": "Mon, Jul 6",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://allendalemi.gov/wp-content/uploads/2026/07/7.6.26-packet.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-25T15:48:02.037970+00:00",
+    "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
     "id": "baa6ddda8c636df3",
@@ -2365,7 +3018,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-14T12:20:15.035217+00:00"
+    "scrapedAt": "2026-07-14T12:20:15.035217+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
     "id": "8f7bdfb51e559b74",
@@ -2383,25 +3037,93 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-09T13:53:21.443132+00:00"
+    "scrapedAt": "2026-07-09T13:53:21.443132+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
-    "id": "411bb460dde1e6cb",
+    "id": "3824dea66ef05df2",
+    "county": "Allegan",
+    "source": "Otsego Township Planning Commission",
+    "title": "July 6, 2026",
+    "date": "2026-07-06",
+    "dateDisplay": "Mon, Jul 6",
+    "time": "",
+    "summary": "a. Gravel Pit Ordinance: Zuiderveen provided a zoning ordinance from Manchester Township\nb. Battery Energy Systems Discussion and Draft Ordinance:\n1. The term used should be amended to use the term Battery Energy Storage System (“BESS”)\n3. Discussion continued noting that there is a gap between household and large/commercial\n8. Consider setbacks from property lines instead of dwellings\n1. PCI invi",
+    "details": "",
+    "link": "https://www.otsegotownship.org/wp-content/uploads/2026/09/07.06.2026-APPROVED-PC-Meeting-Minutes.pdf",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "a. Gravel Pit Ordinance: Zuiderveen provided a zoning ordinance from Manchester Township\nb. Battery Energy Systems Discussion and Draft Ordinance:\n1. The term used should be amended to use the term Battery Energy Storage System (“BESS”)\n3. Discussion continued noting that there is a gap between household and large/commercial\n8. Consider setbacks from property lines instead of dwellings\n1. PCI invited Planning Commissioners to attend an educational seminar for Data Centers on",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:47:45.003853+00:00",
+    "sourceId": "ALG-OTSE-TWP-PC"
+  },
+  {
+    "id": "e9c1c97737d6c2cc",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
-    "title": "Minutes Amended",
+    "title": "Agenda",
     "date": "2026-07-01",
     "dateDisplay": "Wed, Jul 1",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/070126BdMinutesAMENDED.pdf",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/070126BdWrkshpAgenda.pdf",
     "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-16T12:24:46.404675+00:00"
+    "scrapedAt": "2026-06-27T12:12:49.911255+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "c754c8f39fe74949",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates – Planned Unit Development",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/06/070126PCAgenda.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates – Planned Unit Development",
+    "parcels": [],
+    "scrapedAt": "2026-06-19T14:16:36.748102+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "a9decfc6f4c3aec2",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Jul 1, 2026 — Posted Jun 26, 2026 1:50 PM Planning Commission Regular Meeting Cancelled Download ▼ Agenda",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_07012026-1693",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:23.982975+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "94bac455d50b7c99",
@@ -2411,7 +3133,7 @@
     "date": "2026-07-01",
     "dateDisplay": "Wed, Jul 1",
     "time": "",
-    "summary": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates \u2013 Planned Unit Development",
+    "summary": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates – Planned Unit Development",
     "details": "",
     "link": "http://laketowntwp.org/wp-content/uploads/2026/07/070126PCMinutes.pdf",
     "tag": "Recent",
@@ -2420,9 +3142,10 @@
       "Zoning",
       "Housing"
     ],
-    "pdfItems": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates \u2013 Planned Unit Development",
+    "pdfItems": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates – Planned Unit Development",
     "parcels": [],
-    "scrapedAt": "2026-07-11T11:57:54.311142+00:00"
+    "scrapedAt": "2026-07-11T11:57:54.311142+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "9014863389dc76dc",
@@ -2440,25 +3163,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-07-06T14:31:56.203713+00:00"
-  },
-  {
-    "id": "e9c1c97737d6c2cc",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-07-01",
-    "dateDisplay": "Wed, Jul 1",
-    "time": "",
-    "summary": "",
-    "details": "",
-    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/070126BdWrkshpAgenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Minutes",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "scrapedAt": "2026-06-27T12:12:49.911255+00:00"
+    "scrapedAt": "2026-07-06T14:31:56.203713+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "46d80d8afeb2e32f",
@@ -2471,145 +3177,32 @@
     "summary": "",
     "details": "",
     "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_07012026-1693",
-    "tag": "Upcoming",
+    "tag": "Recent",
     "docType": "Agenda",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-06-27T12:14:01.869279+00:00"
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-25T15:48:23.351779+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
-    "id": "a9decfc6f4c3aec2",
-    "county": "Ottawa",
-    "source": "Georgetown Charter Township Planning Commission",
-    "title": "Jul 1, 2026 \u2014\u2009Posted Jun 26, 2026 1:50 PM Planning Commission Regular Meeting Cancelled Download\u00a0\u25bc Agenda",
+    "id": "411bb460dde1e6cb",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Minutes Amended",
     "date": "2026-07-01",
     "dateDisplay": "Wed, Jul 1",
     "time": "",
     "summary": "",
     "details": "",
-    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_07012026-1693",
-    "tag": "Upcoming",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/070126BdMinutesAMENDED.pdf",
+    "tag": "Recent",
     "docType": "Minutes",
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-06-27T12:14:02.679880+00:00"
-  },
-  {
-    "id": "c754c8f39fe74949",
-    "county": "Allegan",
-    "source": "Laketown Township Planning Commission",
-    "title": "Agenda",
-    "date": "2026-07-01",
-    "dateDisplay": "Wed, Jul 1",
-    "time": "",
-    "summary": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates \u2013 Planned Unit Development",
-    "details": "",
-    "link": "https://laketowntwp.org/wp-content/uploads/2026/06/070126PCAgenda.pdf",
-    "tag": "Upcoming",
-    "docType": "Agenda",
-    "topics": [
-      "Zoning",
-      "Housing"
-    ],
-    "pdfItems": "1. Site Plan Review for Construction in C-3 \u2013 Grant/Herrell\n2. Rezone Request R-1 to R-1.5 \u2013 Lamar\n3. Rezone Request R-1 to R-1.5 \u2013 Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates \u2013 Planned Unit Development",
-    "parcels": [],
-    "scrapedAt": "2026-06-19T14:16:36.748102+00:00"
-  },
-  {
-    "id": "98c30bfa420e7fca",
-    "county": "Allegan",
-    "source": "Casco Township Planning Commission",
-    "title": "Manual Review Required",
-    "date": "",
-    "dateDisplay": "",
-    "time": "",
-    "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-    "details": "",
-    "link": "https://www.cascotownship.info/meetings---planning-commission.html",
-    "tag": "",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "manual": true,
-    "scrapedAt": "2026-05-26T17:29:17.116620+00:00"
-  },
-  {
-    "id": "51cdd057ba1d9c76",
-    "county": "Allegan",
-    "source": "Dorr Township Planning Commission",
-    "title": "Manual Review Required",
-    "date": "",
-    "dateDisplay": "",
-    "time": "",
-    "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-    "details": "",
-    "link": "https://dorrtownshipmi.gov/-Minutes-Agendas/Planning-Commission",
-    "tag": "",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "manual": true,
-    "scrapedAt": "2026-05-26T17:29:17.116638+00:00"
-  },
-  {
-    "id": "74b77dec57e6e23d",
-    "county": "Allegan",
-    "source": "Trowbridge Township Planning Commission",
-    "title": "Manual Review Required",
-    "date": "",
-    "dateDisplay": "",
-    "time": "",
-    "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-    "details": "",
-    "link": "https://trowbridgetownship.org/",
-    "tag": "",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "manual": true,
-    "scrapedAt": "2026-05-26T17:29:17.116645+00:00"
-  },
-  {
-    "id": "63ec1bc11371d8a8",
-    "county": "Ottawa",
-    "source": "Park Township Planning Commission",
-    "title": "Manual Review Required",
-    "date": "",
-    "dateDisplay": "",
-    "time": "",
-    "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-    "details": "",
-    "link": "https://webgen1files1.revize.com/parktwpmi/Document_Center/Meeting%20Agenda_Minutes%20%26%20Packets/Planning%20Commission/",
-    "tag": "",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "manual": true,
-    "scrapedAt": "2026-05-26T17:29:17.116651+00:00"
-  },
-  {
-    "id": "a55cf895acb7ba1c",
-    "county": "Ottawa",
-    "source": "Zeeland Charter Township Planning Commission",
-    "title": "Manual Review Required",
-    "date": "",
-    "dateDisplay": "",
-    "time": "",
-    "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-    "details": "",
-    "link": "https://zeelandchartertwpmi.documents-on-demand.com/",
-    "tag": "",
-    "docType": "",
-    "topics": [],
-    "pdfItems": "",
-    "parcels": [],
-    "manual": true,
-    "scrapedAt": "2026-05-26T17:29:17.116656+00:00"
+    "scrapedAt": "2026-07-16T12:24:46.404675+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   }
 ]
