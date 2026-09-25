@@ -27,3 +27,7 @@ dist-ssr
 __pycache__/
 *.pyc
 *.xlsx
+
+.venv/
+!config/pulsefeed_master_sources.xlsx
+~$*.xlsx

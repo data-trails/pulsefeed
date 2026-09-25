@@ -6,6 +6,7 @@ Writes results to public/feed.json.
 Run locally:  python scraper/scrape.py
 """
 
+import argparse
 import hashlib
 import io
 import json
@@ -13,152 +14,15 @@ import os
 import re
 import time
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin, urlparse, unquote
+from pathlib import Path
+from source_workbook import WORKBOOK, REGISTRY, compile_registry, read_tables, atomic_json
+from collection import (parse_date, link_date, document_link, planning_link, request_bytes,
+                        begin_source, source_diagnostics, record_issue)
 
 import feedparser
 import pdfplumber
-import requests
 from bs4 import BeautifulSoup
-
-# ---------------------------------------------------------------------------
-# RSS sources (WordPress /feed/ — confirmed to expose RSS)
-# ---------------------------------------------------------------------------
-
-RSS_SOURCES = [
-    # Allegan County
-    {"county": "Allegan", "name": "Allegan Township Planning Commission",
-     "rss": "https://allegantownship.org/feed/",
-     "url": "https://allegantownship.org/planning-commission/"},
-    {"county": "Allegan", "name": "Fillmore Township Planning Commission",
-     "rss": "https://fillmoretownship.org/feed/",
-     "url": "https://fillmoretownship.org/board-minutes/"},
-    {"county": "Allegan", "name": "Gun Plain Township Planning Commission",
-     "rss": "https://www.gunplain.org/feed/",
-     "url": "https://www.gunplain.org/meeting-minutes-and-agendas/"},
-    {"county": "Allegan", "name": "Heath Township Planning Commission",
-     "rss": "https://heathtownship.net/feed",
-     "url": "https://heathtownship.net/"},
-    {"county": "Allegan", "name": "Hopkins Township Planning Commission",
-     "rss": "https://www.hopkinstownship.org/feed",
-     "url": "https://www.hopkinstownship.org/board-minutes/"},
-    {"county": "Allegan", "name": "Laketown Township Planning Commission",
-     "rss": "https://laketowntwp.org/feed",
-     "url": "https://laketowntwp.org/boards-commissions/"},
-    {"county": "Allegan", "name": "Leighton Township Planning Commission",
-     "rss": "https://leightontownship.org/feed/",
-     "url": "https://leightontownship.org/meetings-minutes/"},
-    {"county": "Allegan", "name": "Martin Township Planning Commission",
-     "rss": "https://www.martintownship.org/feed",
-     "url": "https://www.martintownship.org/"},
-    {"county": "Allegan", "name": "Otsego Township Planning Commission",
-     "rss": "https://www.otsegotownship.org/feed",
-     "url": "https://www.otsegotownship.org/building-planning-and-zoning/"},
-    {"county": "Allegan", "name": "Overisel Township Planning Commission",
-     "rss": "https://overiseltownship.org/feed/",
-     "url": "https://overiseltownship.org/planning-commission/"},
-    {"county": "Allegan", "name": "Saugatuck Township Planning Commission",
-     "rss": "https://saugatucktownshipmi.gov/feed",
-     "url": "https://saugatucktownshipmi.gov/saugatuck-township-local-government/packets-agendas-minutes/agendas/"},
-    {"county": "Allegan", "name": "Watson Township Planning Commission",
-     "rss": "https://watsontownshipmi.gov/feed",
-     "url": "https://watsontownshipmi.gov/"},
-    {"county": "Allegan", "name": "Wayland Township Planning Commission",
-     "rss": "https://waytwp.org/feed/",
-     "url": "https://waytwp.org/departments/zoning/"},
-
-    # Ottawa County
-    {"county": "Ottawa", "name": "Allendale Charter Township Planning Commission",
-     "rss": "https://allendalemi.gov/feed/",
-     "url": "https://allendalemi.gov/planning-commission/"},
-    {"county": "Ottawa", "name": "Blendon Township Planning Commission",
-     "rss": "https://www.blendontownship-mi.gov/feed/",
-     "url": "https://www.blendontownship-mi.gov/planning-commission/"},
-    {"county": "Ottawa", "name": "Chester Township Planning Commission",
-     "rss": "https://www.chester-twp.org/feed",
-     "url": "https://www.chester-twp.org/documents/"},
-    {"county": "Ottawa", "name": "Grand Haven Charter Township Planning Commission",
-     "rss": "https://ghtmi.gov/feed",
-     "url": "https://ghtmi.gov/boards/planning-commission/"},
-    {"county": "Ottawa", "name": "Jamestown Charter Township Planning Commission",
-     "rss": "https://twp.jamestown.mi.us/feed/",
-     "url": "https://twp.jamestown.mi.us/government/boards-and-minutes/planning-commission-agendas-minutes/"},
-    {"county": "Ottawa", "name": "Olive Township Planning Commission",
-     "rss": "https://www.olivetownship.org/feed",
-     "url": "https://www.olivetownship.org/document-category/pcminutes/"},
-    {"county": "Ottawa", "name": "Polkton Charter Township Planning Commission",
-     "rss": "https://polktontownship.com/feed/",
-     "url": "https://polktontownship.com/planning-commission/"},
-    {"county": "Ottawa", "name": "Port Sheldon Township Planning Commission",
-     "rss": "https://www.portsheldontwp.org/feed",
-     "url": "https://www.portsheldontwp.org/planning-commission/"},
-    {"county": "Ottawa", "name": "Robinson Township Planning Commission",
-     "rss": "https://robinsontwpmi.gov/feed",
-     "url": "https://robinsontwpmi.gov/"},
-    {"county": "Ottawa", "name": "Spring Lake Township Planning Commission",
-     "rss": "https://springlaketwp.org/feed/",
-     "url": "https://springlaketwp.org/board/planning-commission/"},
-    {"county": "Ottawa", "name": "Tallmadge Charter Township Planning Commission",
-     "rss": "https://tallmadge.com/feed/",
-     "url": "https://tallmadge.com/minutes-agendas/"},
-    {"county": "Ottawa", "name": "Wright Township Planning Commission",
-     "rss": "http://wrighttownshipottawami.gov/feed",
-     "url": "http://wrighttownshipottawami.gov/"},
-
-    # HTML-only sources (no RSS feed — scrape_html_source handles PDF discovery)
-    {"county": "Allegan", "name": "Cheshire Township Planning Commission",
-     "rss": "",
-     "url": "https://cheshiretownshipmi.gov/minutes.html"},
-    {"county": "Allegan", "name": "Ganges Township Planning Commission",
-     "rss": "",
-     "url": "https://www.gangestownship.org/Planning-Commission-Meetings-Archive.html"},
-    {"county": "Allegan", "name": "Lee Township Planning Commission",
-     "rss": "",
-     "url": "http://www.leetwp.org/meetingminutes.htm"},
-    {"county": "Allegan", "name": "Monterey Township Planning Commission",
-     "rss": "",
-     "url": "https://www.montereytownship.org/"},
-    {"county": "Allegan", "name": "Valley Township Planning Commission",
-     "rss": "",
-     "url": "https://valleytwp.org/minutes.htm"},
-    {"county": "Allegan", "name": "City of Allegan Planning Commission",
-     "rss": "",
-     "url": "https://www.cityofallegan.org/government/planning_commission.php"},
-    {"county": "Ottawa", "name": "Crockery Township Planning Commission",
-     "rss": "",
-     "url": "https://crockerytownship.gov/planning-commission/"},
-]
-
-# ---------------------------------------------------------------------------
-# Manual sources — JS-rendered or third-party blocked; no automated scraping
-# ---------------------------------------------------------------------------
-
-MANUAL_SOURCES = [
-    {"county": "Allegan", "name": "Casco Township Planning Commission",
-     "url": "https://www.cascotownship.info/meetings---planning-commission.html"},
-    {"county": "Allegan", "name": "Dorr Township Planning Commission",
-     "url": "https://dorrtownshipmi.gov/-Minutes-Agendas/Planning-Commission"},
-    {"county": "Allegan", "name": "Trowbridge Township Planning Commission",
-     "url": "https://trowbridgetownship.org/"},
-    {"county": "Ottawa", "name": "Park Township Planning Commission",
-     "url": "https://webgen1files1.revize.com/parktwpmi/Document_Center/Meeting%20Agenda_Minutes%20%26%20Packets/Planning%20Commission/"},
-    {"county": "Ottawa", "name": "Zeeland Charter Township Planning Commission",
-     "url": "https://zeelandchartertwpmi.documents-on-demand.com/"},
-]
-
-# ---------------------------------------------------------------------------
-# Sources without RSS — Joomla/K2 document pages (data-* attribute links)
-# ---------------------------------------------------------------------------
-
-JOOMLA_SOURCES = [
-    {
-        "county": "Ottawa",
-        "name": "Holland Charter Township Planning Commission",
-        "pages": [
-            "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/agendas",
-            "https://www.hct.holland.mi.us/agendas-minutes/planning-commission/minutes",
-        ],
-    },
-]
 
 # ---------------------------------------------------------------------------
 # Keyword filter
@@ -233,18 +97,20 @@ def detect_doc_type(url: str, title: str, pdf_text: str = "") -> str:
     """Return 'Minutes', 'Agenda', or '' based on URL, title, and PDF content."""
     combined = (url + " " + title).lower()
     preview = pdf_text[:800].lower()
-    if "minute" in combined or "minute" in preview:
-        return "Minutes"
-    if "agenda" in combined or "agenda" in preview:
+    if "agenda" in combined or "packet" in combined:
         return "Agenda"
+    if "minute" in combined:
+        return "Minutes"
+    if "agenda" in preview:
+        return "Agenda"
+    if "minute" in preview:
+        return "Minutes"
     return ""
 
 # ---------------------------------------------------------------------------
 # HTTP config
 # ---------------------------------------------------------------------------
 
-HEADERS = {"User-Agent": "PulseFeed/1.0 (planning-commission public-records monitor)"}
-REQUEST_TIMEOUT = 15
 MAX_PDF_BYTES = 10 * 1024 * 1024  # 10 MB
 
 # ---------------------------------------------------------------------------
@@ -258,7 +124,7 @@ DATE_RE = re.compile(
     r'|\b\d{4}-\d{2}-\d{2}\b',
     re.IGNORECASE,
 )
-AGENDA_ITEM_RE = re.compile(r'^\s*(\d+[\.\)]\s+|[A-Z][\.\)]\s+|[•\-\*]\s+)')
+AGENDA_ITEM_RE = re.compile(r'^\s*(\d+[\.\)]\s+|[A-Za-z][\.\)]\s+|[•\-\*]\s+)')
 AGENDA_START_RE = re.compile(r'\bAGENDA\b', re.IGNORECASE)
 AGENDA_END_RE = re.compile(r'\b(ADJOURNMENT|EXECUTIVE SESSION)\b', re.IGNORECASE)
 WHITESPACE_RE = re.compile(r'\s+')
@@ -300,7 +166,7 @@ def format_display_date(dt: datetime | None) -> str:
 def classify_tag(dt: datetime | None) -> str:
     if not dt:
         return "New"
-    return "Upcoming" if dt.date() >= datetime.now().date() else "Recent"
+    return "Upcoming" if dt.date() >= datetime.now(timezone.utc).date() else "Recent"
 
 
 def strip_html(text: str) -> str:
@@ -312,26 +178,19 @@ def clean(text: str) -> str:
 
 
 def parse_flexible_date(date_str: str) -> datetime | None:
-    date_str = date_str.strip()
-    for fmt in ("%B %d, %Y", "%B %d %Y", "%m/%d/%Y", "%Y-%m-%d"):
-        try:
-            return datetime.strptime(date_str, fmt).replace(tzinfo=timezone.utc)
-        except ValueError:
-            continue
-    return None
+    return parse_date(date_str)
 
-# ---------------------------------------------------------------------------
-# HTML helpers
-# ---------------------------------------------------------------------------
 
 def fetch_html(url: str) -> BeautifulSoup | None:
-    try:
-        r = requests.get(url, timeout=REQUEST_TIMEOUT, headers=HEADERS)
-        r.raise_for_status()
-        return BeautifulSoup(r.text, "lxml")
-    except Exception as exc:
-        print(f"    HTML fetch error {url}: {exc}")
+    raw, final_url = request_bytes(url)
+    if raw is None:
         return None
+    if b"sgcaptcha" in raw[:2000].lower() or b"awswaf" in raw[:2000].lower():
+        record_issue(f"Site requires browser verification: {url}")
+        return None
+    soup = BeautifulSoup(raw, "lxml")
+    soup._source_url = final_url
+    return soup
 
 
 def extract_pdf_links(soup: BeautifulSoup, base_url: str) -> list[str]:
@@ -340,7 +199,7 @@ def extract_pdf_links(soup: BeautifulSoup, base_url: str) -> list[str]:
     for a in soup.find_all("a", href=True):
         href = a["href"].strip()
         path = urlparse(href).path.lower()
-        if path.endswith(".pdf") or "/pdf/" in path:
+        if document_link(href):
             full = urljoin(base_url, href)
             if full not in seen:
                 seen.add(full)
@@ -349,42 +208,16 @@ def extract_pdf_links(soup: BeautifulSoup, base_url: str) -> list[str]:
 
 
 def date_near_link(a_tag) -> str:
-    """Search the link text, nearby DOM siblings/parent, and href for a date string."""
-    parts = [a_tag.get_text(" ", strip=True)]
-    if a_tag.parent:
-        parts.append(a_tag.parent.get_text(" ", strip=True))
-    for sib in list(a_tag.previous_siblings)[:3]:
-        if hasattr(sib, "get_text"):
-            parts.append(sib.get_text(" ", strip=True))
-    for sib in list(a_tag.next_siblings)[:3]:
-        if hasattr(sib, "get_text"):
-            parts.append(sib.get_text(" ", strip=True))
-    # Also scan the href with hyphens/underscores replaced (e.g. "January-20-2026")
-    href = a_tag.get("href", "")
-    if href:
-        parts.append(href.replace("-", " ").replace("_", " "))
-    m = DATE_RE.search(" ".join(parts))
-    return m.group(0) if m else ""
+    date = link_date(a_tag)
+    return date.strftime("%Y-%m-%d") if date else ""
 
-# ---------------------------------------------------------------------------
-# PDF helpers
-# ---------------------------------------------------------------------------
 
 def fetch_pdf_bytes(pdf_url: str) -> bytes | None:
-    try:
-        r = requests.get(pdf_url, timeout=REQUEST_TIMEOUT, headers=HEADERS, stream=True)
-        r.raise_for_status()
-        chunks: list[bytes] = []
-        size = 0
-        for chunk in r.iter_content(8192):
-            size += len(chunk)
-            if size > MAX_PDF_BYTES:
-                break
-            chunks.append(chunk)
-        return b"".join(chunks)
-    except Exception as exc:
-        print(f"    PDF fetch error {pdf_url}: {exc}")
+    raw, _ = request_bytes(pdf_url, max_bytes=MAX_PDF_BYTES)
+    if raw is not None and not raw.lstrip().startswith(b"%PDF-"):
+        record_issue(f"Download is not a PDF: {pdf_url}")
         return None
+    return raw
 
 
 def extract_agenda_items(text: str) -> str:
@@ -422,9 +255,12 @@ def _fetch_pdf_text(pdf_url: str) -> str:
         return ""
     try:
         with pdfplumber.open(io.BytesIO(raw)) as pdf:
-            return "\n".join(page.extract_text() or "" for page in pdf.pages[:6])
+            text = "\n".join(page.extract_text() or "" for page in pdf.pages[:6])
+            if not text.strip():
+                record_issue(f"PDF has no extractable text in the first six pages; OCR may be needed: {pdf_url}")
+            return text
     except Exception as exc:
-        print(f"    PDF parse error {pdf_url}: {exc}")
+        record_issue(f"PDF parse error {pdf_url}: {exc}")
         return ""
 
 
@@ -435,9 +271,10 @@ def parse_pdf_agenda_items(pdf_url: str) -> str:
 def parse_pdf_full(pdf_url: str) -> dict:
     """Parse a PDF; return agenda items, parcel numbers, and detected doc type."""
     text = _fetch_pdf_text(pdf_url)
-    if not text:
-        return {"items": "", "parcels": [], "doc_type": ""}
+    if not text.strip():
+        return {"items": "", "parcels": [], "doc_type": "", "status": "unavailable"}
     return {
+        "status": "parsed",
         "items": extract_agenda_items(text),
         "parcels": extract_parcel_numbers(text),
         "doc_type": detect_doc_type(pdf_url, "", text),
@@ -457,12 +294,18 @@ def scrape_rss(source: dict) -> list[dict]:
         return []
     items = []
     try:
-        feed = feedparser.parse(source["rss"])
+        raw, _ = request_bytes(source["rss"])
+        if raw is None:
+            return []
+        feed = feedparser.parse(raw)
+        if not feed.get("version"):
+            record_issue(f"Response is not an RSS/Atom feed: {source['rss']}")
+            return []
         for entry in feed.entries[:20]:
             title = clean(entry.get("title", ""))
             summary = clean(strip_html(entry.get("summary", "") or entry.get("description", "")))
 
-            if not is_relevant(title, summary):
+            if not re.search(r"planning[\s_-]*(?:commission|board)", title + " " + summary, re.I):
                 continue
 
             published_tuple = entry.get("published_parsed") or entry.get("updated_parsed")
@@ -480,6 +323,7 @@ def scrape_rss(source: dict) -> list[dict]:
                 "title": title or f"{source['name']} — new posting",
                 "date": dt.strftime("%Y-%m-%d") if dt else "",
                 "dateDisplay": format_display_date(dt),
+                "dateType": "publication",
                 "time": "",
                 "summary": summary[:400] if summary else "",
                 "details": "",
@@ -493,7 +337,7 @@ def scrape_rss(source: dict) -> list[dict]:
             })
 
     except Exception as exc:
-        print(f"  ERROR {source['name']}: {exc}")
+        record_issue(f"RSS parsing failed: {exc}")
 
     return items
 
@@ -504,12 +348,13 @@ def enrich_with_pdf(item: dict) -> dict:
     if not link:
         return item
 
-    if urlparse(link).path.lower().endswith(".pdf"):
+    if document_link(link):
         result = parse_pdf_full(link)
+        item["pdfStatus"] = result.get("status", "unchecked")
         pdf_items = filter_pdf_by_topic(result["items"])
         if pdf_items:
             item["pdfItems"] = pdf_items
-            item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
+            item["topics"] = sorted(set(item.get("topics", []) + classify_topics(pdf_items)))
         if result["parcels"]:
             item["parcels"] = result["parcels"]
         if result["doc_type"] and not item.get("docType"):
@@ -528,7 +373,7 @@ def enrich_with_pdf(item: dict) -> dict:
         pdf_items = filter_pdf_by_topic(result["items"])
         if pdf_items:
             item["pdfItems"] = pdf_items
-            item["topics"] = list(set(item.get("topics", []) + classify_topics(pdf_items)))
+            item["topics"] = sorted(set(item.get("topics", []) + classify_topics(pdf_items)))
             if result["parcels"]:
                 item["parcels"] = result["parcels"]
             if result["doc_type"] and not item.get("docType"):
@@ -542,86 +387,65 @@ def enrich_with_pdf(item: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 def scrape_html_source(source: dict, existing_ids: set[str]) -> list[dict]:
-    """Scrape the source page directly for agenda/minutes PDFs not in the RSS feed."""
+    """Collect dated PC downloads, including one-level document landing pages."""
     soup = fetch_html(source["url"])
-    if not soup:
+    if soup is None:
         return []
-
-    items: list[dict] = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"].strip()
-        path = urlparse(href).path.lower()
-        if not (path.endswith(".pdf") or "/pdf/" in path):
+    page_url = soup._source_url or source["url"]
+    base = soup.find("base", href=True)
+    base_url = urljoin(page_url, base["href"]) if base else page_url
+    candidates = []
+    visited = set()
+    for anchor in soup.find_all("a", href=True):
+        if anchor.find_parent(["nav", "header", "footer"]):
             continue
-        if not is_pdf_relevant(urljoin(source["url"], href)):
+        if not planning_link(anchor, page_url):
             continue
-
-        pdf_url = urljoin(source["url"], href)
+        href = urljoin(base_url, anchor["href"])
+        if urlparse(href).scheme not in {"http", "https"}:
+            continue
+        dt = link_date(anchor)
+        if not dt:
+            continue
+        if not is_within_window(dt):
+            continue
+        title = clean(anchor.get_text(" ", strip=True))
+        if document_link(href):
+            candidates.append((href, dt, title))
+        elif "/document/" in urlparse(href).path and href not in visited and len(visited) < 20:
+            visited.add(href)
+            child = fetch_html(href)
+            if child is not None:
+                child_base = child.find("base", href=True)
+                child_url = child._source_url or href
+                resolved_base = urljoin(child_url, child_base["href"]) if child_base else child_url
+                for link in child.find_all("a", href=True):
+                    if link.find_parent(["nav", "header", "footer"]):
+                        continue
+                    download = urljoin(resolved_base, link["href"])
+                    # Only downloads in the document body; never global navigation PDFs.
+                    if document_link(download) and ("download" in link.get_text().lower() or planning_link(link, href)):
+                        candidates.append((download, dt, title))
+    items = []
+    for pdf_url, dt, title in candidates:
         item_id = make_id(source, pdf_url)
         if item_id in existing_ids:
             continue
-
-        date_str = date_near_link(a)
-        dt = parse_flexible_date(date_str) if date_str else None
-        if not dt or not is_within_window(dt):
-            continue
-
-        link_text = clean(a.get_text(" ", strip=True))
-        filename_title = (
-            path.split("/")[-1]
-            .replace("-", " ").replace("_", " ").replace(".pdf", "").title()
-        )
-        title = link_text or filename_title or f"{source['name']} — document"
-
-        if not is_relevant(title, filename_title):
-            continue
-
-        print(f"    Parsing PDF: {pdf_url}")
+        title = title or unquote(urlparse(pdf_url).path.rsplit("/", 1)[-1]) or "Planning Commission document"
         result = parse_pdf_full(pdf_url)
         pdf_items = filter_pdf_by_topic(result["items"])
-        all_text = f"{title} {pdf_items}"
-        topics = classify_topics(all_text)
-        doc_type = detect_doc_type(pdf_url, title, result["items"])
-        time.sleep(0.5)
-
         existing_ids.add(item_id)
         items.append({
-            "id": item_id,
-            "county": source["county"],
-            "source": source["name"],
-            "title": title,
-            "date": dt.strftime("%Y-%m-%d") if dt else "",
-            "dateDisplay": format_display_date(dt),
-            "time": "",
-            "summary": pdf_items[:400] if pdf_items else "",
-            "details": "",
-            "link": pdf_url,
-            "tag": classify_tag(dt),
-            "docType": doc_type,
-            "topics": topics,
-            "pdfItems": pdf_items,
-            "parcels": result["parcels"],
-            "scrapedAt": datetime.now(timezone.utc).isoformat(),
+            "id": item_id, "county": source["county"], "source": source["name"],
+            "title": title, "date": dt.strftime("%Y-%m-%d"),
+            "dateDisplay": format_display_date(dt), "time": "", "summary": pdf_items[:400],
+            "details": "", "link": pdf_url, "tag": classify_tag(dt),
+            "docType": detect_doc_type(pdf_url, title, result["items"]),
+            "topics": classify_topics(f"{title} {pdf_items}"), "pdfItems": pdf_items,
+            "parcels": result["parcels"], "pdfStatus": result.get("status", "unchecked"), "scrapedAt": datetime.now(timezone.utc).isoformat(),
         })
-
     return items
 
-# ---------------------------------------------------------------------------
-# CivicPlus AgendaCenter sources (no .pdf extension — /AgendaCenter/ViewFile/)
-# ---------------------------------------------------------------------------
-
-CIVICPLUS_SOURCES = [
-    {
-        "county": "Ottawa",
-        "name": "Georgetown Charter Township Planning Commission",
-        "agenda_center_url": "https://www.gtwp.com/AgendaCenter/Planning-Commission-5",
-        "base_url": "https://www.gtwp.com",
-    },
-]
-
-# ---------------------------------------------------------------------------
-# Joomla/K2 document page scraper (Holland Charter Township and similar)
-# ---------------------------------------------------------------------------
 
 def date_from_url_slug(url: str) -> datetime | None:
     """Extract a date from a Joomla slug like 'agenda-june-2-2026' by replacing
@@ -663,7 +487,7 @@ def scrape_joomla_docs(source: dict, existing_ids: set[str]) -> list[dict]:
                     continue
 
                 # Build title from the slug segment before /file
-                slug = urlparse(val).path.rstrip("/")
+                slug = urlparse(val).path.rstrip("/").removesuffix("/file")
                 slug = slug.rsplit("/", 1)[-1]        # last path segment
                 slug = re.sub(r"^\d+-", "", slug)     # strip leading numeric ID
                 title = slug.replace("-", " ").title()
@@ -691,7 +515,7 @@ def scrape_joomla_docs(source: dict, existing_ids: set[str]) -> list[dict]:
                     "docType": doc_type,
                     "topics": topics,
                     "pdfItems": pdf_items,
-                    "parcels": result["parcels"],
+                    "parcels": result["parcels"], "pdfStatus": result.get("status", "unchecked"),
                     "scrapedAt": datetime.now(timezone.utc).isoformat(),
                 })
 
@@ -784,7 +608,7 @@ def scrape_civicplus(source: dict, existing_ids: set[str]) -> list[dict]:
             "docType": doc_type,
             "topics": topics,
             "pdfItems": pdf_items,
-            "parcels": result["parcels"],
+            "parcels": result["parcels"], "pdfStatus": result.get("status", "unchecked"),
             "scrapedAt": datetime.now(timezone.utc).isoformat(),
         })
 
@@ -797,95 +621,120 @@ def scrape_civicplus(source: dict, existing_ids: set[str]) -> list[dict]:
 FEED_PATH = os.path.join(os.path.dirname(__file__), "..", "public", "feed.json")
 
 
-def load_existing() -> list[dict]:
+def load_existing(path=FEED_PATH) -> list[dict]:
     try:
-        with open(FEED_PATH) as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
+        data = json.loads(Path(path).read_text())
+    except FileNotFoundError:
         return []
+    if not isinstance(data, list) or any(not isinstance(i, dict) or not all(k in i for k in ("id", "source", "county", "link")) for i in data):
+        raise ValueError("Invalid existing feed; refusing to overwrite it")
+    return data
+
+
+def collect_source(source):
+    runtime = {**source, **source["endpoints"]}
+    handler = source["handler"]
+    ids = set()
+    if handler in {"rss_html", "candidate"}:
+        items = []
+        for item in scrape_rss(runtime):
+            if item["id"] not in ids:
+                ids.add(item["id"])
+                items.append(enrich_with_pdf(item))
+        items.extend(scrape_html_source(runtime, ids))
+        return items
+    if handler == "joomla":
+        return scrape_joomla_docs(runtime, ids)
+    if handler == "civicplus":
+        return scrape_civicplus(runtime, ids)
+    return []
+
+
+def merge_feed(existing, collected, sources):
+    # Replace records by stable legacy ID so re-uploaded documents can be refreshed.
+    by_id = {}
+    allowed = {(s["county"], s["name"]): s for s in sources if s["deploymentStatus"] == "Production"}
+    for item in existing + collected:
+        if item.get("manual") or (item["county"], item["source"]) not in allowed:
+            continue
+        date = parse_date(item.get("date", ""))
+        if item.get("date") and date is None:
+            continue
+        if not is_within_window(date):
+            continue
+        previous = by_id.get(item["id"])
+        if previous and item.get("pdfStatus") == "unavailable":
+            item = dict(item)
+            for field in ("pdfItems", "parcels", "summary", "topics"):
+                if not item.get(field) and previous.get(field):
+                    item[field] = previous[field]
+            item["details"] = "PDF extraction failed on the latest check; previously extracted content is retained."
+        by_id[item["id"]] = {**item, "tag": classify_tag(date),
+                              "sourceId": allowed[(item["county"], item["source"])]["id"]}
+    # Do not silently discard quieter municipalities with a global 300-item cap.
+    return sorted(by_id.values(), key=lambda i: (i.get("date", ""), i["id"]), reverse=True)
 
 
 def main():
-    print(f"PulseFeed scraper — {datetime.now().strftime('%Y-%m-%d %H:%M')} UTC")
-    existing = load_existing()
-    existing_ids = {item["id"] for item in existing}
-
-    all_new: list[dict] = []
-
-    for source in RSS_SOURCES:
-        print(f"  {source['name']}")
-
-        # RSS pass
-        rss_items = [i for i in scrape_rss(source) if i["id"] not in existing_ids]
-        for item in rss_items:
-            existing_ids.add(item["id"])
-            print(f"    RSS item: {item['title'][:60]}")
-            enrich_with_pdf(item)
-            time.sleep(0.3)
-        all_new.extend(rss_items)
-
-        # HTML source pass — picks up PDFs not exposed by RSS
-        html_items = scrape_html_source(source, existing_ids)
-        print(f"    {len(rss_items)} RSS + {len(html_items)} HTML item(s)")
-        all_new.extend(html_items)
-
-        time.sleep(0.5)
-
-    # Joomla document pages (no RSS — scrape data-* links directly)
-    for source in JOOMLA_SOURCES:
-        print(f"  {source['name']} (Joomla)")
-        joomla_items = scrape_joomla_docs(source, existing_ids)
-        print(f"    {len(joomla_items)} item(s)")
-        all_new.extend(joomla_items)
-        time.sleep(0.5)
-
-    # CivicPlus AgendaCenter pages
-    for source in CIVICPLUS_SOURCES:
-        print(f"  {source['name']} (CivicPlus)")
-        cp_items = scrape_civicplus(source, existing_ids)
-        print(f"    {len(cp_items)} item(s)")
-        all_new.extend(cp_items)
-        time.sleep(0.5)
-
-    # Prune items that have aged out of the 6-month window
-    existing = [i for i in existing if is_within_window(
-        datetime.fromisoformat(i["date"]).replace(tzinfo=timezone.utc) if i.get("date") else None
-    )]
-
-    combined = all_new + existing
-    combined.sort(key=lambda x: x.get("date", ""), reverse=True)
-    combined = combined[:300]
-
-    # Ensure manual-review placeholders are always present (they have no date so
-    # they sort to the end and never age out)
-    combined_ids = {item["id"] for item in combined}
-    for source in MANUAL_SOURCES:
-        item_id = make_id(source, source["url"])
-        if item_id not in combined_ids:
-            combined.append({
-                "id": item_id,
-                "county": source["county"],
-                "source": source["name"],
-                "title": "Manual Review Required",
-                "date": "",
-                "dateDisplay": "",
-                "time": "",
-                "summary": "Automated collection is unavailable for this source. Visit the planning page directly to check for new agendas and minutes.",
-                "details": "",
-                "link": source["url"],
-                "tag": "",
-                "docType": "",
-                "topics": [],
-                "pdfItems": "",
-                "parcels": [],
-                "manual": True,
-                "scrapedAt": datetime.now(timezone.utc).isoformat(),
-            })
-
-    with open(FEED_PATH, "w") as f:
-        json.dump(combined, f, indent=2)
-
-    print(f"\nDone. {len(all_new)} new item(s) added. {len(combined)} total in feed.")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--output-dir", type=Path, default=Path(FEED_PATH).parent)
+    parser.add_argument("--source", action="append", help="Source ID to inspect (repeatable; requires separate output directory)")
+    parser.add_argument("--include-candidates", action="store_true", help="Trial pending sources; never activates them")
+    parser.add_argument("--discovery-only", action="store_true", help="Skip PDF enrichment for an isolated collection audit")
+    args = parser.parse_args()
+    isolated = args.output_dir.resolve() != Path(FEED_PATH).parent.resolve()
+    if (args.source or args.include_candidates or args.discovery_only) and not isolated:
+        parser.error("Trial/partial runs require --output-dir outside public/ to protect the live feed")
+    sources = compile_registry(read_tables(WORKBOOK))
+    if not REGISTRY.exists() or json.loads(REGISTRY.read_text()) != sources:
+        raise SystemExit("Registry differs from workbook: run python scraper/source_workbook.py --write")
+    if args.source and set(args.source) - {s["id"] for s in sources}:
+        parser.error("Unknown source ID")
+    if args.discovery_only:
+        global parse_pdf_full
+        parse_pdf_full = lambda url: {"items": "", "parcels": [], "doc_type": ""}
+    feed_path = args.output_dir / "feed.json"
+    existing = load_existing(feed_path)
+    collected, reports, trials = [], [], []
+    for source in sources:
+        if args.source and source["id"] not in args.source:
+            continue
+        begin_source()
+        report = {"sourceId": source["id"], "name": source["name"],
+                  "checkedAt": None, "itemsFound": 0, "status": "pending", "issues": []}
+        pending = source["deploymentStatus"] != "Production"
+        if source["handler"] == "manual":
+            report["status"] = "manual"
+        elif pending and not args.include_candidates:
+            report["status"] = "pending"
+        elif pending and source["deploymentStatus"] != "Ready for Testing":
+            report["status"] = "manual" if source["deploymentStatus"] == "Manual Setup Needed" else "pending"
+        else:
+            print(f"Checking {source['id']}: {source['name']}", flush=True)
+            report["checkedAt"] = datetime.now(timezone.utc).isoformat()
+            try:
+                items = collect_source(source)
+            except Exception as exc:
+                record_issue(f"Collector failed: {type(exc).__name__}: {exc}")
+                items = []
+            report.update(source_diagnostics())
+            report["itemsFound"] = len(items)
+            report["status"] = ("partial" if report["issues"] and items else
+                                "error" if report["issues"] else
+                                "collected" if items else "no_matches")
+            for item in items:
+                item["sourceId"] = source["id"]
+            (trials if pending else collected).extend(items)
+        reports.append(report)
+    output = merge_feed(existing, collected, sources)
+    atomic_json(feed_path, output)
+    atomic_json(args.output_dir / "source-status.json", {
+        "checkedAt": datetime.now(timezone.utc).isoformat(),
+        "discoveryOnly": args.discovery_only, "sources": reports,
+    })
+    if args.include_candidates:
+        atomic_json(args.output_dir / "candidate-feed.json", trials)
+    print(f"{len(output)} feed items; {len(trials)} trial items; {len(reports)} source results.")
 
 
 if __name__ == "__main__":

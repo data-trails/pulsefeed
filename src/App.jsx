@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import {
   Rss, LayoutGrid, Heart, Calendar, Globe,
   X, RotateCcw, ExternalLink,
@@ -189,6 +189,9 @@ function FeedCard({ item, onSave, onDismiss, isSaved }) {
         {item.summary && (
           <p className="text-sm text-slate-600 leading-relaxed mb-3">{item.summary}</p>
         )}
+        {item.pdfStatus === 'unavailable' && (
+          <p className="text-xs text-amber-700 mb-3">PDF text could not be refreshed. Open the source for the current document.</p>
+        )}
 
         {/* Parcel numbers */}
         {item.parcels && item.parcels.length > 0 && (
@@ -267,7 +270,7 @@ function formatCalendarDate(dateStr) {
 
 function CalendarView({ items }) {
   const today = new Date().toISOString().slice(0, 10);
-  const datedItems = items.filter(i => i.date).sort((a, b) => a.date.localeCompare(b.date));
+  const datedItems = items.filter(i => i.date && i.dateType !== 'publication').sort((a, b) => a.date.localeCompare(b.date));
   const upcoming = datedItems.filter(i => i.date >= today);
   const recent = [...datedItems.filter(i => i.date < today)].reverse();
   const manualItems = items.filter(i => i.manual);
@@ -374,7 +377,9 @@ function CalendarView({ items }) {
 // Sources view
 // ---------------------------------------------------------------------------
 
-function SourcesView() {
+function SourcesView({ sourceStatus }) {
+  const results = new Map((sourceStatus?.sources || []).map(s => [s.sourceId, s]));
+  const automated = SOURCES.filter(s => s.deploymentStatus === 'Production' && s.handler !== 'manual').length;
   const byCounty = useMemo(() => {
     const map = {};
     SOURCES.forEach(s => { (map[s.county] = map[s.county] || []).push(s); });
@@ -384,21 +389,32 @@ function SourcesView() {
   return (
     <div>
       <p className="text-sm text-slate-500 mb-4">
-        {SOURCES.length} sources scraped daily across Allegan and Ottawa counties.
+        {SOURCES.length} sources tracked across Allegan and Ottawa counties. {automated} configured for automatic collection. Others need testing or manual review.
       </p>
       {Object.entries(byCounty).map(([county, sources]) => (
         <div key={county} className="mb-6">
           <h2 className="font-bold text-slate-700 mb-2">{county} County</h2>
           <div className="bg-white rounded-2xl border border-slate-100 overflow-hidden divide-y divide-slate-100">
-            {sources.map(s => (
-              <a key={s.name} href={s.url} target="_blank" rel="noopener noreferrer"
+            {sources.map(s => {
+              const result = results.get(s.id);
+              const state = result?.status || (s.handler === 'manual' ? 'manual' : s.deploymentStatus !== 'Production' ? 'pending' : 'unchecked');
+              const labels = { collected: 'Documents found', no_matches: 'No matching documents found', error: 'Collection failed', partial: 'Collected with issues', manual: 'Manual review', pending: s.deploymentStatus, unchecked: 'Not checked yet' };
+              return (
+              <a key={s.id} href={s.url} target="_blank" rel="noopener noreferrer"
                  className="flex items-center gap-3 px-4 py-3 hover:bg-slate-50 transition-colors group">
                 <div className="w-2.5 h-2.5 rounded-full shrink-0"
                      style={{ background: sourceColor(s.name) }} />
-                <span className="text-sm text-slate-700 flex-1">{s.name}</span>
+                <span className="text-sm text-slate-700 flex-1">
+                  <span className="block font-medium">{s.name}</span>
+                  <span className={`block text-xs mt-1 ${['error', 'partial', 'manual'].includes(state) ? 'text-amber-700' : 'text-slate-500'}`}>
+                    {labels[state] || state}{result?.checkedAt ? ` · Checked ${new Date(result.checkedAt).toLocaleString()}` : ''}
+                  </span>
+                  {result?.issues?.length > 0 && <span className="block text-xs text-slate-500 mt-1 break-all">{result.issues[0].slice(0, 240)}</span>}
+                </span>
                 <ExternalLink size={12} className="text-slate-300 group-hover:text-slate-400 shrink-0" />
               </a>
-            ))}
+              );
+            })}
           </div>
         </div>
       ))}
@@ -476,7 +492,7 @@ const TABS = [
 ];
 
 export default function App() {
-  const { items, loading, status, refresh } = useFeed();
+  const { items, loading, status, refresh, sourceStatus, error } = useFeed();
   const [dismissedIds, setDismissedIds] = useState(() => new Set());
   const [savedItems, setSavedItems] = useState(getSavedItems);
   const [activeTab, setActiveTab] = useState('feed');
@@ -574,8 +590,8 @@ export default function App() {
               </div>
             ) : (
               <div className="bg-white rounded-2xl border-2 border-dashed border-slate-200 p-10 text-center text-slate-400">
-                <p className="font-bold text-lg mb-1 text-slate-600">All caught up</p>
-                <p className="text-sm">Refresh for new updates or review saved items.</p>
+                <p className="font-bold text-lg mb-1 text-slate-600">{error ? 'Feed unavailable' : 'No updates to show'}</p>
+                <p className="text-sm">Check Sources for collection results, refresh, or review saved items.</p>
                 <button
                   onClick={() => setDismissedIds(new Set())}
                   className="mt-4 text-sm text-blue-600 font-medium hover:underline"
@@ -594,7 +610,7 @@ export default function App() {
         {activeTab === 'saved' && <SavedView items={savedItems} onUnsave={unsave} />}
 
         {/* Sources */}
-        {activeTab === 'sources' && <SourcesView />}
+        {activeTab === 'sources' && <SourcesView sourceStatus={sourceStatus} />}
 
       </main>
     </div>
