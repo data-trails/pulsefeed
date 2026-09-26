@@ -1,5 +1,108 @@
 [
   {
+    "id": "d41de204d1eb2bc7",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Laketown 71",
+    "date": "2026-10-07",
+    "dateDisplay": "Wed, Oct 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/100726PCLaketown71Combined.pdf",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:39.740158+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "5fea48a11fffc991",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 1",
+    "date": "2026-10-07",
+    "dateDisplay": "Wed, Oct 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/100726PCPacket1.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:38.591070+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "5b87c4dc4b6f6e40",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "HTML PDF Packet",
+    "date": "2026-10-07",
+    "dateDisplay": "Wed, Oct 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Agenda/_10072026-1713",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:57:52.524050+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
+  },
+  {
+    "id": "4f9739a9ac411c99",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Laketown Green",
+    "date": "2026-10-07",
+    "dateDisplay": "Wed, Oct 7",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/09/100726PCLaketownGreen_PUD-Revised.pdf",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:40.250840+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "3b1698abbef842ca",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Agenda",
+    "date": "2026-10-07",
+    "dateDisplay": "Wed, Oct 7",
+    "time": "",
+    "summary": "1. Special Land Use – Shane Vork\n2. Special Land Use – Tim Bindon\n3. Special Land Use – Paul and Kerry Dame\n4. Rezone Request – Higher Climb LLC\n1. Special Land Use AADU – John Franks\n4. Short Term Rental Regulations Ordinance\n5. Ordinance updates – Planned Unit Development (previously tabled)",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/100726PCAgenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "1. Special Land Use – Shane Vork\n2. Special Land Use – Tim Bindon\n3. Special Land Use – Paul and Kerry Dame\n4. Rezone Request – Higher Climb LLC\n1. Special Land Use AADU – John Franks\n4. Short Term Rental Regulations Ordinance\n5. Ordinance updates – Planned Unit Development (previously tabled)",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:37.976409+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
     "id": "d64bb334b0caf6bf",
     "county": "Ottawa",
     "source": "Holland Charter Township Planning Commission",
@@ -26,8 +129,30 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:34.834210+00:00",
+    "scrapedAt": "2026-09-26T14:58:07.932057+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
+  },
+  {
+    "id": "e676fb74c63b1a68",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Planners take another look at 2 developments",
+    "date": "2026-09-25",
+    "dateDisplay": "Fri, Sep 25",
+    "dateType": "publication",
+    "time": "",
+    "summary": "Proposals for Laketown 71, Laketown Green on the planning commission agenda for Oct. 7.",
+    "details": "",
+    "link": "https://laketowntwp.org/planners-take-another-look-at-2-developments/",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "3. PUBLIC HEARING – SPECIAL USE DOG KENNEL/PETRO",
+    "parcels": [],
+    "scrapedAt": "2026-09-26T14:56:36.266988+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "4041657e94f2c34d",
@@ -49,7 +174,7 @@
     ],
     "pdfItems": "• Battery Energy Storage Systems Review\n• Data Center Review (Tabled at previous meeting after discussion)\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:48:07.440443+00:00",
+    "scrapedAt": "2026-09-26T14:57:43.855327+00:00",
     "sourceId": "OTT-CHES-TWP-PC"
   },
   {
@@ -69,7 +194,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:01.491522+00:00",
+    "scrapedAt": "2026-09-26T14:57:34.857847+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -100,7 +225,7 @@
     "dateDisplay": "Mon, Sep 21",
     "time": "",
     "summary": "",
-    "details": "",
+    "details": "PDF extraction failed on the latest check; previously extracted content is retained.",
     "link": "https://www.cityofallegan.org/09-21-26-PC Packet.pdf?t=202609181321140",
     "tag": "Recent",
     "docType": "Agenda",
@@ -108,7 +233,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-09-25T15:47:58.253331+00:00",
+    "scrapedAt": "2026-09-26T14:57:30.995668+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -151,7 +276,7 @@
     "pdfItems": "a. Discussion/Action – Preliminary Site Plan Review for Alt Oil at 1291 W. Randall St.",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:06.056294+00:00",
+    "scrapedAt": "2026-09-26T14:58:39.740491+00:00",
     "sourceId": "OTT-COOP-CITY-PC"
   },
   {
@@ -174,7 +299,7 @@
     "pdfItems": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:57.742180+00:00",
+    "scrapedAt": "2026-09-26T14:57:30.472177+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -240,7 +365,7 @@
     "pdfItems": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:46:55.400287+00:00",
+    "scrapedAt": "2026-09-26T14:56:17.099397+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -279,7 +404,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:14.915988+00:00",
+    "scrapedAt": "2026-09-26T14:57:53.792394+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -318,7 +443,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:14.223674+00:00",
+    "scrapedAt": "2026-09-26T14:57:53.160278+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -338,7 +463,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:46:46.417715+00:00",
+    "scrapedAt": "2026-09-26T14:56:08.793775+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -357,7 +482,8 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-21T16:57:52.908612+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:57:50.699532+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -379,7 +505,7 @@
       "70-18-15-300-022"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:46.597865+00:00",
+    "scrapedAt": "2026-09-26T14:58:16.625507+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -401,7 +527,7 @@
     "pdfItems": "• Seeking a pole barn in front of the dwelling\n• Seeking an Event Barn in the Agricultural and Rural Residential District",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:46.906514+00:00",
+    "scrapedAt": "2026-09-26T14:58:16.817987+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -450,7 +576,7 @@
       "70-12-31-300-006",
       "70-12-31-300-008"
     ],
-    "scrapedAt": "2026-09-25T15:48:49.186243+00:00",
+    "scrapedAt": "2026-09-26T14:58:20.636946+00:00",
     "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
@@ -514,7 +640,7 @@
     "pdfItems": "a. Rezoning Request - Doug Helmholdt - 1064142nd Avenue\na. Data Centers draft amendment\nb. Battery Energy Storage Systems draft amendment",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:28.766101+00:00",
+    "scrapedAt": "2026-09-26T14:56:59.521729+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -556,7 +682,7 @@
     "pdfItems": "a. Public Hearing: An application for Special Use from Jack and Kay Herp, property owners at 3207\nb. Special Use Permit Application: Jack and Kay Herp, property owners at 3207 5th St., also known\na. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Miner gave an update from the Data Center Seminar hosted by PCI on",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:56.840677+00:00",
+    "scrapedAt": "2026-09-26T14:57:29.260676+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -579,7 +705,7 @@
     "pdfItems": "a. Gravel Ordinance Discussion\nb. Battery Storage Ordinance Discussion\nc. Data Center Ordinance Discussion\na. Harmoni Towers – Special User Permit\nb. Jim Szilagyi of Lakeshore Golf Properties, LLC - Text amendment\ni. Text amendment to the Otsego Township Zoning Ordinance to\nc. Master Plan - Comment and take action on recommending or not",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:44.473338+00:00",
+    "scrapedAt": "2026-09-26T14:57:19.935108+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -603,7 +729,7 @@
     "pdfItems": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). This was originally\na. Data Centers draft amendment. Kotrba reviewed a draft data center ordinance that included\nb. Battery Energy Storage Systems draft amendment. Kotrba reviewed a draft BESS ordinance\nc. Short-Term Rental Ordinance. Kortba provided an updated draft of the short-term rental zoning",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:28.661243+00:00",
+    "scrapedAt": "2026-09-26T14:56:59.395744+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -666,7 +792,7 @@
     "pdfItems": "A. Meegan Zickus – 78th Ave – Running for House of Representatives in 89th District; Three C’s\nA. Dewpointe West Tentative Preliminary Plat Phase 5 – Seeking 58 Single Family residential lots",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:01.803727+00:00",
+    "scrapedAt": "2026-09-26T14:57:35.442204+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -688,7 +814,7 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:46:46.417780+00:00",
+    "scrapedAt": "2026-09-26T14:56:08.793845+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -712,7 +838,7 @@
     "parcels": [
       "70-12-22-200-022"
     ],
-    "scrapedAt": "2026-09-25T15:48:49.186297+00:00",
+    "scrapedAt": "2026-09-26T14:58:20.636992+00:00",
     "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
@@ -732,7 +858,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:48:28.075264+00:00",
+    "scrapedAt": "2026-09-26T14:58:03.033497+00:00",
     "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
@@ -846,6 +972,28 @@
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
+    "id": "fb61a2865a6c43a4",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 5",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL\n6. FIELD VERIFY DIMENSIONS PRIOR TO CONSTRUCTION\n7. CONSTRUCTION SHALL COMPLY WITH ALL APPLICABLE\n5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCPacket5.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Housing"
+    ],
+    "pdfItems": "5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL\n6. FIELD VERIFY DIMENSIONS PRIOR TO CONSTRUCTION\n7. CONSTRUCTION SHALL COMPLY WITH ALL APPLICABLE\n5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:49.890203+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
     "id": "f2c7e7c50f4eef9f",
     "county": "Ottawa",
     "source": "City of Coopersville Planning Commission",
@@ -862,8 +1010,68 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:06.119992+00:00",
+    "scrapedAt": "2026-09-26T14:58:39.806314+00:00",
     "sourceId": "OTT-COOP-CITY-PC"
+  },
+  {
+    "id": "e6bead6b19e7ef39",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 3",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/090226PCPacket3.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:42.515525+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "e6bbbd1faa0cc4b4",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 1",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/090226PCPacket1.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:40.925246+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "cf3cb2b5174a3225",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 6",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCPacket6.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:50.262512+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "b3bfbf38712c1bd1",
@@ -883,7 +1091,8 @@
     ],
     "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-08-23T11:26:39.700425+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:40.518430+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -905,7 +1114,8 @@
     ],
     "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
     "parcels": [],
-    "scrapedAt": "2026-09-15T15:31:20.974916+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:51.144817+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -925,8 +1135,50 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:16.439046+00:00",
+    "scrapedAt": "2026-09-26T14:57:55.049717+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
+  },
+  {
+    "id": "3d527060476ca286",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 2",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/090226PCPacket2.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:41.973532+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "34c0d76f216d4f92",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 4",
+    "date": "2026-09-02",
+    "dateDisplay": "Wed, Sep 2",
+    "time": "",
+    "summary": "1. The fire department will need a copy of the utility plan so we can review the locations and",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/09/090226PCPacket4.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [
+      "Industrial"
+    ],
+    "pdfItems": "1. The fire department will need a copy of the utility plan so we can review the locations and",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:42.722017+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
     "id": "1e9973eb88e8101f",
@@ -964,7 +1216,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:15.603918+00:00",
+    "scrapedAt": "2026-09-26T14:57:54.423082+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -992,7 +1244,7 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:35.621080+00:00",
+    "scrapedAt": "2026-09-26T14:58:08.704005+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -1056,7 +1308,7 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:48:28.075339+00:00",
+    "scrapedAt": "2026-09-26T14:58:03.033571+00:00",
     "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
@@ -1083,7 +1335,7 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:39.021259+00:00",
+    "scrapedAt": "2026-09-26T14:58:11.972450+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -1159,7 +1411,7 @@
       "70-11-12-100-031"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:56.543133+00:00",
+    "scrapedAt": "2026-09-26T14:58:28.230795+00:00",
     "sourceId": "OTT-PORT-TWP-PC"
   },
   {
@@ -1228,7 +1480,7 @@
     "pdfItems": "1. Public Hearing on Ordinance 197\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:46:55.518664+00:00",
+    "scrapedAt": "2026-09-26T14:56:17.240950+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1269,7 +1521,7 @@
     "pdfItems": "1. Hudsonville Community Fairgrounds – Zoning Ordinance Map Amendment – Public Hearing",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:07.864495+00:00",
+    "scrapedAt": "2026-09-26T14:58:41.535449+00:00",
     "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
@@ -1292,7 +1544,7 @@
     "pdfItems": "2. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n• The northern portion of the rezoning was an error in the past master plan and just needed to be\n• The eastern portion up for rezoning is the portion that is not currently owned by the fairgrounds.\n• The property is going to be rezoned for the fairgrounds which may be growing too large for a\n• The Planning Commission is looking at this request based on the zoning and the capacity of the\n• Window Coverage & Murals",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:08.250540+00:00",
+    "scrapedAt": "2026-09-26T14:58:41.846967+00:00",
     "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
@@ -1312,7 +1564,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:17.875509+00:00",
+    "scrapedAt": "2026-09-26T14:57:56.292657+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1351,7 +1603,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:18.567555+00:00",
+    "scrapedAt": "2026-09-26T14:57:57.010740+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1373,7 +1625,7 @@
     "pdfItems": "• Text Amendments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:47.534194+00:00",
+    "scrapedAt": "2026-09-26T14:58:17.279268+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -1395,8 +1647,28 @@
     "pdfItems": "• Text Amendments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:47.358392+00:00",
+    "scrapedAt": "2026-09-26T14:58:17.158735+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
+  },
+  {
+    "id": "6cda0c42eee33aaf",
+    "county": "Ottawa",
+    "source": "Crockery Township Planning Commission",
+    "title": "August 18,2026",
+    "date": "2026-08-18",
+    "dateDisplay": "Tue, Aug 18",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://crockerytownship.gov/wp-content/uploads/2026/08/PC-Cancelation-08-18-2026.pdf",
+    "tag": "Recent",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:57:50.801880+00:00",
+    "sourceId": "OTT-CROC-TWP-PC"
   },
   {
     "id": "cfa000d7280f0a8a",
@@ -1415,7 +1687,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:01.854362+00:00",
+    "scrapedAt": "2026-09-26T14:57:35.783487+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -1438,7 +1710,7 @@
     "pdfItems": "1. Any future changes to PUD site plan phasing shall be administratively reviewed as a “minor\n2. Review and approval of Phase 4 construction plans by City Engineer.\n3. Obtain a Building Permit and Flat Work Permit before beginning construction of any\n5. Obtain a Sign Permit from the Zoning Administrator prior to the placement of any sign in\n10. Sidewalks shall be provided along all streets per Section 1264.04(b).\n11. A variance from Section 1228.03(1)(j)(1) shall be obtained from the Board of Zoning",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:06.985510+00:00",
+    "scrapedAt": "2026-09-26T14:58:40.639723+00:00",
     "sourceId": "OTT-COOP-CITY-PC"
   },
   {
@@ -1559,7 +1831,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-09-25T15:47:29.214637+00:00",
+    "scrapedAt": "2026-09-26T14:56:59.929484+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -1582,7 +1854,7 @@
     "pdfItems": "a. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Chairman Brenner encouraged everyone to start studying data center\n9. Public Comment #2: Colin Kummerfeldt informed the PC that Apex Energy has sent the Permit",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:56.423780+00:00",
+    "scrapedAt": "2026-09-26T14:57:28.915621+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -1625,7 +1897,7 @@
     "pdfItems": "a. Rezoning Request – Jeff Wiegers – Division and 140th (C-2 to R-1). Applicant Jeff Wiegers has\na. Data Centers draft amendment. No changes.\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. Moore provided an updated draft of the short-term rental zoning",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:29.157361+00:00",
+    "scrapedAt": "2026-09-26T14:56:59.864568+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -1652,7 +1924,7 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:36.362543+00:00",
+    "scrapedAt": "2026-09-26T14:58:09.445669+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -1678,7 +1950,7 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:40.439849+00:00",
+    "scrapedAt": "2026-09-26T14:58:13.270850+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -1779,7 +2051,7 @@
     "pdfItems": "5. Heron Energy Storage LLC. Special Land Use Permit and Site Plan",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:46:55.593680+00:00",
+    "scrapedAt": "2026-09-26T14:56:17.312198+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1966,7 +2238,28 @@
     ],
     "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-07-26T12:09:17.555777+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:51.292770+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "afe5a950b243a82f",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 2",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/07/080526PCPacket2.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:52.754060+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1987,7 +2280,8 @@
     ],
     "pdfItems": "1. Laketown 71 PUD Site Plan Review\n- Traffic Study, Yield Plan, Revised Site Plan\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-08-13T11:53:06.296558+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:53.962298+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2051,6 +2345,46 @@
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
+    "id": "462bd6dfce4691ca",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 1",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "https://laketowntwp.org/wp-content/uploads/2026/07/080526PCPacket1.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:51.597510+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "420316c1fe47399e",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 3",
+    "date": "2026-08-05",
+    "dateDisplay": "Wed, Aug 5",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/08/080526PCPacket3.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:52.950402+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
     "id": "409c2132756152bc",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -2068,7 +2402,8 @@
     ],
     "pdfItems": "1. Laketown 71 PUD site plan review\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
-    "scrapedAt": "2026-08-07T11:50:29.105806+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:51.390283+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2107,7 +2442,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:01.895375+00:00",
+    "scrapedAt": "2026-09-26T14:57:36.062210+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -2170,7 +2505,7 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:46:46.417892+00:00",
+    "scrapedAt": "2026-09-26T14:56:08.793943+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -2193,7 +2528,7 @@
     "pdfItems": "D. Hutchins made a motion to accept the conditions of the approved site plan for MI\nb. Zoning Board of Appeals\nc. Zoning Administrator – Discuss joint meeting with Casco Township regarding",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:46:42.470394+00:00",
+    "scrapedAt": "2026-09-26T14:56:04.331315+00:00",
     "sourceId": "ALG-GANG-TWP-PC"
   },
   {
@@ -2234,7 +2569,7 @@
     "pdfItems": "• Site Plan\n• Text Amendment\n• Master Plan\n• City of Hudsonville Master Plan Map Notice",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:48.488178+00:00",
+    "scrapedAt": "2026-09-26T14:58:17.925634+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -2255,7 +2590,8 @@
     ],
     "pdfItems": "A. Sign Ordinance Text Amendment - Public Hearing\nB. Downtown overlay zoning",
     "parcels": [],
-    "scrapedAt": "2026-09-21T16:57:52.131777+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:57:50.536101+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -2278,7 +2614,7 @@
     "pdfItems": "2. Jason Vander Meulen, 1125 Riley St., lives directly across street to the west. He stated concerns\n• Site Plan\n• Text Amendment\n• Master Plan-Planner Ransford informed the Commissioners that the Township Attorney indicated provisions\n• City of Hudsonville Master Plan Map Notice",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:48.301503+00:00",
+    "scrapedAt": "2026-09-26T14:58:17.799271+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -2298,7 +2634,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:01.938473+00:00",
+    "scrapedAt": "2026-09-26T14:57:36.375006+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -2337,7 +2673,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:06.417668+00:00",
+    "scrapedAt": "2026-09-26T14:58:40.099690+00:00",
     "sourceId": "OTT-COOP-CITY-PC"
   },
   {
@@ -2376,7 +2712,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:20.645293+00:00",
+    "scrapedAt": "2026-09-26T14:57:58.998992+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2398,7 +2734,7 @@
     "pdfItems": "1. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application – Public Hearing\n2. Hudsonville Community Fairgrounds – Master Plan Map Amendment – Public Hearing",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:08.448149+00:00",
+    "scrapedAt": "2026-09-26T14:58:42.003119+00:00",
     "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
@@ -2437,7 +2773,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:19.969129+00:00",
+    "scrapedAt": "2026-09-26T14:57:58.347906+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2461,7 +2797,7 @@
     "pdfItems": "1. Public Hearing on Ordinance 195 Accessory Dwelling Units\n2. Site Plan for 596 10th Street\n3. Text Amendment on Solar Ordinance\n2. Data Center Ordinance\n9. Zoning Administrator Comments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:46:55.683100+00:00",
+    "scrapedAt": "2026-09-26T14:56:17.393639+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -2483,7 +2819,7 @@
     "pdfItems": "2. 3109 S Bluff Ct – Noah Jentzen – Special Land Use Application\n3. Hudsonville Community Fairgrounds – Master Plan Map Amendment\n1. The application is submitted to Planning and Zoning.",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:49:09.210591+00:00",
+    "scrapedAt": "2026-09-26T14:58:42.676410+00:00",
     "sourceId": "OTT-HUDS-CITY-PC"
   },
   {
@@ -2522,7 +2858,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-09-25T15:48:55.017658+00:00",
+    "scrapedAt": "2026-09-26T14:58:26.961734+00:00",
     "sourceId": "OTT-PORT-TWP-PC"
   },
   {
@@ -2804,7 +3140,7 @@
     "pdfItems": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). Doug Helmholdt has\na. Data Centers draft amendment. Moore reviewed an updated draft with the Commissioners that\nb. Battery Energy Storage Systems draft amendment. No changes\nc. Short-Term Rental Ordinance. No changes.\n7. Public Comments: One member of the public had questions on the short term rental ordinance, and",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:29.434106+00:00",
+    "scrapedAt": "2026-09-26T14:57:00.181222+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -2824,7 +3160,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:21.982641+00:00",
+    "scrapedAt": "2026-09-26T14:58:00.354980+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2844,7 +3180,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:22.673305+00:00",
+    "scrapedAt": "2026-09-26T14:58:01.014841+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2866,7 +3202,7 @@
     "pdfItems": "a. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add a\nb. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to revise\nc. Public Hearing: Text amendment to amend the Wayland Township Zoning Ordinance to add",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:56.041878+00:00",
+    "scrapedAt": "2026-09-26T14:57:28.689773+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -2886,7 +3222,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-09-25T15:47:29.480575+00:00",
+    "scrapedAt": "2026-09-26T14:57:00.248861+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -2932,7 +3268,7 @@
       "70-16-21-238-001"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:37.111252+00:00",
+    "scrapedAt": "2026-09-26T14:58:10.196167+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -2956,7 +3292,7 @@
       "70-16-08-300-026"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:42.112474+00:00",
+    "scrapedAt": "2026-09-26T14:58:14.764455+00:00",
     "sourceId": "OTT-HOLL-TWP-PC"
   },
   {
@@ -2979,7 +3315,7 @@
     "pdfItems": "A. Final Planned Unit Development & Site Condominium – Springfield Crossings & The Cottages\ni. Seeking 37 Single Family site condominiums and 20 duplex condominium buildings\n8. Site Plan Review: None",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:02.242951+00:00",
+    "scrapedAt": "2026-09-26T14:57:37.410874+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -2991,7 +3327,7 @@
     "dateDisplay": "Mon, Jul 6",
     "time": "",
     "summary": "",
-    "details": "",
+    "details": "PDF extraction failed on the latest check; previously extracted content is retained.",
     "link": "https://allendalemi.gov/wp-content/uploads/2026/07/7.6.26-packet.pdf",
     "tag": "Recent",
     "docType": "Agenda",
@@ -2999,7 +3335,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-09-25T15:48:02.037970+00:00",
+    "scrapedAt": "2026-09-26T14:57:36.916314+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -3061,7 +3397,7 @@
     "pdfItems": "a. Gravel Pit Ordinance: Zuiderveen provided a zoning ordinance from Manchester Township\nb. Battery Energy Systems Discussion and Draft Ordinance:\n1. The term used should be amended to use the term Battery Energy Storage System (“BESS”)\n3. Discussion continued noting that there is a gap between household and large/commercial\n8. Consider setbacks from property lines instead of dwellings\n1. PCI invited Planning Commissioners to attend an educational seminar for Data Centers on",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:47:45.003853+00:00",
+    "scrapedAt": "2026-09-26T14:57:20.491815+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -3084,6 +3420,26 @@
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
+    "id": "cb0ab9ac0c841704",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 1",
+    "date": "2026-07-01",
+    "dateDisplay": "Wed, Jul 1",
+    "time": "",
+    "summary": "",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/06/070126PCPacket1.pdf",
+    "tag": "Recent",
+    "docType": "Agenda",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "pdfStatus": "unavailable",
+    "scrapedAt": "2026-09-26T14:56:54.330998+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
     "id": "c754c8f39fe74949",
     "county": "Allegan",
     "source": "Laketown Township Planning Commission",
@@ -3102,7 +3458,8 @@
     ],
     "pdfItems": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD site plan review\n3. Short Term Rental Regulations Ordinance\n4. Ordinance updates – Planned Unit Development",
     "parcels": [],
-    "scrapedAt": "2026-06-19T14:16:36.748102+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:54.032471+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -3122,7 +3479,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:23.982975+00:00",
+    "scrapedAt": "2026-09-26T14:58:02.292463+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -3144,7 +3501,8 @@
     ],
     "pdfItems": "1. Site Plan Review for Construction in C-3 – Grant/Herrell\n2. Rezone Request R-1 to R-1.5 – Lamar\n3. Rezone Request R-1 to R-1.5 – Machen\n1. Laketown 71 PUD Site Plan Review\n3. Short-term Rental Regulations Ordinance\n4. Ordinance Updates – Planned Unit Development",
     "parcels": [],
-    "scrapedAt": "2026-07-11T11:57:54.311142+00:00",
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-09-26T14:56:55.079112+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -3183,7 +3541,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-09-25T15:48:23.351779+00:00",
+    "scrapedAt": "2026-09-26T14:58:01.649961+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
