@@ -16,7 +16,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:23:30.990609+00:00",
+    "scrapedAt": "2026-11-23T22:32:29.196797+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -38,7 +38,7 @@
     "pdfItems": "1. Special Land Use – Brad Sawdon of Graafschap Hardware\n4. Short Term Rental Regulations Ordinance (previously tabled).\n5. Ordinance updates – Planned Unit Development (previously tabled).",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:44.713061+00:00",
+    "scrapedAt": "2026-11-23T22:31:03.500569+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -58,8 +58,53 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:45.149552+00:00",
+    "scrapedAt": "2026-11-23T22:31:03.787680+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "b86e1ac2739042d7",
+    "county": "Allegan",
+    "source": "Laketown Township Planning Commission",
+    "title": "Packet 2",
+    "date": "2026-12-02",
+    "dateDisplay": "Wed, Dec 2",
+    "time": "",
+    "summary": "1. Special Land Use – Brad Sawdon of Graafschap Hardware\n4. Short Term Rental Regulations Ordinance (previously tabled).\n5. Ordinance updates – Planned Unit Development (previously tabled).",
+    "details": "",
+    "link": "http://laketowntwp.org/wp-content/uploads/2026/11/120226PCPacket2.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning"
+    ],
+    "pdfItems": "1. Special Land Use – Brad Sawdon of Graafschap Hardware\n4. Short Term Rental Regulations Ordinance (previously tabled).\n5. Ordinance updates – Planned Unit Development (previously tabled).",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-11-23T22:31:04.571745+00:00",
+    "sourceId": "ALG-LAKE-TWP-PC"
+  },
+  {
+    "id": "d4acc02dad6dc815",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "December 1, 2026, Planning Commission Agenda",
+    "date": "2026-12-01",
+    "dateDisplay": "Tue, Dec 1",
+    "time": "",
+    "summary": "5. Site Plan 89 10th Street\n6. Site Plan 1175 M-89 Qdoba",
+    "details": "",
+    "link": "https://www.gunplain.org/wp-content/uploads/December-1-2026-Planning-Commission-Agenda.pdf",
+    "tag": "Upcoming",
+    "docType": "Agenda",
+    "topics": [
+      "Zoning",
+      "Housing"
+    ],
+    "pdfItems": "5. Site Plan 89 10th Street\n6. Site Plan 1175 M-89 Qdoba",
+    "parcels": [],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-11-23T22:30:13.789761+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "fdd7ffb7a0987937",
@@ -80,8 +125,28 @@
       "70-18-08-232-002"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:31.574205+00:00",
+    "scrapedAt": "2026-11-23T22:34:23.183505+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
+  },
+  {
+    "id": "bf7c1137238ac71f",
+    "county": "Allegan",
+    "source": "Gun Plain Township Planning Commission",
+    "title": "Notice of a Special Meeting of the Planning Commission",
+    "date": "2026-11-23",
+    "dateDisplay": "Mon, Nov 23",
+    "dateType": "publication",
+    "time": "",
+    "summary": "Notice of a Special Meeting of the Planning Commission &#124; Gun Plain Charter Township The post Notice of a Special Meeting of the Planning Commission first appeared on Gun Plain Charter Township .",
+    "details": "",
+    "link": "https://www.gunplain.org/notice-of-a-special-meeting-of-the-planning-commission/",
+    "tag": "Upcoming",
+    "docType": "",
+    "topics": [],
+    "pdfItems": "",
+    "parcels": [],
+    "scrapedAt": "2026-11-23T22:30:10.898976+00:00",
+    "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
     "id": "5212e67458eb5357",
@@ -103,8 +168,34 @@
     ],
     "pdfItems": "• Battery Energy Storage Systems Ordinance- Public Hearing\n• Special Land Use Review- Wineries, breweries, distilleries\n• Data Center Ordinance Review\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:23:43.859146+00:00",
+    "scrapedAt": "2026-11-23T22:32:42.296736+00:00",
     "sourceId": "OTT-CHES-TWP-PC"
+  },
+  {
+    "id": "945a69e7da9511a9",
+    "county": "Ottawa",
+    "source": "Georgetown Charter Township Planning Commission",
+    "title": "Nov 18, 2026 — Posted Nov 9, 2026 2:10 PM Planning Commission Regular Meeting Agenda Download ▼ HTML PDF Packet",
+    "date": "2026-11-18",
+    "dateDisplay": "Wed, Nov 18",
+    "time": "",
+    "summary": "A. Bicycle, utility truck or trailer, motor vehicle, boats, or home equipment sale. repair, rental, or\nD. Rezonings. The following standards shall be considered by the Planning Commission and the\n1. Consistency – Is the proposed zoning district and all of its allowed uses consistent\n2. Compatibility – Is the proposed zoning district and all of its allowed uses compatible\n3. Capability – Is the pro",
+    "details": "",
+    "link": "https://www.gtwp.com/AgendaCenter/ViewFile/Minutes/_11182026-1723",
+    "tag": "Recent",
+    "docType": "Minutes",
+    "topics": [
+      "Zoning",
+      "Housing",
+      "Industrial"
+    ],
+    "pdfItems": "A. Bicycle, utility truck or trailer, motor vehicle, boats, or home equipment sale. repair, rental, or\nD. Rezonings. The following standards shall be considered by the Planning Commission and the\n1. Consistency – Is the proposed zoning district and all of its allowed uses consistent\n2. Compatibility – Is the proposed zoning district and all of its allowed uses compatible\n3. Capability – Is the property capable, including utilities and infrastructure, of being\n5. Whether the rezoning would constitute a prohibited “spot rezoning.”\n6. Whether a mistake or error was made in the original zoning district designation.",
+    "parcels": [
+      "70-14-27-100-032"
+    ],
+    "pdfStatus": "parsed",
+    "scrapedAt": "2026-11-23T22:32:56.351589+00:00",
+    "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
     "id": "5db69f3620aa82df",
@@ -127,7 +218,7 @@
     "pdfItems": "1. Public Hearing for Ordinance 198 Permitting Camping Trailers as\n2. Public Hearing for Ordinance 199 Setbacks for Energy Storage Systems\n4. Site Plan 1175 M-89 Qdoba\n5. Site Plan 89 10th Street\n1. Semi-Truck Ordinance\n3. Data Center Ordinance",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:19.193031+00:00",
+    "scrapedAt": "2026-11-23T22:30:13.890991+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -147,7 +238,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:57.744586+00:00",
+    "scrapedAt": "2026-11-23T22:32:56.981621+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -167,7 +258,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:23:56.251655+00:00",
+    "scrapedAt": "2026-11-23T22:32:54.427239+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -207,7 +298,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:56.193176+00:00",
+    "scrapedAt": "2026-11-23T22:32:54.383872+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -227,7 +318,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:46.806310+00:00",
+    "scrapedAt": "2026-11-23T22:31:05.443035+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -250,7 +341,7 @@
     "pdfItems": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:32.596443+00:00",
+    "scrapedAt": "2026-11-23T22:32:31.712623+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -270,7 +361,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:45.967873+00:00",
+    "scrapedAt": "2026-11-23T22:31:04.889790+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -293,7 +384,7 @@
     "pdfItems": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:32.835524+00:00",
+    "scrapedAt": "2026-11-23T22:32:32.020754+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -315,7 +406,7 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:22:42.199682+00:00",
+    "scrapedAt": "2026-11-23T22:31:01.958361+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -335,7 +426,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:23:18.821366+00:00",
+    "scrapedAt": "2026-11-23T22:32:19.157737+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -359,7 +450,7 @@
     "pdfItems": "a) Extension Request – Blazing Solar – Request for 1-Year Extension of Site Plan\nb) Selkirk Lake Cell Tower-Special Use Permit/Site Plan Review – PPN 03-24-021-017-\na) Discussion – Gun Lake Storage Status Update – 2870 10th Street\nb) Discussion – Kay Herp Temporary Dwelling SUP Status Update – 1060 129th Avenue\nc) Discussion – Data Center Ordinance – Example ordinances for review",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:32.277250+00:00",
+    "scrapedAt": "2026-11-23T22:32:30.924688+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -379,7 +470,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:23:10.434014+00:00",
+    "scrapedAt": "2026-11-23T22:32:03.214658+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -399,7 +490,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:22:42.199725+00:00",
+    "scrapedAt": "2026-11-23T22:31:01.958418+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -422,7 +513,7 @@
     "pdfItems": "1. Some streets are labeled as private streets. If the Township accepts these, there\n2. The Township is responsible for master planning their systems, but HBPW must\n1. The developer proposes to extend water main in 60th Street and loop in 61st Street.\n1. Consider a temporary residential development moratorium, including PUDs, with its legal authority, scope, duration, and\n2. Conduct a comprehensive review and update of the Master Plan and zoning ordinances, including PUD definitions, residential\n3. Evaluate existing and proposed residential developments, specifically Laketown Green and Laketown 71, for consistency with",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:48.857222+00:00",
+    "scrapedAt": "2026-11-23T22:31:07.290101+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -442,7 +533,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:49.376622+00:00",
+    "scrapedAt": "2026-11-23T22:31:07.804987+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -462,7 +553,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:49.937266+00:00",
+    "scrapedAt": "2026-11-23T22:31:08.398599+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -486,7 +577,7 @@
     "pdfItems": "1. Approval of Proposed Master Plan. The Planning Commission approves the proposed\n2. Distribution to Township Board. Pursuant to MCL 125.3843, the Township Board has\n4. Effective Date. The Master Plan will be effective upon adoption on today’s date.",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:58.890346+00:00",
+    "scrapedAt": "2026-11-23T22:32:58.238451+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -506,7 +597,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:50.207111+00:00",
+    "scrapedAt": "2026-11-23T22:31:08.618976+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -526,7 +617,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:47.775433+00:00",
+    "scrapedAt": "2026-11-23T22:31:06.294224+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -548,7 +639,7 @@
     "pdfItems": "1. Special Land Use – Steven Brink\n4. Short Term Rental Regulations Ordinance (previously tabled)\n5. Ordinance updates – Planned Unit Development (previously tabled)",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:50.635271+00:00",
+    "scrapedAt": "2026-11-23T22:31:09.154668+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -570,7 +661,7 @@
     "pdfItems": "1. Special Land Use – Steven Brink\n4. Short Term Rental Regulations Ordinance (previously tabled).\n5. Ordinance updates – Planned Unit Development (previously tabled).",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:47.286411+00:00",
+    "scrapedAt": "2026-11-23T22:31:05.977223+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -594,7 +685,7 @@
     "pdfItems": "1. Approval of Proposed Master Plan. The Planning Commission approves the\n2. Distribution to Township Board. Pursuant to MCL 125.3843, the Township Board\n4. Effective Date. The Master Plan will be effective upon adoption on today’s date.",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:59.956309+00:00",
+    "scrapedAt": "2026-11-23T22:32:59.347436+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -618,7 +709,7 @@
     ],
     "pdfItems": "1. Zoning Ordinance Amendment – Discussing regulations pertaining to an attainable housing\n2. Zoning Ordinance Amendment – Establishing language to define and regulate data centers and",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:24:11.259152+00:00",
+    "scrapedAt": "2026-11-23T22:33:05.611052+00:00",
     "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
@@ -640,7 +731,7 @@
     "pdfItems": "• Special Use Application - Great Lakes Excavating Service – 11907 40th Avenue &\n8. Site Plan Review: None",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:36.067371+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.014420+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -660,7 +751,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:50.826182+00:00",
+    "scrapedAt": "2026-11-23T22:31:09.283445+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -680,7 +771,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:51.013512+00:00",
+    "scrapedAt": "2026-11-23T22:31:09.461804+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -722,7 +813,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:24:11.259200+00:00",
+    "scrapedAt": "2026-11-23T22:33:05.611100+00:00",
     "sourceId": "OTT-GRHV-TWP-PC"
   },
   {
@@ -762,7 +853,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:01.249995+00:00",
+    "scrapedAt": "2026-11-23T22:33:00.604111+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -786,7 +877,7 @@
     "pdfItems": "1. Ordinance 199 Setbacks for Energy Storage Systems\n1. Semi-Truck Ordinance\n3. Data Center Ordinance\n4. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:19.463724+00:00",
+    "scrapedAt": "2026-11-23T22:30:14.192786+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -806,7 +897,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:00.564732+00:00",
+    "scrapedAt": "2026-11-23T22:32:59.954806+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -849,7 +940,7 @@
     "pdfItems": "• 2026 Master Plan Map-The Planning Commissioners discussed two versions of the updated\n• Data Centers Text Amendment-The Planning Commissioners decided to postpone further",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:31.798299+00:00",
+    "scrapedAt": "2026-11-23T22:34:23.556543+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -872,7 +963,7 @@
     "pdfItems": "• 2026 Master Plan Map\n• Data Centers Text Amendment",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:31.943255+00:00",
+    "scrapedAt": "2026-11-23T22:34:23.720731+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -895,7 +986,7 @@
     "pdfItems": "A. Architectural Standards Ordinance - Public Hearing\nA. Accessory Use Solar Ordinance Review",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:56.065242+00:00",
+    "scrapedAt": "2026-11-23T22:32:54.301081+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -915,7 +1006,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:36.111907+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.077024+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -939,7 +1030,7 @@
     "pdfItems": "a. Discussion/Action – Becknell Industrial’s Future Land Use Map Amendment Request",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:49.634916+00:00",
+    "scrapedAt": "2026-11-23T22:34:49.555070+00:00",
     "sourceId": "OTT-COOP-CITY-PC"
   },
   {
@@ -964,7 +1055,7 @@
       "70-12-22-200-022",
       "70-12-06-200-004"
     ],
-    "scrapedAt": "2026-11-22T18:24:35.754980+00:00",
+    "scrapedAt": "2026-11-23T22:34:33.845931+00:00",
     "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
@@ -987,7 +1078,7 @@
     "pdfItems": "a. High Grade Materials - Utility Scale Solar Array - Special Land Use and Site Plan\na. Data Centers draft amendment\nb. Battery Energy Storage Systems draft amendment",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:10.712916+00:00",
+    "scrapedAt": "2026-11-23T22:32:03.337821+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -1010,7 +1101,7 @@
     "pdfItems": "6. Public Comment #1: Collin Kummerfeldt, representative of Apex Energy/Blazing Star Solar, stated\na. Special Use Permit Application: Jack and Kay Herp, property owners at 3207 5th St., also\nb. Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870 10th St, (Parcel\ni. The applicant had provided an updated site plan that was reviewed by Rebecca Harvey\nv. Brenner made a motion with support from Standish to table the Site Plan Review\nc. Data Center Ordinance: Chairman Brenner let the planning commission members know that",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:31.828911+00:00",
+    "scrapedAt": "2026-11-23T22:32:30.332108+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -1056,7 +1147,7 @@
     ],
     "pdfItems": "• Special Land Use Review- Wineries\n• Battery Energy Storage Systems Ordinance Review\n• Data Center Ordinance Review\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:23:43.859253+00:00",
+    "scrapedAt": "2026-11-23T22:32:42.296855+00:00",
     "sourceId": "OTT-CHES-TWP-PC"
   },
   {
@@ -1079,7 +1170,7 @@
     "pdfItems": "E. Any regulatory modification from traditional district requirements shall be approved through a\nF. A table shall be provided on the final site plan which specifically details all deviations from the\na. The objectives of the PUD and how it relates to the Intent of the PUD District, as\nd. Proposed deed restrictions, covenants, or similar legal instruments to be used within\nD. The proposed project is consistent with the spirit and intent of the PUD District, as described in\nE. The proposed PUD meets all the site plan requirements of this Chapter, respective of being either a\nF. Any proposed modification or deviation from any zoning district or other zoning requirement",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:02.413663+00:00",
+    "scrapedAt": "2026-11-23T22:33:01.878511+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1099,7 +1190,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:52.286262+00:00",
+    "scrapedAt": "2026-11-23T22:31:10.306659+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1119,7 +1210,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:54.881200+00:00",
+    "scrapedAt": "2026-11-23T22:31:12.398208+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1142,7 +1233,7 @@
     "pdfItems": "2. The single-family units are connected by public streets with one connection to 60th\n2. The Township is responsible for master planning their systems, but HBPW must",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:54.451493+00:00",
+    "scrapedAt": "2026-11-23T22:31:12.108943+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1162,7 +1253,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:55.893002+00:00",
+    "scrapedAt": "2026-11-23T22:31:13.197457+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1182,7 +1273,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:53.854632+00:00",
+    "scrapedAt": "2026-11-23T22:31:11.321929+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1202,7 +1293,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:51.450622+00:00",
+    "scrapedAt": "2026-11-23T22:31:09.783964+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1222,7 +1313,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:03.095023+00:00",
+    "scrapedAt": "2026-11-23T22:33:02.603989+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1242,7 +1333,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:53.028581+00:00",
+    "scrapedAt": "2026-11-23T22:31:10.806209+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1265,7 +1356,7 @@
     "pdfItems": "1. Special Land Use – Shane Vork\n2. Special Land Use – Tim Bindon\n3. Special Land Use – Paul and Kerry Dame\n4. Rezone Request – Higher Climb LLC\n1. Special Land Use AADU – John Franks",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:56.378850+00:00",
+    "scrapedAt": "2026-11-23T22:31:13.784293+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1285,7 +1376,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:54.994287+00:00",
+    "scrapedAt": "2026-11-23T22:31:12.477788+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1308,7 +1399,7 @@
     "pdfItems": "1. Special Land Use – Shane Vork\n2. Special Land Use – Tim Bindon\n3. Special Land Use – Paul and Kerry Dame\n4. Rezone Request – Higher Climb LLC\n1. Special Land Use AADU – John Franks\n4. Short Term Rental Regulations Ordinance\n5. Ordinance updates – Planned Unit Development (previously tabled)",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:51.171706+00:00",
+    "scrapedAt": "2026-11-23T22:31:09.597528+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1328,7 +1419,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:55.273471+00:00",
+    "scrapedAt": "2026-11-23T22:31:12.665850+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -1382,7 +1473,7 @@
     "pdfItems": "a. Gravel Ordinance Discussion:\n• Webb: §10.46.B and C: Restructure these subsections to clarify the differences\n• Ade, Zuiderveen: §10.46.D.1: Replace term “gravel roads” with “public” or\n• Webb: §10.46.F.5: Typo: “mining of” should be changed to “mining or.”",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:24.215180+00:00",
+    "scrapedAt": "2026-11-23T22:32:21.954551+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -1405,7 +1496,7 @@
     "pdfItems": "A. Zoning Map Amendment Application\n• Gary Zeinstra – 8783 Lake Michigan Drive\n8. Site Plan Review: None\nA. Special Use Application",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:37.965469+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.367129+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -1451,7 +1542,7 @@
     "pdfItems": "a. Gravel Ordinance Discussion\nb. Battery Storage Ordinance Discussion\nc. Data Center Ordinance Discussion\nd. Jim Szilagyi of Lakeshore Golf Properties, LLC - Text amendment\ni. Text amendment to the Otsego Township Zoning Ordinance to permit\ne. Master Plan - Comment and take action on recommending or not",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:22.995646+00:00",
+    "scrapedAt": "2026-11-23T22:32:20.455738+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -1471,7 +1562,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:23:37.406498+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.162521+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -1491,7 +1582,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:18.921062+00:00",
+    "scrapedAt": "2026-11-23T22:30:13.497191+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1514,7 +1605,7 @@
     "pdfItems": "5. Site Plan for 596 10th Street",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:19.548543+00:00",
+    "scrapedAt": "2026-11-23T22:30:14.273183+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1579,7 +1670,7 @@
     ],
     "pdfItems": "• Battery Energy Storage Systems Review\n• Data Center Review (Tabled at previous meeting after discussion)\n• Zoning Board of Appeals report - PC Rep Jon Denhof\n• Zoning Report",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:23:43.859304+00:00",
+    "scrapedAt": "2026-11-23T22:32:42.296921+00:00",
     "sourceId": "OTT-CHES-TWP-PC"
   },
   {
@@ -1599,7 +1690,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:38.407977+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.413795+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -1638,7 +1729,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:23:33.027250+00:00",
+    "scrapedAt": "2026-11-23T22:32:32.608591+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -1704,7 +1795,7 @@
     "pdfItems": "7. REPORTS FROM ZONING ADMINISTRATOR & CITY OFFICERS",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:32.940803+00:00",
+    "scrapedAt": "2026-11-23T22:32:32.213971+00:00",
     "sourceId": "ALG-ALLE-CITY-PC"
   },
   {
@@ -1766,7 +1857,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:18.990696+00:00",
+    "scrapedAt": "2026-11-23T22:30:13.554592+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1790,7 +1881,7 @@
     "pdfItems": "1. Site Plan for 995 106th Ave.\n2. Semi-Truck Ordinance\n2. Data Center Ordinance\n3. Ordinance 198 Permitting Camping Trailers as Emergency Temporary\n9. Zoning Administrator Comments",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:19.648401+00:00",
+    "scrapedAt": "2026-11-23T22:30:14.367749+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1829,7 +1920,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:04.552740+00:00",
+    "scrapedAt": "2026-11-23T22:33:03.832963+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1868,7 +1959,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:03.861182+00:00",
+    "scrapedAt": "2026-11-23T22:33:03.203024+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -1888,7 +1979,7 @@
     "topics": [],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:22:15.849219+00:00",
+    "scrapedAt": "2026-11-23T22:30:10.899160+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -1931,7 +2022,7 @@
     "pdfItems": "A. Master Plan Final Review and Adoption- Public Hearing\nA. Architectural Standards Ordinance Review\nB. Accessory Use Solar Ordinance Review",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:55.808343+00:00",
+    "scrapedAt": "2026-11-23T22:32:54.026448+00:00",
     "sourceId": "OTT-CROC-TWP-PC"
   },
   {
@@ -1953,7 +2044,7 @@
       "70-18-15-300-022"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:33.091108+00:00",
+    "scrapedAt": "2026-11-23T22:34:25.265922+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -1975,7 +2066,7 @@
     "pdfItems": "• Seeking a pole barn in front of the dwelling\n• Seeking an Event Barn in the Agricultural and Rural Residential District",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:33.248797+00:00",
+    "scrapedAt": "2026-11-23T22:34:25.571382+00:00",
     "sourceId": "OTT-JAME-TWP-PC"
   },
   {
@@ -2024,7 +2115,7 @@
       "70-12-31-300-006",
       "70-12-31-300-008"
     ],
-    "scrapedAt": "2026-11-22T18:24:35.755040+00:00",
+    "scrapedAt": "2026-11-23T22:34:33.846011+00:00",
     "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
@@ -2066,7 +2157,7 @@
     "pdfItems": "• Concerns regarding language when ordinances are being reviewed to identify sources as\na. Public Hearing for Special Use: Harmoni Towers: Case Number 26-03\nc. The proposed use will generate virtually no traffic after construction, only occasional",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:23.727860+00:00",
+    "scrapedAt": "2026-11-23T22:32:21.373698+00:00",
     "sourceId": "ALG-OTSE-TWP-PC"
   },
   {
@@ -2111,7 +2202,7 @@
     "pdfItems": "a. Rezoning Request - Doug Helmholdt - 1064142nd Avenue\na. Data Centers draft amendment\nb. Battery Energy Storage Systems draft amendment",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:11.523739+00:00",
+    "scrapedAt": "2026-11-23T22:32:03.754126+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -2200,7 +2291,7 @@
     "pdfItems": "a. Rezoning Request – Doug Helmholdt – 1064 142nd Ave (AG to C-2). This was originally\na. Data Centers draft amendment. Kotrba reviewed a draft data center ordinance that included\nb. Battery Energy Storage Systems draft amendment. Kotrba reviewed a draft BESS ordinance\nc. Short-Term Rental Ordinance. Kortba provided an updated draft of the short-term rental zoning",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:11.415587+00:00",
+    "scrapedAt": "2026-11-23T22:32:03.681992+00:00",
     "sourceId": "ALG-LEIG-TWP-PC"
   },
   {
@@ -2242,7 +2333,7 @@
     "pdfItems": "a. Public Hearing: An application for Special Use from Jack and Kay Herp, property owners at 3207\nb. Special Use Permit Application: Jack and Kay Herp, property owners at 3207 5th St., also known\na. Preliminary Site Plan Review: Application for Gun Lake Storage by Zachary Wilson at 2870\nb. Data Center Ordinance: Miner gave an update from the Data Center Seminar hosted by PCI on",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:31.404506+00:00",
+    "scrapedAt": "2026-11-23T22:32:29.745376+00:00",
     "sourceId": "ALG-WAYL-TWP-PC"
   },
   {
@@ -2308,7 +2399,7 @@
     ],
     "pdfItems": "",
     "parcels": [],
-    "scrapedAt": "2026-11-22T18:22:15.849264+00:00",
+    "scrapedAt": "2026-11-23T22:30:10.899207+00:00",
     "sourceId": "ALG-GUNP-TWP-PC"
   },
   {
@@ -2330,7 +2421,7 @@
     "pdfItems": "A. Meegan Zickus – 78th Ave – Running for House of Representatives in 89th District; Three C’s\nA. Dewpointe West Tentative Preliminary Plat Phase 5 – Seeking 58 Single Family residential lots",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:38.930671+00:00",
+    "scrapedAt": "2026-11-23T22:32:36.700847+00:00",
     "sourceId": "OTT-ALLE-TWP-PC"
   },
   {
@@ -2354,7 +2445,7 @@
     "parcels": [
       "70-12-22-200-022"
     ],
-    "scrapedAt": "2026-11-22T18:24:35.755070+00:00",
+    "scrapedAt": "2026-11-23T22:34:33.846053+00:00",
     "sourceId": "OTT-OLIV-TWP-PC"
   },
   {
@@ -2506,7 +2597,7 @@
     "pdfItems": "5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL\n6. FIELD VERIFY DIMENSIONS PRIOR TO CONSTRUCTION\n7. CONSTRUCTION SHALL COMPLY WITH ALL APPLICABLE\n5. REFER TO MECHANICAL, ELECTRICAL, AND STRUCTURAL",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:04.991789+00:00",
+    "scrapedAt": "2026-11-23T22:31:24.592778+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2546,7 +2637,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:58.453934+00:00",
+    "scrapedAt": "2026-11-23T22:31:15.712178+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2566,7 +2657,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "unavailable",
-    "scrapedAt": "2026-11-22T18:22:56.896209+00:00",
+    "scrapedAt": "2026-11-23T22:31:14.139545+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2586,7 +2677,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:05.512987+00:00",
+    "scrapedAt": "2026-11-23T22:31:24.992676+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2608,7 +2699,7 @@
     "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n3. Ordinance updates – Planned Unit Development (tabled)\n4. Short Term Rental Regulations Ordinance",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:56.561551+00:00",
+    "scrapedAt": "2026-11-23T22:31:13.884798+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2631,7 +2722,7 @@
     "pdfItems": "1. Special Land Use – Emily Scrimger of Mathison Architects\n2. Special Land Use – John Franks\n3. Special Land Use – Jeff Hosher\n4. Special Land Use – Scott Mead\n2026. He proposes building a new structure 26x35 feet with a lean-to making it 36x35",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:23:06.002271+00:00",
+    "scrapedAt": "2026-11-23T22:31:25.882937+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2651,7 +2742,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:06.916103+00:00",
+    "scrapedAt": "2026-11-23T22:33:05.030343+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2671,7 +2762,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:57.988644+00:00",
+    "scrapedAt": "2026-11-23T22:31:15.192752+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2693,7 +2784,7 @@
     "pdfItems": "1. The fire department will need a copy of the utility plan so we can review the locations and",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:58.740992+00:00",
+    "scrapedAt": "2026-11-23T22:31:15.923865+00:00",
     "sourceId": "ALG-LAKE-TWP-PC"
   },
   {
@@ -2732,7 +2823,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:05.951155+00:00",
+    "scrapedAt": "2026-11-23T22:33:04.431169+00:00",
     "sourceId": "OTT-GEOR-TWP-PC"
   },
   {
@@ -2927,7 +3018,7 @@
       "70-11-12-100-031"
     ],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:24:44.323967+00:00",
+    "scrapedAt": "2026-11-23T22:34:43.399718+00:00",
     "sourceId": "OTT-PORT-TWP-PC"
   },
   {
@@ -2947,7 +3038,7 @@
     "pdfItems": "",
     "parcels": [],
     "pdfStatus": "parsed",
-    "scrapedAt": "2026-11-22T18:22:41.272018+00:00",
+    "scrapedAt": "2026-11-23T22:31:01.026185+00:00",
     "sourceId": "ALG-HOPK-TWP-PC"
   }
 ]
